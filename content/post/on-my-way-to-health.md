@@ -35,3 +35,7 @@ I haven't experienced pain in the last ~4 days, even with reduced amount of NSAI
 ### Ride! Getting ready
 
 I'm really excited to get on my bike again, but I have to be patient. I know that in about 2 weeks I'll be able to ride again, of course I won't be able to continue my training plan. I think during the rest of the season I'll mostly do `E2` aka. Endurance-Miles rides only. That means just do as much long rides as I can, in my Heart Rate zone 2. That will prevent my ankle from any overload/overtrain.
+
+### Compared to 2013 it was pretty quick
+
+I had the same issue in 2013 when I was in the US. After flying to San Francisco, I experienced a huge pain in my ankle after the very first day. That year it took about 5-6 months to recover. I tried every treatment without any luck. I was very frustrated and had no idea what was going on. Luckily just before I had to fly again to US (Seattle) it suddenly improved, so I could accept an offer.
