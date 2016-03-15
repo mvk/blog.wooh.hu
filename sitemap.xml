@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://blog.wooh.hu/</loc>
+    <lastmod>2016-03-14T07:51:11+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.wooh.hu/post/acute-inflammation/</loc>
+    <lastmod>2016-03-14T07:51:11+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.wooh.hu/post/mexican-trip/</loc>
+    <lastmod>2016-02-13T21:54:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.wooh.hu/post/a-nagy-rablas/</loc>
+    <lastmod>2008-01-24T17:09:08+01:00</lastmod>
+  </url>
+  
+</urlset>
