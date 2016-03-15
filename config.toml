@@ -1,0 +1,7 @@
+baseurl = "http://blog.wooh.hu/"
+languageCode = "en-us"
+title = "WoOh's blog"
+[Params]
+  Author = "Adam Papai"
+  disqusShortname = "woohsblog"
+  GoogleAnalyticsUserID = "UA-43666516-6"
