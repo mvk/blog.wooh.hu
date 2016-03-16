@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WoOh&#39;s blog </title>
+    <link>http://blog.wooh.hu/tags/security/</link>
+    <language>en-us</language>
+    <author>Adam Papai</author>
+    <rights>(C) 2016</rights>
+    <updated>2016-03-16 09:05:26 &#43;0100 CET</updated>
+
+    
+      
+        <item>
+          <title>Trigger Jenkins Build Securely Using GitHub and AWS</title>
+          <link>http://blog.wooh.hu/post/trigger-jenkins-build-securely-using-github-and-aws/</link>
+          <pubDate>Wed, 16 Mar 2016 09:05:26 CET</pubDate>
+          <author>Adam Papai</author>
+          <guid>http://blog.wooh.hu/post/trigger-jenkins-build-securely-using-github-and-aws/</guid>
+          <description>
+
+&lt;h3 id=&#34;because-security-does-matter:1f40da5ea83fe9e4190a55b044534933&#34;&gt;Because security does matter&lt;/h3&gt;
+
+&lt;p&gt;I can say that I&amp;rsquo;ve seen thousands of &lt;a href=&#34;http://beta.jenkinci.io&#34;&gt;Jenkins&lt;/a&gt; masters. The non enterprise ones are usually triggering the builds via &lt;a href=&#34;https://www.github.com&#34;&gt;GitHub&lt;/a&gt; webhooks. You can do this via the &lt;a href=&#34;https://wiki.jenkins-ci.org/display/JENKINS/GitHub+Plugin&#34;&gt;GitHub Plugin&lt;/a&gt;. It&amp;rsquo;s mandatory to allow github to reach your jenkins master if you want to use this method. But there is a trade-off. Security vs. comfy webhooks&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;The enterprise masters are mostly using SCM polling instead, because their jenkins masters are not available from the external network. GitHub can&amp;rsquo;t reach their master. This is a show stopper, if you want to trigger a build immediately after a &lt;code&gt;git push&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Although using frequent SCM polling on hundreds of repos will cause huge I/O and CPU overload on your jenkins masters, so this blog post is mostly for Enterprise Jenkins customers and for the ones who want to secure and lock down their jenkins.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-proper-way:1f40da5ea83fe9e4190a55b044534933&#34;&gt;The proper way&lt;/h3&gt;
+
+&lt;p&gt;Luckily there is a plugin out there for a long time, but for some reason it remained unnoticed until now. The anonym plugin statistic says there is around only &lt;strong&gt;457&lt;/strong&gt; installations for this plugin. How come? What is this plugin?&lt;/p&gt;
+
+&lt;p&gt;This mighty plugin is called the &lt;strong&gt;GitHub SQS Plugin&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This plugin integrates Jenkins with Github projects via Amazon&amp;rsquo;s Simple Queue Service.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Consumes a message from an SQS Queue and triggers any jobs that have a matching github repository configuration.&lt;/li&gt;
+&lt;li&gt;Automatically adds and removes the Github SQS Service hooks.&lt;/li&gt;
+&lt;li&gt;Trigger build job using GitHub Amazon SNS service hook that use a SQS topic subscription.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ohh, but this is super cool. Jenkins is simply polling an &lt;code&gt;Amazon SQS&lt;/code&gt; queue. This does not cause I/O at all. If there is a &lt;code&gt;git push&lt;/code&gt;, GitHub sends the payload using &lt;code&gt;Amazon SNS&lt;/code&gt;, and the payload finally ends up in the &lt;code&gt;Amazon SQS&lt;/code&gt;. Jenkins just grabs the payload and triggers any jobs that have a matching github repository configuration.&lt;/p&gt;
+
+&lt;h3 id=&#34;setup:1f40da5ea83fe9e4190a55b044534933&#34;&gt;Setup&lt;/h3&gt;
+
+&lt;p&gt;The requirements are the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Amazon Web Services subscription&lt;/li&gt;
+&lt;li&gt;GitHub repository or repositories&lt;/li&gt;
+&lt;li&gt;Jenkins&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;amazon-sqs-configuration:1f40da5ea83fe9e4190a55b044534933&#34;&gt;Amazon SQS configuration&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;As a first step, login to your AWS console, select SQS service and create a new queue.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/jenkins-github-aws/create_sqs_1.jpg&#34; alt=&#34;SQS&#34; title=&#34;Create New Queue&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Enter the queue name. Let&amp;rsquo;s call it &lt;code&gt;jenkins&lt;/code&gt;. Click on &lt;code&gt;Create Queue&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/jenkins-github-aws/create_sqs_2.jpg&#34; alt=&#34;SQS&#34; title=&#34;Enter Queue Name&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Select the newly created SQS queue and record the &lt;code&gt;ARN&lt;/code&gt;. You&amp;rsquo;ll need it later.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/jenkins-github-aws/create_sqs_3.jpg&#34; alt=&#34;SQS&#34; title=&#34;SQS Summary&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;amazon-sns-configuration:1f40da5ea83fe9e4190a55b044534933&#34;&gt;Amazon SNS configuration&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Select SNS service in the AWS console and create a new topic.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/jenkins-github-aws/create_sns_1.jpg&#34; alt=&#34;SNS&#34; title=&#34;Create New Topic&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Enter the topic name. Let&amp;rsquo;s call it &lt;code&gt;jenkins&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/jenkins-github-aws/create_sns_2.jpg&#34; alt=&#34;SNS&#34; title=&#34;Enter Topic Name&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Select the newly created SNS topic and record the &lt;code&gt;ARN&lt;/code&gt;. You&amp;rsquo;ll need it later.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/jenkins-github-aws/create_sns_3.jpg&#34; alt=&#34;SNS&#34; title=&#34;SNS Summary&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;amazon-iam-configuration:1f40da5ea83fe9e4190a55b044534933&#34;&gt;Amazon IAM configuration&lt;/h3&gt;
+
+&lt;p&gt;It&amp;rsquo;s time to create an &lt;code&gt;AWS Access Key ID&lt;/code&gt; and  &lt;code&gt;Secret Access Key&lt;/code&gt; for your jenkins and GitHub service. Select the &lt;code&gt;IAM&lt;/code&gt; service and create a new user. By default generate an access key. Let&amp;rsquo;s call this user &lt;code&gt;jenkins&lt;/code&gt; too. Record the credentials.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;AWS_ACCESS_KEY_ID=AKIA...
+AWS_SECRET_ACCESS_KEY=Aq9x...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Attach a right &lt;code&gt;SQS/SNS&lt;/code&gt; managed IAM policy to this newly created user.&lt;/p&gt;
+
+&lt;p&gt;As a best practice, you should restrict the policy to have access only to the previously created &lt;code&gt;SQS/SNS&lt;/code&gt; resources. You can read more about &lt;a href=&#34;http://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_manage.html&#34;&gt;Amazon IAM policy&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The Amazon Web Services configuration is now complete.&lt;/p&gt;
+
+&lt;h3 id=&#34;github-configuration:1f40da5ea83fe9e4190a55b044534933&#34;&gt;GitHub configuration&lt;/h3&gt;
+
+&lt;p&gt;In case if your jenkins master has the rights to manage webhooks on GitHub, you can skip the next SQS configuration section. I usually don&amp;rsquo;t allow my jenkins to manage github hooks, because that requires administrative rights on a specific repo or even in the organisation.&lt;/p&gt;
+
+&lt;h3 id=&#34;github-webhook-sqs-configuration:1f40da5ea83fe9e4190a55b044534933&#34;&gt;GitHub webhook SQS configuration&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Select your repository and select the &lt;code&gt;Settings&lt;/code&gt; tab.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Select &lt;code&gt;Webhooks &amp;amp; services&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Select &lt;code&gt;Add service&lt;/code&gt; from the dropdown menu and select &lt;code&gt;Amazon SQS&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/jenkins-github-aws/github_1_sqs.jpg&#34; alt=&#34;SQS&#34; title=&#34;SQS github&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Enter the AWS credentials and the &lt;code&gt;ARN&lt;/code&gt; for &lt;code&gt;SQS&lt;/code&gt; and save it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/jenkins-github-aws/github_2_sqs.jpg&#34; alt=&#34;SQS&#34; title=&#34;SQS github&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;github-webhook-sns-configuration:1f40da5ea83fe9e4190a55b044534933&#34;&gt;GitHub webhook SNS configuration&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Select your repository and select the &lt;code&gt;Settings&lt;/code&gt; tab.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Select &lt;code&gt;Webhooks &amp;amp; services&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Select &lt;code&gt;Add service&lt;/code&gt; from the dropdown menu and select &lt;code&gt;Amazon SNS&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/jenkins-github-aws/github_1_sns.jpg&#34; alt=&#34;SQS&#34; title=&#34;SNS github&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Enter the AWS credentials, &lt;code&gt;region&lt;/code&gt;, and the &lt;code&gt;ARN&lt;/code&gt; for &lt;code&gt;SNS&lt;/code&gt; and save it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/jenkins-github-aws/github_2_sns.jpg&#34; alt=&#34;SQS&#34; title=&#34;SNS github&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The GitHub configuration is now complete.&lt;/p&gt;
+
+&lt;h3 id=&#34;jenkins-general-configuration:1f40da5ea83fe9e4190a55b044534933&#34;&gt;Jenkins general configuration&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Install &lt;code&gt;GitHub SQS Plugin&lt;/code&gt; via the plugin manager and restart your jenkins.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Go to your jenkins&amp;rsquo;s configuration page &lt;code&gt;https://yourdomain/configure&lt;/code&gt; and locate the &lt;code&gt;Amazon SQS Configuration&lt;/code&gt; section.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Enter the AWS credentials and the SQS queue name or URL. Hit &lt;code&gt;Test Access&lt;/code&gt; to verify it&amp;rsquo;s working.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Select &lt;code&gt;Manually manage GitHub SQS hook&lt;/code&gt; if your jenkins does not have access to manage webhooks on GitHub.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/jenkins-github-aws/jenkins_1.jpg&#34; alt=&#34;jenkins&#34; title=&#34;Jenkins SQS&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;jenkins-job-configuration:1f40da5ea83fe9e4190a55b044534933&#34;&gt;Jenkins job configuration&lt;/h3&gt;
+
+&lt;p&gt;Go to your job&amp;rsquo;s configuration page and locate the &lt;code&gt;Build Triggers&lt;/code&gt; section. Enable the &lt;code&gt;Build when a message is published to an SQS Queue&lt;/code&gt; option and hit &lt;code&gt;Save&lt;/code&gt; or &lt;code&gt;Apply&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/jenkins-github-aws/jenkins_2.jpg&#34; alt=&#34;jenkins&#34; title=&#34;Jenkins SQS&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;profit:1f40da5ea83fe9e4190a55b044534933&#34;&gt;Profit&lt;/h3&gt;
+
+&lt;p&gt;We&amp;rsquo;re all set. Your jenkins job is configured and will be triggered when somebody pushes a code to the repository. It clean and safe.&lt;/p&gt;
+
+&lt;h3 id=&#34;references:1f40da5ea83fe9e4190a55b044534933&#34;&gt;References&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://beta.jenkins.io&#34;&gt;Jenkins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wiki.jenkins-ci.org/display/JENKINS/GitHub+SQS+Plugin&#34;&gt;GitHub SQS Plugin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html&#34;&gt;AWS IAM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/sqs/&#34;&gt;AWS SQS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/sns/&#34;&gt;AWS SNS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+      
+    
+
+  </channel>
+</rss>
