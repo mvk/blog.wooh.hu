@@ -81,4 +81,4 @@ Can't emphasize enough how important is to keep your credentials safe. What can 
 
 6. Use IAM roles and policies. Restrict the accesses of the keys to as minimum as you can. A few examples are [here](http://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_examples.html).
 
-7. Do not store your credentials in git or github without encrpyting them.
+7. Do not store your credentials on github without encrpyting them.
