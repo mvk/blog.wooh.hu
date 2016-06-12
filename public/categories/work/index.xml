@@ -6,14 +6,14 @@
     <language>en-us</language>
     <author>Adam Papai</author>
     <rights>(C) 2016</rights>
-    <updated>2016-03-16 09:05:26 &#43;0100 CET</updated>
+    <updated>2016-03-16 09:05:26 &#43;0100 &#43;0100</updated>
 
     
       
         <item>
           <title>Trigger Jenkins Build Securely Using GitHub and AWS</title>
           <link>http://blog.wooh.hu/post/trigger-jenkins-build-securely-using-github-and-aws/</link>
-          <pubDate>Wed, 16 Mar 2016 09:05:26 CET</pubDate>
+          <pubDate>Wed, 16 Mar 2016 09:05:26 &#43;0100</pubDate>
           <author>Adam Papai</author>
           <guid>http://blog.wooh.hu/post/trigger-jenkins-build-securely-using-github-and-aws/</guid>
           <description>
