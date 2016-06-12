@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WoOh&#39;s blog </title>
+    <link>http://blog.wooh.hu/tags/chromebook/</link>
+    <language>en-us</language>
+    <author>Adam Papai</author>
+    <rights>(C) 2016</rights>
+    <updated>2016-06-11 16:23:11 &#43;0000 UTC</updated>
+
+    
+      
+        <item>
+          <title>Switching to Chromebook - Part I.</title>
+          <link>http://blog.wooh.hu/post/switching-to-chromebook-part-1/</link>
+          <pubDate>Sat, 11 Jun 2016 16:23:11 UTC</pubDate>
+          <author>Adam Papai</author>
+          <guid>http://blog.wooh.hu/post/switching-to-chromebook-part-1/</guid>
+          <description>
+
+&lt;p&gt;Let me share my story with you. This is a long one so I&amp;rsquo;ll split it into 3 smallish chunks so you won&amp;rsquo;t get bored (hopefully). This is a story about how I changed my MacBook Pro to a Chromebook. I never thought it would be ever possible, but it was. And it&amp;rsquo;s relatively easy and convenient. You won&amp;rsquo;t be able to use all your current applications on a Chromebook but there are pretty good alternatives and I&amp;rsquo;m 100% sure you&amp;rsquo;ll like them too.&lt;/p&gt;
+
+&lt;p&gt;The first part covers information about me and about my work, what kind of apps I use, how I use them and what kind of notebooks I was using before.&lt;/p&gt;
+
+&lt;h3 id=&#34;emotionally-attached-to-apple:d2cb8c1412cb17e378636742e952556d&#34;&gt;Emotionally attached to Apple&lt;/h3&gt;
+
+&lt;p&gt;I&amp;rsquo;m a very long time Apple fan. I bought almost every gadget they made, except the iPhone. iPhone is an exception, because it&amp;rsquo;s so much overpriced and the Google reference phones are way better and cheaper than the iPhones.&lt;/p&gt;
+
+&lt;p&gt;I bought my first iPod (Dock Connector) 20G around 2004, earphones, in-ear earphones, iBook G3, iBook G4 iMac G3, iMac G4, iMac intel, PowerBook G4, MacBook Pro, MacBook Air, iPod Shuffle&amp;hellip; so I spent a lot of money buying these awesome gadgets. Luckily most of the MacBooks were paid by my actual employer. I loved them and still love them. All of my MacBook Pros are CTO setup, so all of them had extra memory + extra CPU + extra disk, because I thought I need it.&lt;/p&gt;
+
+&lt;p&gt;Apple gadgets are really cool. From UX perspective: they&amp;rsquo;re all perfect. Well, almost perfect, but usually better than other things. The big con is usually their price. All of&amp;rsquo;em are overpriced. Yeah. Let&amp;rsquo;s face the truth.&lt;/p&gt;
+
+&lt;h3 id=&#34;i-m-a-devops-engineer:d2cb8c1412cb17e378636742e952556d&#34;&gt;I&amp;rsquo;m a DevOps Engineer&lt;/h3&gt;
+
+&lt;p&gt;I spend most of my time (50%) using a terminal and 50% in a web browser. I was tracking this with RescueTime. For more than 2 years I&amp;rsquo;m not using any e-mail clients like &amp;ldquo;Mail&amp;rdquo;, or &amp;ldquo;PostBox&amp;rdquo;. I was a pretty huge PostBox fan too, but it used up 2-3G memory so I finally deleted it from my Mac.&lt;/p&gt;
+
+&lt;p&gt;So what I mostly need is a terminal and internet connection, sometimes with a VPN, and a browser. It&amp;rsquo;s just a convenient fact, that I install a lot of console applications on my mac using brew or macports. So I can run a few things locally, but in the end everything will be executed on a server or on a JenkinsCI server. No real reason to run things locally. Git branching is pretty cheap and a jenkins job can be configured to run only my testing branch, so I can commit a lot of trash and wait jenkins for doing it&amp;rsquo;s job.&lt;/p&gt;
+
+&lt;p&gt;Other applications I was running are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;HipChat&lt;/li&gt;
+&lt;li&gt;Slack&lt;/li&gt;
+&lt;li&gt;Skype&lt;/li&gt;
+&lt;li&gt;Evernote&lt;/li&gt;
+&lt;li&gt;TweetDeck&lt;/li&gt;
+&lt;li&gt;Sublime 2&lt;/li&gt;
+&lt;li&gt;PyCharm&lt;/li&gt;
+&lt;li&gt;Vim&lt;/li&gt;
+&lt;li&gt;1Password&lt;/li&gt;
+&lt;li&gt;Yubico Authenticator&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In Part II. I&amp;rsquo;ll tell you how can you use these applications or how can you switch to other similar applications so you won&amp;rsquo;t feel youself blocked.&lt;/p&gt;
+
+&lt;p&gt;Another cool MacBook feature is that if I close it, it goes to sleep. If I open it, it wakes up and I can continue my work where I left it off. This is the main reason why I love the Mac. Linux and *BSD were pretty bad at it and I gave it up after a while.&lt;/p&gt;
+
+&lt;p&gt;So let&amp;rsquo;s be honest: using a Mac for a terminal and a web browser is a bit luxury. A MacBook Pro costs around $1,500 - $2,000 USD. You can get them a bit cheaper of course, but those aren&amp;rsquo;t &amp;ldquo;powerful&amp;rdquo; enough.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/macbookpro.jpg&#34; alt=&#34;MacBook Pro/Air Bulldog Decal&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;But yeah, a MacBook Pro/Air is pretty trendy and can stick cool decals on the back, looks great, made from awesome material and has a great smell for 1-2 month. But I think that&amp;rsquo;s all. I don&amp;rsquo;t think that the fact it&amp;rsquo;s running &lt;a href=&#34;http://www.apple.com/osx/&#34;&gt;OS X&lt;/a&gt; would be listed in the pros column.&lt;/p&gt;
+
+&lt;h3 id=&#34;previous-attempts:d2cb8c1412cb17e378636742e952556d&#34;&gt;Previous attempts&lt;/h3&gt;
+
+&lt;p&gt;Before I was using Macs, I used custom built notebooks with NetBSD/OpenBSD as my operating system of choice. Those were pretty powerful machines at that time. 2x2.8Ghz CPU with HyperThreading technology. I loved it. After using iBooks for a few years I though what if I can switch back and use *BSD or Linux on a notebook, so I bought a Toshiba. I tried everything but I wasn&amp;rsquo;t able to &amp;ldquo;like&amp;rdquo; or &amp;ldquo;love&amp;rdquo; it, so finally I gave it to a friend. I bougth another MacBook.&lt;/p&gt;
+
+&lt;p&gt;Somehow even a Toshiba notebook with a Linux/BSD wasn&amp;rsquo;t able to impress me. I was disappoitned but happy with my new MacBook.&lt;/p&gt;
+
+&lt;h3 id=&#34;why-i-decided-to-switch:d2cb8c1412cb17e378636742e952556d&#34;&gt;Why I decided to switch&lt;/h3&gt;
+
+&lt;p&gt;About a month ago I read some news on &lt;a href=&#34;http://hup.hu&#34;&gt;Hungarian Unix Portal&lt;/a&gt; about Chromebooks. The news said that more chromebooks were sold in 2016 Q1-Q2 than MacBooks. This time I couldn&amp;rsquo;t ignore this information.&lt;/p&gt;
+
+&lt;p&gt;4 years ago when I was in San Francisco, the Google Pixel had been just introduced. It was really horrible, everybody said that it&amp;rsquo;s a completely useless laptop. So I started to ignore all news related to Chromebooks, until now.&lt;/p&gt;
+
+&lt;h3 id=&#34;experiment-on-a-macbook-pro:d2cb8c1412cb17e378636742e952556d&#34;&gt;Experiment on a MacBook Pro&lt;/h3&gt;
+
+&lt;p&gt;Before buying anything, I wanted to make sure that I can survive with only a Chrome browser on my Mac for more than a day. So I suddenly closed all my running apps on my Mac except a Google Chrome. I read a lot of articles about cloud editors and alternatives to local editors.&lt;/p&gt;
+
+&lt;p&gt;I also wanted to know how to use SSH from a browser. Another big question was the my password manager. The chrome extension for &lt;a href=&#34;https://1password.com/&#34;&gt;1Password&lt;/a&gt; is only a wrapper around the local application, so I finally ended up using LastPass which has a web version. 1Password also has a web version, but that costs way more than LastPass. So actually I&amp;rsquo;m evaluating both.&lt;/p&gt;
+
+&lt;p&gt;I found a few promising cloud IDEs. They mostly provide an ubuntu box too as a terminal. They&amp;rsquo;re docker containers, I can install anything I need on them. They have free subscriptions but they&amp;rsquo;re mostly enough for me. I only need 1 private workspace with a 2G disk and 512M memory. More than what I really need. I also have a personal server at &lt;a href=&#34;https://www.digitalocean.com&#34;&gt;DigitalOcean&lt;/a&gt; so if I need more disk space or capacity, I just used that server too.&lt;/p&gt;
+
+&lt;h3 id=&#34;experiment-on-a-chromebook:d2cb8c1412cb17e378636742e952556d&#34;&gt;Experiment on a Chromebook&lt;/h3&gt;
+
+&lt;p&gt;After about 7 days I was still using only a browser on my Mac so I tought it&amp;rsquo;s a good idea to move ahead and find a cheap used Chromebook for a real ChomeOS experience.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately in Hungary there are no Chromebooks at all, but luckily we have a local ebay like site which has a few used chromebooks listed. I was looking for a Chromebook with 4G memory. The 2G ones are a joke I guess. Finally I found one for &lt;strong&gt;$198 USD&lt;/strong&gt;. It was the &lt;strong&gt;Acer C720P Touch&lt;/strong&gt; Chromebook. It has a small screen but has HDMI to extend the screen to my monitor which could be definitely enough.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/acer/acer_3.jpg&#34; alt=&#34;Acer C720P&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;11.6&amp;rdquo; HD Multi-Touch LCD&lt;br /&gt;
+Intel Celeron CPU 2955U&lt;br /&gt;
+4GB DDR3 Low Voltage Memory&lt;br /&gt;
+16G SSD&lt;br /&gt;
+HDMI&lt;br /&gt;
+USB&lt;br /&gt;
+SD CARD reader&lt;br /&gt;
+Acer Nplify 802.11a/b/g/n - BT 4.0&lt;br /&gt;
+Acer Crystal Eye HD Webcam&lt;br /&gt;
+3-cell Li-Polymer battery&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Such a good little laptop. The keyboard is a bit small, but I can still type on it. I&amp;rsquo;m a dvorak typists so the keyboard is important. If it&amp;rsquo;s too small (like the EeePCs way back) I can&amp;rsquo;t type on them.&lt;/p&gt;
+
+&lt;h3 id=&#34;first-time-user-experience-ftue:d2cb8c1412cb17e378636742e952556d&#34;&gt;First-time User Experience (FTUE)&lt;/h3&gt;
+
+&lt;p&gt;Although I bought it as a used laptop it wasn&amp;rsquo;t used at all. It was brand new, it wasn&amp;rsquo;t even unboxed, so I felt the excitement when I started to unbox it. I hadn&amp;rsquo;t seen a non-apple laptop for a good amount of time.&lt;/p&gt;
+
+&lt;p&gt;After I unpacked it, I pressed the power button and wow! After about 4 seconds the login screen welcomed me. Holy cow! It&amp;rsquo;s fast. Let&amp;rsquo;s login. I had to select my country, select my keyboard layout (dvorak is supported by default) and select a wifi network. Without a wifi network you can&amp;rsquo;t login for the very first time. Later you can, but for the very first time you need to be connected.&lt;/p&gt;
+
+&lt;p&gt;The next step is to enter your google username and password. My Google account is protected by a &lt;a href=&#34;https://www.yubico.com/products/yubikey-hardware/yubikey4/&#34;&gt;Yubikey 4&lt;/a&gt; which is a USB security key used as my 2FA of choice. On my Mac I even used it with &lt;a href=&#34;https://www.yubico.com/wp-content/uploads/2016/02/Yubico_YubiKeyMacOSXLogin_en.pdf&#34;&gt;challenge response&lt;/a&gt;. After I entered my username and password it asked me to use my security key aka my yubikey. I just pressed it and voilla! I was logged in. So note that your USB security key will work like charm on a Chromebook.&lt;/p&gt;
+
+&lt;p&gt;In a few seconds it synced down all my Chrome data from the cloud including my browsing history, bookmarks, chrome extensions and chrome applications like &lt;a href=&#34;https://play.google.com/store/apps/details?id=jp.naver.line.android&amp;amp;hl=en&#34;&gt;Line Messenger&lt;/a&gt;. Pretty convenient!&lt;/p&gt;
+
+&lt;p&gt;By default ChromeOS won&amp;rsquo;t ask a password when waking up from a sleep, so before starting any work on this machine I set this up. Unfortunately here isn&amp;rsquo;t an option to enforce the presence of a security key (like yubikey), but I can live without it. The login is a pretty cheap operation so you can just logout instead of just lock your machine. All browser tabs will be reloaded after logging back and you can continue your work.&lt;/p&gt;
+
+&lt;p&gt;I opened up a Chrome and stared to browse. Everything seemed smooth, fast response from the browser. So far so good! Attached my external monitor to the Chromebook without any issue. I attached my Logitech HD Webcam to it and it was able to use it too.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/acer/acer_external.jpg&#34; alt=&#34;Acer + External&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So far we only covered a few things, 3 out of 4 are working:&lt;/p&gt;
+
+&lt;p&gt;[&amp;#10003;] Yubico 4 (Authentication)&lt;br /&gt;
+[&amp;#10003;] Webcam&lt;br /&gt;
+[&amp;#10003;] External monitor&lt;br /&gt;
+[&amp;#10007;] 1Password&lt;/p&gt;
+
+&lt;p&gt;In the next part, I&amp;rsquo;m going to show you how to migrate your digital life to a Chromebook from your Mac and what problems you will encounter. I&amp;rsquo;m going to tell you what kind of cloud editors I stated to use and what will work on your Chromebook and what won&amp;rsquo;t.&lt;/p&gt;
+</description>
+        </item>
+      
+    
+
+  </channel>
+</rss>
