@@ -76,7 +76,7 @@ You need to use a cloud IDE. At the first glance it sounds weird. Using a cloud 
 
 ### Cloud IDE
 
-First, I read o lot of articles about the best cloud IDEs. There are around 10 in the market at the moment, but not all are suitable for me. I have expectations of a Cloud IDE.
+First, I read a lot of articles about the best cloud IDEs. There are around 10 in the market at the moment, but not all are suitable for me. I have expectations of a Cloud IDE.
 
 
 #### Trial / Free tier /  Good pricing plan
