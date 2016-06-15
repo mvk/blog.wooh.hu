@@ -8,7 +8,7 @@ categories 	= [ "gadgets" ]
 image		= "chromeos/toshiba/toshiba_header_2.jpg"
 +++
 
-Let me share my story with you. This is a long one so I'll split it into 3 smallish chunks so you won't get bored (hopefully). This is a story about how I changed my MacBook Pro to a Chromebook. I never thought it would be ever possible, but it was. And it's relatively easy and convenient. You won't be able to use all your current applications on a Chromebook but there are pretty good alternatives and I'm 100% sure you'll like them too.
+Let me share my story with you. This is a long one so I'll split it into a few small chunks so you won't get bored (hopefully). This is a story about how I changed my MacBook Pro to a Chromebook. <!--more--> I never thought it would be ever possible, but it was. And it's relatively easy and convenient.  You won't be able to use all your current applications on a Chromebook but there are pretty good alternatives and I'm 100% sure you'll like them too.
 
 The first part covers information about me and about my work, what kind of apps I use, how I use them and what kind of notebooks I was using before.
 
@@ -39,6 +39,7 @@ Other applications I was running are:
 - Vim
 - 1Password
 - Yubico Authenticator
+- etc...
 
 In Part II. I'll tell you how can you use these applications or how can you switch to other similar applications so you won't feel youself blocked.
 
@@ -114,4 +115,4 @@ So far we only covered a few things, 3 out of 4 are working:
 [&#10003;] External monitor  
 [&#10007;] 1Password
 
-In the next part, I'm going to show you how to migrate your digital life to a Chromebook from your Mac and what problems you will encounter. I'm going to tell you what kind of cloud editors I stated to use and what will work on your Chromebook and what won't.
+In [part 2](/post/switching-to-chromebook-part-2), I'm going to show you how to migrate your digital life to a Chromebook from your Mac and what problems you will encounter. I'm going to tell you what kind of cloud editors I stated to use and what will work on your Chromebook and what won't.

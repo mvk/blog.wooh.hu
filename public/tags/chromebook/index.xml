@@ -6,8 +6,181 @@
     <language>en-us</language>
     <author>Adam Papai</author>
     <rights>(C) 2016</rights>
-    <updated>2016-06-11 16:23:11 &#43;0000 UTC</updated>
+    <updated>2016-06-15 18:56:42 &#43;0000 UTC</updated>
 
+    
+      
+        <item>
+          <title>Switching to Chromebook - Part II.</title>
+          <link>http://blog.wooh.hu/post/switching-to-chromebook-part-2/</link>
+          <pubDate>Wed, 15 Jun 2016 18:56:42 UTC</pubDate>
+          <author>Adam Papai</author>
+          <guid>http://blog.wooh.hu/post/switching-to-chromebook-part-2/</guid>
+          <description>
+
+&lt;p&gt;In this part I&amp;rsquo;m going to show you a few applications I was using on a Mac and tell you how to migrate them to a Chromebook or what alternatives you can use if the application is not available at all for a Chromebook.&lt;/p&gt;
+
+&lt;p&gt;I thought I could compress everything in three small chunk post but it seems that&amp;rsquo;s impossible. So expect a lot more blog posts from me on this specific topic.&lt;/p&gt;
+
+&lt;h3 id=&#34;hipchat:b63520bef825180c2999b1f9d2c55e30&#34;&gt;HipChat&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/hipchat.png&#34; alt=&#34;HipChat&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;re probably using the native HipChat app on your Mac. There is no native HipChat app for ChromeOS, but you can use the web version. You just need to login to &lt;strong&gt;yourdomain.hipchat.com&lt;/strong&gt;, log-in and click on the &lt;em&gt;Launch the web app&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/hipchat_web.png&#34; alt=&#34;HipChat web app&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;it looks exactly the same as the native MacOS app. It&amp;rsquo;s convenient. It will ask you to enable the Chrome desktop notifications which is useful. You can also configure not to notify you, or notify only if you&amp;rsquo;re mentioned or only receive notifications from specific channels.&lt;/p&gt;
+
+&lt;p&gt;The web app has the same feeling as the native app. Same shortcuts, same UI.&lt;/p&gt;
+
+&lt;h3 id=&#34;slack:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Slack&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/slack_rgb.png&#34; alt=&#34;Slack&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The most powerful group chat client with awesome 3rd party integrations. There isn&amp;rsquo;t any mentionable difference between the native app and the web app. You also need to enable the desktop notifications in Chrome to receive notifications. You can also switch between different slack accounts like in the native app.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://slack.com&#34;&gt;https://slack.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;twitter:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Twitter&lt;/h3&gt;
+
+&lt;p&gt;I&amp;rsquo;m a hardcore twitter user, so twitter is manadatory for me. I was using &lt;a href=&#34;https://itunes.apple.com/us/app/tweetdeck-by-twitter/id485812721?mt=12&#34;&gt;TweetDeck by Twitter&lt;/a&gt; on my Mac and I was a bit afraid what I can use after switching to Chromebook.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/twitter.png&#34; alt=&#34;Twitter&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I have pretty good news! Tweetdeck has a web app too, which looks exactly the same as the TweedDeck by Twitter app for mac. Except it does not eat up a lot of memory. You couldn&amp;rsquo;t even recognize that this is not the Mac app.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://tweetdeck.twitter.com&#34;&gt;https://tweetdeck.twitter.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;evernote:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Evernote&lt;/h3&gt;
+
+&lt;p&gt;I&amp;rsquo;m a &lt;a href=&#34;http://gettingthingsdone.com/&#34;&gt;Getting Things Done&lt;/a&gt; addict. My wife grew up in Japan, so she loves to plan every second of our life. In 10 years I had to learn how to plan and how to be more productive. I use &lt;a href=&#34;https://evernote.com&#34;&gt;Evernote&lt;/a&gt; as my GTD tool of choice. Before Evernote I tried several things before. First I used &lt;a href=&#34;https://culturedcode.com/things/&#34;&gt;Things&lt;/a&gt; which only supported OS X and iOS. I need a tool for my phone too, so I migrated all my lists to &lt;a href=&#34;https://www.wunderlist.com/&#34;&gt;Wunderlist&lt;/a&gt; which was pretty awesome, but my wife was using Evernote so finally she convinced me to switch.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/evernote-logo.png&#34; alt=&#34;Evernote&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.evernote&amp;amp;hl=en&#34;&gt;Android&lt;/a&gt; and &lt;a href=&#34;https://itunes.apple.com/us/app/evernote-capture-notes-sync/id281796108?mt=8&#34;&gt;OS X&lt;/a&gt; Evernote app is really good. It has a really good UI with all features you need for GTD.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately the &lt;a href=&#34;https://blog.evernote.com/blog/2015/08/13/introducing-the-new-evernote-web-client/&#34;&gt;Evernote Web Client&lt;/a&gt; isn&amp;rsquo;t that good, but luckily there is a &lt;em&gt;beta&lt;/em&gt; version available. You can opt-in. Additionally Evernote has just introduced it&amp;rsquo;s &lt;a href=&#34;https://evernote.com/google-drive/&#34;&gt;Google Drive&lt;/a&gt; support which is awesome!&lt;/p&gt;
+
+&lt;p&gt;Since all my documents are google documents on a Chromebook it&amp;rsquo;s very convenient to use Evernote Beta Web Client and simply mix my notes in evernote with the google documents.&lt;/p&gt;
+
+&lt;h3 id=&#34;skype:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Skype&lt;/h3&gt;
+
+&lt;p&gt;Skype is a very popular IM and Video application. Skype keeps the world talking, for free. Share, message and call - now with group video on mobile and tablet too.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/skype.png&#34; alt=&#34;Skype&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There is no ChromeOS native app, but there is an alternative solution: Skype has an alternative &lt;a href=&#34;https://web.skype.com&#34;&gt;Skype for Web (Beta)&lt;/a&gt; application. You won&amp;rsquo;t be able to make voice calls or video calls, but you can use Skype as an IM. I rarely used Skype for video/voice calls so I&amp;rsquo;m ok with this workaround.&lt;/p&gt;
+
+&lt;p&gt;But if you used Skype for voice and video calls, you need something else. The obvious choice is the &lt;a href=&#34;https://hangouts.google.com/&#34;&gt;Google Hangouts&lt;/a&gt;. Nowadays almost everybody has a google account, but even without a google account, you can join a hangout meeting without the requirement of a Google account.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/hangouts.jpg&#34; alt=&#34;Hangouts&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There is also a native ChromeOS app available: &lt;a href=&#34;https://chrome.google.com/webstore/detail/google-hangouts/knipolnnllmklapflnccelgolnpehhpl?hl=en&#34;&gt;Google Hangouts&lt;/a&gt;. Get it and try it out!&lt;/p&gt;
+
+&lt;h3 id=&#34;sublime-2-pycharm-and-vim:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Sublime 2, PyCharm and Vim&lt;/h3&gt;
+
+&lt;p&gt;It&amp;rsquo;s good to know, that there is no native ChromeOS IDE available at the moment. So no way to use Sublime or PyCharm or any well known editor. Sublime Text and PyCharm are available for OS X, Windows and Linux only.&lt;/p&gt;
+
+&lt;p&gt;You need to use a cloud IDE. At the first glance it sounds weird. Using a cloud editor? How? How can I manage/upload files there? Ohh boy, there are plenty of services out there. They are pretty good replacement for Sublime 2 and PyCharm.&lt;/p&gt;
+
+&lt;h3 id=&#34;cloud-ide:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Cloud IDE&lt;/h3&gt;
+
+&lt;p&gt;First, I read o lot of articles about the best cloud IDEs. There are around 10 in the market at the moment, but not all are suitable for me. I have expectations of a Cloud IDE.&lt;/p&gt;
+
+&lt;h4 id=&#34;trial-free-tier-good-pricing-plan:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Trial / Free tier /  Good pricing plan&lt;/h4&gt;
+
+&lt;p&gt;I can spend my money on other things, I don&amp;rsquo;t want to spend all my spare money on a Cloud IDE. It should have a &lt;em&gt;trial&lt;/em&gt; - full version - to try it out. I don&amp;rsquo;t like when the trial does not provide all features, because I can&amp;rsquo;t really decide whether sign-up for a paid plan or evaluate another service.&lt;/p&gt;
+
+&lt;p&gt;It should have a &lt;em&gt;free tier plan&lt;/em&gt; , so I could get a very minimal but 100% usable environment. I can live with 512MB memory and a very little disk space too. CPU is not important for me, I won&amp;rsquo;t compile or mine bitcoin.&lt;/p&gt;
+
+&lt;h4 id=&#34;encapsulated-private-workspaces:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Encapsulated / Private Workspaces&lt;/h4&gt;
+
+&lt;p&gt;Usually the free tier plans are available but don&amp;rsquo;t allow you to protect your sensitive data. They&amp;rsquo;re open to everyone. So a free tier should at least provide 1 private / encapsulated environment, so I can work on &lt;em&gt;non open-source projects&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;terminal-emulator:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Terminal Emulator&lt;/h4&gt;
+
+&lt;p&gt;I also expect a Linux environment with root access, so I can install a lot of things. It can be a Docker on anything else I don&amp;rsquo;t really mind. It does not have to run 0-24. Enough if it&amp;rsquo;s running when I&amp;rsquo;m working with it. If I can open a few ports and test my work that&amp;rsquo;s also a good pro.&lt;/p&gt;
+
+&lt;h4 id=&#34;the-ide-should-be-cool:b63520bef825180c2999b1f9d2c55e30&#34;&gt;The IDE should be cool&lt;/h4&gt;
+
+&lt;p&gt;In 2016 I expect a cool, customisable editor with awesome color schemes and themes. I don&amp;rsquo;t like cloud editors with the look of the 90&amp;rsquo;s.&lt;/p&gt;
+
+&lt;h3 id=&#34;cloud9-ide:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Cloud9 IDE&lt;/h3&gt;
+
+&lt;p&gt;My first choice of Cloud IDE was the &lt;a href=&#34;https://c9.io&#34;&gt;Cloud9 IDE&lt;/a&gt;. It has all the features I want.&lt;/p&gt;
+
+&lt;p&gt;I give them &lt;strong&gt;9 / 10&lt;/strong&gt;. I&amp;rsquo;ll explain why not &lt;strong&gt;10 / 10&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;The IDE looks pretty awesome. Behind the scenes it&amp;rsquo;s running &lt;a href=&#34;http://nwjs.io/&#34;&gt;NW.js&lt;/a&gt;. If you&amp;rsquo;re not using a Chromebook you could even download it and use it as your editor of choice.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/cloud9_pricing.png&#34; alt=&#34;Cloud9IDE pricing&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The problem with their pricing is that the next step after the free is &lt;strong&gt;$19&lt;/strong&gt; / mo. That is too much for such a service. I don&amp;rsquo;t need unlimited private and public workspaces. I might only need a bit more disk or memory on my 1 private workspace, but I will never need more than let&amp;rsquo;s say 2-3 workspaces.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;d rather pay &lt;strong&gt;$4 - $5&lt;/strong&gt; for 2-3 optional public/private workspaces instead. For now, the free tier plan is definitely enough for me. It works like charm. The free tier gives you &lt;strong&gt;512MB&lt;/strong&gt; memory and &lt;strong&gt;2GB&lt;/strong&gt; disk space. More than what you&amp;rsquo;ll ever need in case if you&amp;rsquo;re not using maven.&lt;/p&gt;
+
+&lt;p&gt;By default you can use it as one git repo per workspace, but I&amp;rsquo;d recommend not using that approach. I have around 30 repos checked out in one workspace and still have a lot of disk space.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/cloud9_template.png&#34; alt=&#34;c9.io template&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When you&amp;rsquo;re creating a new workspace, you can choose a default template. It means your linux box will have a lot of specific things pre-installed and will spare you space, becaues you won&amp;rsquo;t need to install them. Everything you install on your linux box will be counted too in your disk usage.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/cloud91.png&#34; alt=&#34;cloud9ide&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After creating the workspace it will boot up your linux box called container (docker) and put some default files on it&amp;rsquo;s disks and pop up the UI. I found it very convenient. You can highly customize the UI. Change the layout, but I think the default works the best. You have your file lest on the left, edited files on the top/right and your terminal on bottom/right.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re a paid customer, you can even use SSH workspaces so you can use your own box as a workspace. Sometimes that would be useful, but since I&amp;rsquo;m on a free plan, I can SSH in, sync my files and do what I need to do.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/cloud9ide.png&#34; alt=&#34;c9.io&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Just to mention a few Cloud9 IDE features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Code Autocompletion&lt;/li&gt;
+&lt;li&gt;Download and Upload Files&lt;/li&gt;
+&lt;li&gt;File Revision History&lt;/li&gt;
+&lt;li&gt;FTP Mounts&lt;/li&gt;
+&lt;li&gt;Keybindings&lt;/li&gt;
+&lt;li&gt;Language Analysis&lt;/li&gt;
+&lt;li&gt;Multiple Cursors&lt;/li&gt;
+&lt;li&gt;Search and Replace in Files&lt;/li&gt;
+&lt;li&gt;Supported Languages&lt;/li&gt;
+&lt;li&gt;Syntax Highlighting and Themes&lt;/li&gt;
+&lt;li&gt;Themes&lt;/li&gt;
+&lt;li&gt;Experimental Features&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For more details, please visit &lt;a href=&#34;https://docs.c9.io/docs/&#34;&gt;Cloud9 Docs&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;summary:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Summary&lt;/h3&gt;
+
+&lt;p&gt;Most of the basic applications have web version which is pretty convenient and makes the switch easier. However if you&amp;rsquo;re a hardcore Skype user, you&amp;rsquo;ll experience degraded service compared to the Windows/Mac application. You won&amp;rsquo;t be able to make voice/video calls, but you can write to your contacts and tell them that they can reach you via Google Hangouts. At least this is a good point.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;HipChat&lt;/strong&gt;:  &amp;#10003;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Slack&lt;/strong&gt;:   &amp;#10003;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Twitter&lt;/strong&gt;:   &amp;#10003;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Evernote&lt;/strong&gt;:   &amp;#10003;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google Hangouts&lt;/strong&gt;: &amp;#10003;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IDE/Vim&lt;/strong&gt;:   &amp;#10003;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Skype&lt;/strong&gt;:   &amp;#10007;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;what-comes-next:b63520bef825180c2999b1f9d2c55e30&#34;&gt;What comes next?&lt;/h3&gt;
+
+&lt;p&gt;I&amp;rsquo;m evaluating 3 different Cloud IDE service at the moment and it worth to mention them. In the next blog post I&amp;rsquo;d love to cover those too. They seem to be competitive to Cloud9 IDE.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile I bought another Chromebook because the &lt;a href=&#34;http://www.acer.com/ac/en/US/content/series/c720&#34;&gt;Acer C720P&lt;/a&gt; was too small. My current Chromebook is a &lt;a href=&#34;https://www.amazon.com/gp/product/B015806LMM/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;amp;psc=1&#34;&gt;Toshiba Chromebook 2 - 2015 Edition (CB35-C3300) Full HD, Backlit Keyboard&lt;/a&gt; and I plan to write a review blog post about it.&lt;/p&gt;
+
+&lt;p&gt;What&amp;rsquo;s more I&amp;rsquo;d love to compare the Acer to Toshiba to help you decide what to buy.&lt;/p&gt;
+
+&lt;p&gt;I also have a list of &amp;ldquo;What&amp;rsquo;s not working on a Chromebook&amp;rdquo;, and I&amp;rsquo;d love to share those with you. If you&amp;rsquo;re not a DevOps, you might not need those applications or tools, but if you&amp;rsquo;re a tech junkie, you probably need those and luckily I have workarounds too.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned.&lt;/p&gt;
+</description>
+        </item>
+      
     
       
         <item>
@@ -18,7 +191,7 @@
           <guid>http://blog.wooh.hu/post/switching-to-chromebook-part-1/</guid>
           <description>
 
-&lt;p&gt;Let me share my story with you. This is a long one so I&amp;rsquo;ll split it into 3 smallish chunks so you won&amp;rsquo;t get bored (hopefully). This is a story about how I changed my MacBook Pro to a Chromebook. I never thought it would be ever possible, but it was. And it&amp;rsquo;s relatively easy and convenient. You won&amp;rsquo;t be able to use all your current applications on a Chromebook but there are pretty good alternatives and I&amp;rsquo;m 100% sure you&amp;rsquo;ll like them too.&lt;/p&gt;
+&lt;p&gt;Let me share my story with you. This is a long one so I&amp;rsquo;ll split it into a few small chunks so you won&amp;rsquo;t get bored (hopefully). This is a story about how I changed my MacBook Pro to a Chromebook.  I never thought it would be ever possible, but it was. And it&amp;rsquo;s relatively easy and convenient.  You won&amp;rsquo;t be able to use all your current applications on a Chromebook but there are pretty good alternatives and I&amp;rsquo;m 100% sure you&amp;rsquo;ll like them too.&lt;/p&gt;
 
 &lt;p&gt;The first part covers information about me and about my work, what kind of apps I use, how I use them and what kind of notebooks I was using before.&lt;/p&gt;
 
@@ -49,6 +222,7 @@
 &lt;li&gt;Vim&lt;/li&gt;
 &lt;li&gt;1Password&lt;/li&gt;
 &lt;li&gt;Yubico Authenticator&lt;/li&gt;
+&lt;li&gt;etc&amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;In Part II. I&amp;rsquo;ll tell you how can you use these applications or how can you switch to other similar applications so you won&amp;rsquo;t feel youself blocked.&lt;/p&gt;
@@ -127,7 +301,7 @@ Acer Crystal Eye HD Webcam&lt;br /&gt;
 [&amp;#10003;] External monitor&lt;br /&gt;
 [&amp;#10007;] 1Password&lt;/p&gt;
 
-&lt;p&gt;In the next part, I&amp;rsquo;m going to show you how to migrate your digital life to a Chromebook from your Mac and what problems you will encounter. I&amp;rsquo;m going to tell you what kind of cloud editors I stated to use and what will work on your Chromebook and what won&amp;rsquo;t.&lt;/p&gt;
+&lt;p&gt;In &lt;a href=&#34;http://blog.wooh.hu/post/switching-to-chromebook-part-2&#34;&gt;part 2&lt;/a&gt;, I&amp;rsquo;m going to show you how to migrate your digital life to a Chromebook from your Mac and what problems you will encounter. I&amp;rsquo;m going to tell you what kind of cloud editors I stated to use and what will work on your Chromebook and what won&amp;rsquo;t.&lt;/p&gt;
 </description>
         </item>
       
