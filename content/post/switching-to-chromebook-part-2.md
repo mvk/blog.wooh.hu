@@ -34,7 +34,7 @@ https://slack.com
 
 ### Twitter
 
-I'm a hardcore twitter user, so twitter is manadatory for me. I was using [TweetDeck by Twitter](https://itunes.apple.com/us/app/tweetdeck-by-twitter/id485812721?mt=12) on my Mac and I was a bit afraid what I can use after switching to Chromebook.
+I'm a hardcore twitter user, so twitter is mandatory for me. I was using [TweetDeck by Twitter](https://itunes.apple.com/us/app/tweetdeck-by-twitter/id485812721?mt=12) on my Mac and I was a bit afraid what I can use after switching to Chromebook.
 
 ![Twitter](/images/chromeos/twitter.png)
 
@@ -115,11 +115,11 @@ By default you can use it as one git repo per workspace, but I'd recommend not u
 
 ![c9.io template](/images/chromeos/cloud9_template.png)
 
-When you're creating a new workspace, you can choose a default template. It means your linux box will have a lot of specific things pre-installed and will spare you space, becaues you won't need to install them. Everything you install on your linux box will be counted too in your disk usage.
+When you're creating a new workspace, you can choose a default template. It means your linux box will have a lot of specific things pre-installed and will spare you space, because you won't need to install them. Everything you install on your linux box will be counted too in your disk usage.
 
 ![cloud9ide](/images/chromeos/cloud91.png)
 
-After creating the workspace it will boot up your linux box called container (docker) and put some default files on it's disks and pop up the UI. I found it very convenient. You can highly customize the UI. Change the layout, but I think the default works the best. You have your file lest on the left, edited files on the top/right and your terminal on bottom/right.
+After creating the workspace it will boot up your linux box called container (docker) and put some default files on the disks and pop up the UI. I found it very convenient. You can highly customize the UI. Change the layout, but I think the default works the best. You have your file list on the left, edited files on the top/right and your terminal on bottom/right.
 
 If you're a paid customer, you can even use SSH workspaces so you can use your own box as a workspace. Sometimes that would be useful, but since I'm on a free plan, I can SSH in, sync my files and do what I need to do.
 
@@ -165,8 +165,4 @@ What's more I'd love to compare the Acer to Toshiba to help you decide what to b
 I also have a list of "What's not working on a Chromebook", and I'd love to share those with you. If you're not a DevOps, you might not need those applications or tools, but if you're a tech junkie, you probably need those and luckily I have workarounds too.
 
 Stay tuned.
-
-
-
-
 

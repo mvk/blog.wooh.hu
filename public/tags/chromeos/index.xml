@@ -44,7 +44,7 @@
 
 &lt;h3 id=&#34;twitter:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Twitter&lt;/h3&gt;
 
-&lt;p&gt;I&amp;rsquo;m a hardcore twitter user, so twitter is manadatory for me. I was using &lt;a href=&#34;https://itunes.apple.com/us/app/tweetdeck-by-twitter/id485812721?mt=12&#34;&gt;TweetDeck by Twitter&lt;/a&gt; on my Mac and I was a bit afraid what I can use after switching to Chromebook.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m a hardcore twitter user, so twitter is mandatory for me. I was using &lt;a href=&#34;https://itunes.apple.com/us/app/tweetdeck-by-twitter/id485812721?mt=12&#34;&gt;TweetDeck by Twitter&lt;/a&gt; on my Mac and I was a bit afraid what I can use after switching to Chromebook.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/twitter.png&#34; alt=&#34;Twitter&#34; /&gt;&lt;/p&gt;
 
@@ -124,11 +124,11 @@
 
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/cloud9_template.png&#34; alt=&#34;c9.io template&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;When you&amp;rsquo;re creating a new workspace, you can choose a default template. It means your linux box will have a lot of specific things pre-installed and will spare you space, becaues you won&amp;rsquo;t need to install them. Everything you install on your linux box will be counted too in your disk usage.&lt;/p&gt;
+&lt;p&gt;When you&amp;rsquo;re creating a new workspace, you can choose a default template. It means your linux box will have a lot of specific things pre-installed and will spare you space, because you won&amp;rsquo;t need to install them. Everything you install on your linux box will be counted too in your disk usage.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/cloud91.png&#34; alt=&#34;cloud9ide&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;After creating the workspace it will boot up your linux box called container (docker) and put some default files on it&amp;rsquo;s disks and pop up the UI. I found it very convenient. You can highly customize the UI. Change the layout, but I think the default works the best. You have your file lest on the left, edited files on the top/right and your terminal on bottom/right.&lt;/p&gt;
+&lt;p&gt;After creating the workspace it will boot up your linux box called container (docker) and put some default files on the disks and pop up the UI. I found it very convenient. You can highly customize the UI. Change the layout, but I think the default works the best. You have your file list on the left, edited files on the top/right and your terminal on bottom/right.&lt;/p&gt;
 
 &lt;p&gt;If you&amp;rsquo;re a paid customer, you can even use SSH workspaces so you can use your own box as a workspace. Sometimes that would be useful, but since I&amp;rsquo;m on a free plan, I can SSH in, sync my files and do what I need to do.&lt;/p&gt;
 
@@ -225,7 +225,7 @@
 &lt;li&gt;etc&amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;In Part II. I&amp;rsquo;ll tell you how can you use these applications or how can you switch to other similar applications so you won&amp;rsquo;t feel youself blocked.&lt;/p&gt;
+&lt;p&gt;In Part II. I&amp;rsquo;ll tell you how can you use these applications or how can you switch to other similar applications so you won&amp;rsquo;t feel yourself blocked.&lt;/p&gt;
 
 &lt;p&gt;Another cool MacBook feature is that if I close it, it goes to sleep. If I open it, it wakes up and I can continue my work where I left it off. This is the main reason why I love the Mac. Linux and *BSD were pretty bad at it and I gave it up after a while.&lt;/p&gt;
 
@@ -237,9 +237,9 @@
 
 &lt;h3 id=&#34;previous-attempts:d2cb8c1412cb17e378636742e952556d&#34;&gt;Previous attempts&lt;/h3&gt;
 
-&lt;p&gt;Before I was using Macs, I used custom built notebooks with NetBSD/OpenBSD as my operating system of choice. Those were pretty powerful machines at that time. 2x2.8Ghz CPU with HyperThreading technology. I loved it. After using iBooks for a few years I though what if I can switch back and use *BSD or Linux on a notebook, so I bought a Toshiba. I tried everything but I wasn&amp;rsquo;t able to &amp;ldquo;like&amp;rdquo; or &amp;ldquo;love&amp;rdquo; it, so finally I gave it to a friend. I bougth another MacBook.&lt;/p&gt;
+&lt;p&gt;Before I was using Macs, I used custom built notebooks with NetBSD/OpenBSD as my operating system of choice. Those were pretty powerful machines at that time. 2x2.8Ghz CPU with HyperThreading technology. I loved it. After using iBooks for a few years I thought what if I can switch back and use *BSD or Linux on a notebook, so I bought a Toshiba. I tried everything but I wasn&amp;rsquo;t able to &amp;ldquo;like&amp;rdquo; or &amp;ldquo;love&amp;rdquo; it, so finally I gave it to a friend. I bought another MacBook.&lt;/p&gt;
 
-&lt;p&gt;Somehow even a Toshiba notebook with a Linux/BSD wasn&amp;rsquo;t able to impress me. I was disappoitned but happy with my new MacBook.&lt;/p&gt;
+&lt;p&gt;Somehow even a Toshiba notebook with a Linux/BSD wasn&amp;rsquo;t able to impress me. I was disappointed but happy with my new MacBook.&lt;/p&gt;
 
 &lt;h3 id=&#34;why-i-decided-to-switch:d2cb8c1412cb17e378636742e952556d&#34;&gt;Why I decided to switch&lt;/h3&gt;
 
@@ -257,7 +257,7 @@
 
 &lt;h3 id=&#34;experiment-on-a-chromebook:d2cb8c1412cb17e378636742e952556d&#34;&gt;Experiment on a Chromebook&lt;/h3&gt;
 
-&lt;p&gt;After about 7 days I was still using only a browser on my Mac so I tought it&amp;rsquo;s a good idea to move ahead and find a cheap used Chromebook for a real ChomeOS experience.&lt;/p&gt;
+&lt;p&gt;After about 7 days I was still using only a browser on my Mac so I thought it&amp;rsquo;s a good idea to move ahead and find a cheap used Chromebook for a real ChomeOS experience.&lt;/p&gt;
 
 &lt;p&gt;Unfortunately in Hungary there are no Chromebooks at all, but luckily we have a local ebay like site which has a few used chromebooks listed. I was looking for a Chromebook with 4G memory. The 2G ones are a joke I guess. Finally I found one for &lt;strong&gt;$198 USD&lt;/strong&gt;. It was the &lt;strong&gt;Acer C720P Touch&lt;/strong&gt; Chromebook. It has a small screen but has HDMI to extend the screen to my monitor which could be definitely enough.&lt;/p&gt;
 
@@ -284,13 +284,13 @@ Acer Crystal Eye HD Webcam&lt;br /&gt;
 
 &lt;p&gt;After I unpacked it, I pressed the power button and wow! After about 4 seconds the login screen welcomed me. Holy cow! It&amp;rsquo;s fast. Let&amp;rsquo;s login. I had to select my country, select my keyboard layout (dvorak is supported by default) and select a wifi network. Without a wifi network you can&amp;rsquo;t login for the very first time. Later you can, but for the very first time you need to be connected.&lt;/p&gt;
 
-&lt;p&gt;The next step is to enter your google username and password. My Google account is protected by a &lt;a href=&#34;https://www.yubico.com/products/yubikey-hardware/yubikey4/&#34;&gt;Yubikey 4&lt;/a&gt; which is a USB security key used as my 2FA of choice. On my Mac I even used it with &lt;a href=&#34;https://www.yubico.com/wp-content/uploads/2016/02/Yubico_YubiKeyMacOSXLogin_en.pdf&#34;&gt;challenge response&lt;/a&gt;. After I entered my username and password it asked me to use my security key aka my yubikey. I just pressed it and voilla! I was logged in. So note that your USB security key will work like charm on a Chromebook.&lt;/p&gt;
+&lt;p&gt;The next step is to enter your google username and password. My Google account is protected by a &lt;a href=&#34;https://www.yubico.com/products/yubikey-hardware/yubikey4/&#34;&gt;Yubikey 4&lt;/a&gt; which is a USB security key used as my 2FA of choice. On my Mac I even used it with &lt;a href=&#34;https://www.yubico.com/wp-content/uploads/2016/02/Yubico_YubiKeyMacOSXLogin_en.pdf&#34;&gt;challenge response&lt;/a&gt;. After I entered my username and password it asked me to use my security key aka my yubikey. I just pressed it and voila! I was logged in. So note that your USB security key will work like charm on a Chromebook.&lt;/p&gt;
 
 &lt;p&gt;In a few seconds it synced down all my Chrome data from the cloud including my browsing history, bookmarks, chrome extensions and chrome applications like &lt;a href=&#34;https://play.google.com/store/apps/details?id=jp.naver.line.android&amp;amp;hl=en&#34;&gt;Line Messenger&lt;/a&gt;. Pretty convenient!&lt;/p&gt;
 
 &lt;p&gt;By default ChromeOS won&amp;rsquo;t ask a password when waking up from a sleep, so before starting any work on this machine I set this up. Unfortunately here isn&amp;rsquo;t an option to enforce the presence of a security key (like yubikey), but I can live without it. The login is a pretty cheap operation so you can just logout instead of just lock your machine. All browser tabs will be reloaded after logging back and you can continue your work.&lt;/p&gt;
 
-&lt;p&gt;I opened up a Chrome and stared to browse. Everything seemed smooth, fast response from the browser. So far so good! Attached my external monitor to the Chromebook without any issue. I attached my Logitech HD Webcam to it and it was able to use it too.&lt;/p&gt;
+&lt;p&gt;I opened up a Chrome and started to browse. Everything seemed smooth, fast response from the browser. So far so good! Attached my external monitor to the Chromebook without any issue. I attached my Logitech HD Webcam to it and it was able to use it too.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/acer/acer_external.jpg&#34; alt=&#34;Acer + External&#34; /&gt;&lt;/p&gt;
 
@@ -301,7 +301,7 @@ Acer Crystal Eye HD Webcam&lt;br /&gt;
 [&amp;#10003;] External monitor&lt;br /&gt;
 [&amp;#10007;] 1Password&lt;/p&gt;
 
-&lt;p&gt;In &lt;a href=&#34;http://blog.wooh.hu/post/switching-to-chromebook-part-2&#34;&gt;part 2&lt;/a&gt;, I&amp;rsquo;m going to show you how to migrate your digital life to a Chromebook from your Mac and what problems you will encounter. I&amp;rsquo;m going to tell you what kind of cloud editors I stated to use and what will work on your Chromebook and what won&amp;rsquo;t.&lt;/p&gt;
+&lt;p&gt;In &lt;a href=&#34;http://blog.wooh.hu/post/switching-to-chromebook-part-2&#34;&gt;part 2&lt;/a&gt;, I&amp;rsquo;m going to show you how to migrate your digital life to a Chromebook from your Mac and what problems you will encounter. I&amp;rsquo;m going to tell you what kind of cloud editors I started to use and what will work on your Chromebook and what won&amp;rsquo;t.&lt;/p&gt;
 </description>
         </item>
       

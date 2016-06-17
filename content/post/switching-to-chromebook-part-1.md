@@ -41,7 +41,7 @@ Other applications I was running are:
 - Yubico Authenticator
 - etc...
 
-In Part II. I'll tell you how can you use these applications or how can you switch to other similar applications so you won't feel youself blocked.
+In Part II. I'll tell you how can you use these applications or how can you switch to other similar applications so you won't feel yourself blocked.
 
 Another cool MacBook feature is that if I close it, it goes to sleep. If I open it, it wakes up and I can continue my work where I left it off. This is the main reason why I love the Mac. Linux and *BSD were pretty bad at it and I gave it up after a while.
 
@@ -53,9 +53,9 @@ But yeah, a MacBook Pro/Air is pretty trendy and can stick cool decals on the ba
 
 ### Previous attempts
 
-Before I was using Macs, I used custom built notebooks with NetBSD/OpenBSD as my operating system of choice. Those were pretty powerful machines at that time. 2x2.8Ghz CPU with HyperThreading technology. I loved it. After using iBooks for a few years I though what if I can switch back and use *BSD or Linux on a notebook, so I bought a Toshiba. I tried everything but I wasn't able to "like" or "love" it, so finally I gave it to a friend. I bougth another MacBook.
+Before I was using Macs, I used custom built notebooks with NetBSD/OpenBSD as my operating system of choice. Those were pretty powerful machines at that time. 2x2.8Ghz CPU with HyperThreading technology. I loved it. After using iBooks for a few years I thought what if I can switch back and use *BSD or Linux on a notebook, so I bought a Toshiba. I tried everything but I wasn't able to "like" or "love" it, so finally I gave it to a friend. I bought another MacBook.
 
-Somehow even a Toshiba notebook with a Linux/BSD wasn't able to impress me. I was disappoitned but happy with my new MacBook.
+Somehow even a Toshiba notebook with a Linux/BSD wasn't able to impress me. I was disappointed but happy with my new MacBook.
 
 ### Why I decided to switch
 
@@ -73,7 +73,7 @@ I found a few promising cloud IDEs. They mostly provide an ubuntu box too as a t
 
 ### Experiment on a Chromebook
 
-After about 7 days I was still using only a browser on my Mac so I tought it's a good idea to move ahead and find a cheap used Chromebook for a real ChomeOS experience.
+After about 7 days I was still using only a browser on my Mac so I thought it's a good idea to move ahead and find a cheap used Chromebook for a real ChomeOS experience.
 
 Unfortunately in Hungary there are no Chromebooks at all, but luckily we have a local ebay like site which has a few used chromebooks listed. I was looking for a Chromebook with 4G memory. The 2G ones are a joke I guess. Finally I found one for **$198 USD**. It was the **Acer C720P Touch** Chromebook. It has a small screen but has HDMI to extend the screen to my monitor which could be definitely enough.
 
@@ -98,13 +98,13 @@ Although I bought it as a used laptop it wasn't used at all. It was brand new, i
 
 After I unpacked it, I pressed the power button and wow! After about 4 seconds the login screen welcomed me. Holy cow! It's fast. Let's login. I had to select my country, select my keyboard layout (dvorak is supported by default) and select a wifi network. Without a wifi network you can't login for the very first time. Later you can, but for the very first time you need to be connected.
 
-The next step is to enter your google username and password. My Google account is protected by a [Yubikey 4](https://www.yubico.com/products/yubikey-hardware/yubikey4/) which is a USB security key used as my 2FA of choice. On my Mac I even used it with [challenge response](https://www.yubico.com/wp-content/uploads/2016/02/Yubico_YubiKeyMacOSXLogin_en.pdf). After I entered my username and password it asked me to use my security key aka my yubikey. I just pressed it and voilla! I was logged in. So note that your USB security key will work like charm on a Chromebook.
+The next step is to enter your google username and password. My Google account is protected by a [Yubikey 4](https://www.yubico.com/products/yubikey-hardware/yubikey4/) which is a USB security key used as my 2FA of choice. On my Mac I even used it with [challenge response](https://www.yubico.com/wp-content/uploads/2016/02/Yubico_YubiKeyMacOSXLogin_en.pdf). After I entered my username and password it asked me to use my security key aka my yubikey. I just pressed it and voila! I was logged in. So note that your USB security key will work like charm on a Chromebook.
 
 In a few seconds it synced down all my Chrome data from the cloud including my browsing history, bookmarks, chrome extensions and chrome applications like [Line Messenger](https://play.google.com/store/apps/details?id=jp.naver.line.android&hl=en). Pretty convenient!
 
 By default ChromeOS won't ask a password when waking up from a sleep, so before starting any work on this machine I set this up. Unfortunately here isn't an option to enforce the presence of a security key (like yubikey), but I can live without it. The login is a pretty cheap operation so you can just logout instead of just lock your machine. All browser tabs will be reloaded after logging back and you can continue your work.
 
-I opened up a Chrome and stared to browse. Everything seemed smooth, fast response from the browser. So far so good! Attached my external monitor to the Chromebook without any issue. I attached my Logitech HD Webcam to it and it was able to use it too.
+I opened up a Chrome and started to browse. Everything seemed smooth, fast response from the browser. So far so good! Attached my external monitor to the Chromebook without any issue. I attached my Logitech HD Webcam to it and it was able to use it too.
 
 ![Acer + External](/images/chromeos/acer/acer_external.jpg)
 
@@ -115,4 +115,4 @@ So far we only covered a few things, 3 out of 4 are working:
 [&#10003;] External monitor  
 [&#10007;] 1Password
 
-In [part 2](/post/switching-to-chromebook-part-2), I'm going to show you how to migrate your digital life to a Chromebook from your Mac and what problems you will encounter. I'm going to tell you what kind of cloud editors I stated to use and what will work on your Chromebook and what won't.
+In [part 2](/post/switching-to-chromebook-part-2), I'm going to show you how to migrate your digital life to a Chromebook from your Mac and what problems you will encounter. I'm going to tell you what kind of cloud editors I started to use and what will work on your Chromebook and what won't.
