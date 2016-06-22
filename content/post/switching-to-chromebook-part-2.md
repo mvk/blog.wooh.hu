@@ -12,6 +12,12 @@ In this part I'm going to show you a few applications I was using on a Mac and t
 
 I thought I could compress everything in three small chunk post but it seems that's impossible. So expect a lot more blog posts from me on this specific topic.
 
+# Recap
+
+In case if you missed the previous post:
+
+- [Switching to Chromebook - Part I.](/post/switching-to-chromebook-part-1/)
+
 ### HipChat
 
 ![HipChat](/images/chromeos/hipchat.png)
