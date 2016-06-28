@@ -24,7 +24,7 @@ There are actually four Cloud IDEs worth to mention at the moment:
 - Codenvy - https://codenvy.com
 
 
-I’m using Cloud9 IDE since I migrated to a Chromebook, so I wanted to try another one. Codeanywhere pinged me on Twitter okea week ago or so, and they actually forced me to try out their product. I had already registered an account, so I decided to use it for at least a week. 
+I’m using Cloud9 IDE since I migrated to a Chromebook, so I wanted to try another one. Codeanywhere pinged me on Twitter about a week ago and they actually forced me to try out their product. I had already registered an account, so I decided to use it for at least a week. 
 
 {{< tweet 745702443904794624 >}}
 
