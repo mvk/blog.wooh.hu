@@ -20,7 +20,7 @@
 
 &lt;p&gt;Earlier I mentioned that I bought an Acer C720P Chromebook. A few weeks ago my new Chromebook arrived: Toshiba Chromebook 2 (2015). The Acer is really great to carry around, the touchscreen is pretty cool too, but the 11.6&amp;rdquo; is way too small for real development. If you use it for development, you won&amp;rsquo;t be able to overview your code, you need to scroll up and down a lot of times.&lt;/p&gt;
 
-&lt;h1 id=&#34;recap:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Recap&lt;/h1&gt;
+&lt;h1 id=&#34;recap&#34;&gt;Recap&lt;/h1&gt;
 
 &lt;p&gt;In case if you missed the previous posts. You can read them below. Note that this post is rather a review than a &lt;strong&gt;how to switch&lt;/strong&gt;, so stay tuned and wait for part IV. where I&amp;rsquo;ll talk about OpenVPN, L2TP/IPsec, Printing, and things that aren&amp;rsquo;t working properly.&lt;/p&gt;
 
@@ -29,7 +29,7 @@
 &lt;li&gt;&lt;a href=&#34;http://blog.wooh.hu/post/switching-to-chromebook-part-2/&#34;&gt;Switching to Chromebook - Part II.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;variety:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Variety&lt;/h1&gt;
+&lt;h1 id=&#34;variety&#34;&gt;Variety&lt;/h1&gt;
 
 &lt;p&gt;I read a lot of posts about what&amp;rsquo;s the best Chromebook. Just to mention a few:&lt;/p&gt;
 
@@ -44,7 +44,7 @@
 
 &lt;p&gt;Mostly all posts agreed that the Toshiba Chromebook 2 is the best after the &lt;a href=&#34;https://pixel.google.com/chromebook-pixel/&#34;&gt;Google Pixel 2&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;toshiba-chromebook-2:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Toshiba Chromebook 2&lt;/h1&gt;
+&lt;h1 id=&#34;toshiba-chromebook-2&#34;&gt;Toshiba Chromebook 2&lt;/h1&gt;
 
 &lt;p&gt;When we&amp;rsquo;re talking about the Toshiba Chromebook 2 note that there are 3 (actually 4) Toshiba Chromebooks.&lt;/p&gt;
 
@@ -57,15 +57,15 @@
 
 &lt;p&gt;You need to know what is the best. Toshiba released 4 Chromebooks in 2 years.&lt;/p&gt;
 
-&lt;h2 id=&#34;toshiba-cb35-a3120-chromebook:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Toshiba CB35-A3120 Chromebook&lt;/h2&gt;
+&lt;h2 id=&#34;toshiba-cb35-a3120-chromebook&#34;&gt;Toshiba CB35-A3120 Chromebook&lt;/h2&gt;
 
 &lt;p&gt;This is known as &lt;strong&gt;Toshiba Chromebook&lt;/strong&gt;. It was the first Toshiba Chromebook. It is just an average Chromebook, you definitely don&amp;rsquo;t want to buy this. &lt;a href=&#34;http://www.pcmag.com/article2/0,2817,2453427,00.asp&#34;&gt;Read the PCMag review here.&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;toshiba-cb35-b3340-chromebook-2:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Toshiba CB35-B3340 Chromebook 2&lt;/h2&gt;
+&lt;h2 id=&#34;toshiba-cb35-b3340-chromebook-2&#34;&gt;Toshiba CB35-B3340 Chromebook 2&lt;/h2&gt;
 
 &lt;p&gt;This is the first &lt;strong&gt;Toshiba Chromebook 2&lt;/strong&gt;. Customers bought it were pretty satisfied. It does not have a fan! So it&amp;rsquo;s pretty quiet, but the CPU speed is limited. &lt;a href=&#34;http://www.pcmag.com/article2/0,2817,2470486,00.asp&#34;&gt;Read the PCMag review here.&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;toshiba-cb35-c3300-cb35-c3350-chromebook-2:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Toshiba CB35-C3300 / CB35-C3350 Chromebook 2&lt;/h2&gt;
+&lt;h2 id=&#34;toshiba-cb35-c3300-cb35-c3350-chromebook-2&#34;&gt;Toshiba CB35-C3300 / CB35-C3350 Chromebook 2&lt;/h2&gt;
 
 &lt;p&gt;The last 2 model is almost the same. The only difference is the CPU. The CB35-C3300 has &lt;strong&gt;Intel Celeron 3215U&lt;/strong&gt;. You can buy with a faster &lt;strong&gt;Intel Celeron i3-5015U8&lt;/strong&gt; CPU, but reviews say: It does not really worth it, it only reduces the battery life and you won&amp;rsquo;t really feel the difference.&lt;/p&gt;
 
@@ -75,7 +75,7 @@
 
 &lt;p&gt;If you live in US, you can buy the C3300 for about $300 USD. If you live in Hungary just like me, it will cost $299.99 + $123.69 Shipping &amp;amp; Import Fees Deposit. Amazon handles everything for you. You&amp;rsquo;ll get it in no time, which means about a week. Since there are absolutely no Chromebooks in Hungary you can&amp;rsquo;t even try it out first, so it was a pig in a poke. How excited I was when it arrived.&lt;/p&gt;
 
-&lt;h1 id=&#34;my-own-review:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;My own review&lt;/h1&gt;
+&lt;h1 id=&#34;my-own-review&#34;&gt;My own review&lt;/h1&gt;
 
 &lt;p&gt;I can only compare the &lt;strong&gt;Toshiba CB35-C3300 Chromebook 2&lt;/strong&gt; to &lt;strong&gt;MacBook Pro&lt;/strong&gt; and &lt;strong&gt;Acer C720P&lt;/strong&gt;.&lt;/p&gt;
 
@@ -89,7 +89,7 @@
 
 &lt;p&gt;In case if you&amp;rsquo;re interested in it&amp;hellip; well I&amp;rsquo;m not using it anymore so you can buy it. I only used it for about a week and Powerwashed it.&lt;/p&gt;
 
-&lt;h2 id=&#34;boxing:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Boxing&lt;/h2&gt;
+&lt;h2 id=&#34;boxing&#34;&gt;Boxing&lt;/h2&gt;
 
 &lt;p&gt;So back to Toshiba. I was pretty excited when it arrived. I quickly removed the wrapping and saw &amp;ldquo;the box&amp;rdquo;.&lt;/p&gt;
 
@@ -107,7 +107,7 @@
 
 &lt;p&gt;The material is plastic. The previous ones were less plastic-feel, but it won&amp;rsquo;t annoy you. What is a bit annoying is that the edges are a bit sharp. The top material is bumpy.&lt;/p&gt;
 
-&lt;h2 id=&#34;backlit-keyboard:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Backlit keyboard&lt;/h2&gt;
+&lt;h2 id=&#34;backlit-keyboard&#34;&gt;Backlit keyboard&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/toshiba/toshiba_5.jpg&#34; alt=&#34;Toshiba 5&#34; /&gt;&lt;/p&gt;
 
@@ -117,13 +117,13 @@
 
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/toshiba/toshiba_10.jpg&#34; alt=&#34;Toshiba 10&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;screen:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Screen&lt;/h2&gt;
+&lt;h2 id=&#34;screen&#34;&gt;Screen&lt;/h2&gt;
 
 &lt;p&gt;The screen in gorgeous and beautiful! I has a full-HD resolution of 1920 x 1080, but it can do 2400 x 1350 too. This won’t be to everyone’s tastes. Text, buttons and other items on screen do look a fair bit smaller. If your eyesight isn’t the best you may find yourself zooming in or manually switching to a lower resolution so you’re not constantly squinting.&lt;/p&gt;
 
 &lt;p&gt;If you aren&amp;rsquo;t using an external screen, you would need to use 125% zoom on all sites to be able to read the text. But I can live with this, it&amp;rsquo;s not that annoying. Customers are complaining about the small text, so probably in a few months there will be some fix. The icons can&amp;rsquo;t be enlarged, so sometimes it&amp;rsquo;s hard to find the app you want to launch, because they&amp;rsquo;re so small.&lt;/p&gt;
 
-&lt;h2 id=&#34;dimensions:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Dimensions&lt;/h2&gt;
+&lt;h2 id=&#34;dimensions&#34;&gt;Dimensions&lt;/h2&gt;
 
 &lt;p&gt;In terms of dimensions it has the same dimensions as a MacBook Pro 13&amp;rdquo; but it weights less. See the photos below.&lt;/p&gt;
 
@@ -135,29 +135,29 @@
 
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/toshiba/toshiba_11.jpg&#34; alt=&#34;Toshiba 11&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;sound:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Sound&lt;/h2&gt;
+&lt;h2 id=&#34;sound&#34;&gt;Sound&lt;/h2&gt;
 
 &lt;p&gt;A big kudos to the Toshiba team for building such a great machine. The sound is perfect! Toshiba teamed up with Skullcandy and built the speakers behind the keyboard. But somehow it sounds like a hifi system. Just look at the Skullcandy logo, it tells everything.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/toshiba/toshiba_12.jpg&#34; alt=&#34;Toshiba 12&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;ports:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Ports&lt;/h2&gt;
+&lt;h2 id=&#34;ports&#34;&gt;Ports&lt;/h2&gt;
 
 &lt;p&gt;So it has USB 3.0 and 2.0, a SD Card reader and a HDMI. Almost enough. I hope they&amp;rsquo;ll include USB-C in the next model, and I would like to charge it via an USB-C port just like the Google Pixel 2. I have a Nexus 5X and I&amp;rsquo;d be happy to charge my phone using my Chromebook.&lt;/p&gt;
 
 &lt;p&gt;Note that it comes with the US power cord, so in case if you want to use it in Hungary, you need converter slots. Luckily I have a lot since we travel a lot to US and Japan, so it&amp;rsquo;s not a big issue. What&amp;rsquo;s more I use more US cords than EU cords.&lt;/p&gt;
 
-&lt;h2 id=&#34;battery:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Battery&lt;/h2&gt;
+&lt;h2 id=&#34;battery&#34;&gt;Battery&lt;/h2&gt;
 
 &lt;p&gt;The battery life seems to be somewhere between 5-7hrs depending on the brightness level. During evening hours the lowest brightness level works too, so you gain a lot of battery life, but you can work in sunshine too, the screen is pretty bright if you set the brightness to the higher level. So your Mac&amp;rsquo;s battery won&amp;rsquo;t last longer, maybe a little.&lt;/p&gt;
 
-&lt;h2 id=&#34;performance:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Performance&lt;/h2&gt;
+&lt;h2 id=&#34;performance&#34;&gt;Performance&lt;/h2&gt;
 
 &lt;p&gt;Some ask how I can live with 4G memory only? Well to be quite honest I have around 23-40 tabs open all the time, listening to youtube without any problem at all. I feel it fast, no slowdown. On the Acer C720P I felt the slowdown after ~10 tabs, but I haven&amp;rsquo;t felt it on the Toshiba.&lt;/p&gt;
 
 &lt;p&gt;The only thing you&amp;rsquo;ll notice is that after a few tabs, the fan will start to spin. It&amp;rsquo;s pretty quiet, but can be annoying in a very quiet room. I haven&amp;rsquo;t got used to it yet.&lt;/p&gt;
 
-&lt;h2 id=&#34;summary:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Summary&lt;/h2&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
 
 &lt;p&gt;I&amp;rsquo;m very satisfied with this Chromebook. I just feels like a Mac, but it&amp;rsquo;s not. It&amp;rsquo;s way less expensive and the IPS Full HD screen amazes me every time when I switch it on. If you&amp;rsquo;re thinking about buying a Chromebook you should buy only this and not anything else.&lt;/p&gt;
 
@@ -179,7 +179,7 @@
 
 &lt;p&gt;I thought I could compress everything in three small chunk post but it seems that&amp;rsquo;s impossible. So expect a lot more blog posts from me on this specific topic.&lt;/p&gt;
 
-&lt;h1 id=&#34;recap:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Recap&lt;/h1&gt;
+&lt;h1 id=&#34;recap&#34;&gt;Recap&lt;/h1&gt;
 
 &lt;p&gt;In case if you missed the previous post:&lt;/p&gt;
 
@@ -187,7 +187,7 @@
 &lt;li&gt;&lt;a href=&#34;http://blog.wooh.hu/post/switching-to-chromebook-part-1/&#34;&gt;Switching to Chromebook - Part I.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;hipchat:b63520bef825180c2999b1f9d2c55e30&#34;&gt;HipChat&lt;/h3&gt;
+&lt;h3 id=&#34;hipchat&#34;&gt;HipChat&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/hipchat.png&#34; alt=&#34;HipChat&#34; /&gt;&lt;/p&gt;
 
@@ -199,7 +199,7 @@
 
 &lt;p&gt;The web app has the same feeling as the native app. Same shortcuts, same UI.&lt;/p&gt;
 
-&lt;h3 id=&#34;slack:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Slack&lt;/h3&gt;
+&lt;h3 id=&#34;slack&#34;&gt;Slack&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/slack_rgb.png&#34; alt=&#34;Slack&#34; /&gt;&lt;/p&gt;
 
@@ -207,7 +207,7 @@
 
 &lt;p&gt;&lt;a href=&#34;https://slack.com&#34;&gt;https://slack.com&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;twitter:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Twitter&lt;/h3&gt;
+&lt;h3 id=&#34;twitter&#34;&gt;Twitter&lt;/h3&gt;
 
 &lt;p&gt;I&amp;rsquo;m a hardcore twitter user, so twitter is mandatory for me. I was using &lt;a href=&#34;https://itunes.apple.com/us/app/tweetdeck-by-twitter/id485812721?mt=12&#34;&gt;TweetDeck by Twitter&lt;/a&gt; on my Mac and I was a bit afraid what I can use after switching to Chromebook.&lt;/p&gt;
 
@@ -217,7 +217,7 @@
 
 &lt;p&gt;&lt;a href=&#34;https://tweetdeck.twitter.com&#34;&gt;https://tweetdeck.twitter.com&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;evernote:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Evernote&lt;/h3&gt;
+&lt;h3 id=&#34;evernote&#34;&gt;Evernote&lt;/h3&gt;
 
 &lt;p&gt;I&amp;rsquo;m a &lt;a href=&#34;http://gettingthingsdone.com/&#34;&gt;Getting Things Done&lt;/a&gt; addict. My wife grew up in Japan, so she loves to plan every second of our life. In 10 years I had to learn how to plan and how to be more productive. I use &lt;a href=&#34;https://evernote.com&#34;&gt;Evernote&lt;/a&gt; as my GTD tool of choice. Before Evernote I tried several things before. First I used &lt;a href=&#34;https://culturedcode.com/things/&#34;&gt;Things&lt;/a&gt; which only supported OS X and iOS. I need a tool for my phone too, so I migrated all my lists to &lt;a href=&#34;https://www.wunderlist.com/&#34;&gt;Wunderlist&lt;/a&gt; which was pretty awesome, but my wife was using Evernote so finally she convinced me to switch.&lt;/p&gt;
 
@@ -229,7 +229,7 @@
 
 &lt;p&gt;Since all my documents are google documents on a Chromebook it&amp;rsquo;s very convenient to use Evernote Beta Web Client and simply mix my notes in evernote with the google documents.&lt;/p&gt;
 
-&lt;h3 id=&#34;skype:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Skype&lt;/h3&gt;
+&lt;h3 id=&#34;skype&#34;&gt;Skype&lt;/h3&gt;
 
 &lt;p&gt;Skype is a very popular IM and Video application. Skype keeps the world talking, for free. Share, message and call - now with group video on mobile and tablet too.&lt;/p&gt;
 
@@ -243,35 +243,35 @@
 
 &lt;p&gt;There is also a native ChromeOS app available: &lt;a href=&#34;https://chrome.google.com/webstore/detail/google-hangouts/knipolnnllmklapflnccelgolnpehhpl?hl=en&#34;&gt;Google Hangouts&lt;/a&gt;. Get it and try it out!&lt;/p&gt;
 
-&lt;h3 id=&#34;sublime-2-pycharm-and-vim:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Sublime 2, PyCharm and Vim&lt;/h3&gt;
+&lt;h3 id=&#34;sublime-2-pycharm-and-vim&#34;&gt;Sublime 2, PyCharm and Vim&lt;/h3&gt;
 
 &lt;p&gt;It&amp;rsquo;s good to know, that there is no native ChromeOS IDE available at the moment. So no way to use Sublime or PyCharm or any well known editor. Sublime Text and PyCharm are available for OS X, Windows and Linux only.&lt;/p&gt;
 
 &lt;p&gt;You need to use a cloud IDE. At the first glance it sounds weird. Using a cloud editor? How? How can I manage/upload files there? Ohh boy, there are plenty of services out there. They are pretty good replacement for Sublime 2 and PyCharm.&lt;/p&gt;
 
-&lt;h3 id=&#34;cloud-ide:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Cloud IDE&lt;/h3&gt;
+&lt;h3 id=&#34;cloud-ide&#34;&gt;Cloud IDE&lt;/h3&gt;
 
 &lt;p&gt;First, I read a lot of articles about the best cloud IDEs. There are around 10 in the market at the moment, but not all are suitable for me. I have expectations of a Cloud IDE.&lt;/p&gt;
 
-&lt;h4 id=&#34;trial-free-tier-good-pricing-plan:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Trial / Free tier /  Good pricing plan&lt;/h4&gt;
+&lt;h4 id=&#34;trial-free-tier-good-pricing-plan&#34;&gt;Trial / Free tier /  Good pricing plan&lt;/h4&gt;
 
 &lt;p&gt;I can spend my money on other things, I don&amp;rsquo;t want to spend all my spare money on a Cloud IDE. It should have a &lt;em&gt;trial&lt;/em&gt; - full version - to try it out. I don&amp;rsquo;t like when the trial does not provide all features, because I can&amp;rsquo;t really decide whether sign-up for a paid plan or evaluate another service.&lt;/p&gt;
 
 &lt;p&gt;It should have a &lt;em&gt;free tier plan&lt;/em&gt; , so I could get a very minimal but 100% usable environment. I can live with 512MB memory and a very little disk space too. CPU is not important for me, I won&amp;rsquo;t compile or mine bitcoin.&lt;/p&gt;
 
-&lt;h4 id=&#34;encapsulated-private-workspaces:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Encapsulated / Private Workspaces&lt;/h4&gt;
+&lt;h4 id=&#34;encapsulated-private-workspaces&#34;&gt;Encapsulated / Private Workspaces&lt;/h4&gt;
 
 &lt;p&gt;Usually the free tier plans are available but don&amp;rsquo;t allow you to protect your sensitive data. They&amp;rsquo;re open to everyone. So a free tier should at least provide 1 private / encapsulated environment, so I can work on &lt;em&gt;non open-source projects&lt;/em&gt;.&lt;/p&gt;
 
-&lt;h4 id=&#34;terminal-emulator:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Terminal Emulator&lt;/h4&gt;
+&lt;h4 id=&#34;terminal-emulator&#34;&gt;Terminal Emulator&lt;/h4&gt;
 
 &lt;p&gt;I also expect a Linux environment with root access, so I can install a lot of things. It can be a Docker on anything else I don&amp;rsquo;t really mind. It does not have to run 0-24. Enough if it&amp;rsquo;s running when I&amp;rsquo;m working with it. If I can open a few ports and test my work that&amp;rsquo;s also a good pro.&lt;/p&gt;
 
-&lt;h4 id=&#34;the-ide-should-be-cool:b63520bef825180c2999b1f9d2c55e30&#34;&gt;The IDE should be cool&lt;/h4&gt;
+&lt;h4 id=&#34;the-ide-should-be-cool&#34;&gt;The IDE should be cool&lt;/h4&gt;
 
 &lt;p&gt;In 2016 I expect a cool, customisable editor with awesome color schemes and themes. I don&amp;rsquo;t like cloud editors with the look of the 90&amp;rsquo;s.&lt;/p&gt;
 
-&lt;h3 id=&#34;cloud9-ide:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Cloud9 IDE&lt;/h3&gt;
+&lt;h3 id=&#34;cloud9-ide&#34;&gt;Cloud9 IDE&lt;/h3&gt;
 
 &lt;p&gt;My first choice of Cloud IDE was the &lt;a href=&#34;https://c9.io&#34;&gt;Cloud9 IDE&lt;/a&gt;. It has all the features I want.&lt;/p&gt;
 
@@ -318,7 +318,7 @@
 
 &lt;p&gt;For more details, please visit &lt;a href=&#34;https://docs.c9.io/docs/&#34;&gt;Cloud9 Docs&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;summary:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Summary&lt;/h3&gt;
+&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
 
 &lt;p&gt;Most of the basic applications have web version which is pretty convenient and makes the switch easier. However if you&amp;rsquo;re a hardcore Skype user, you&amp;rsquo;ll experience degraded service compared to the Windows/Mac application. You won&amp;rsquo;t be able to make voice/video calls, but you can write to your contacts and tell them that they can reach you via Google Hangouts. At least this is a good point.&lt;/p&gt;
 
@@ -332,7 +332,7 @@
 &lt;li&gt;&lt;strong&gt;Skype&lt;/strong&gt;:   &amp;#10007;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;what-comes-next:b63520bef825180c2999b1f9d2c55e30&#34;&gt;What comes next?&lt;/h3&gt;
+&lt;h3 id=&#34;what-comes-next&#34;&gt;What comes next?&lt;/h3&gt;
 
 &lt;p&gt;I&amp;rsquo;m evaluating 3 different Cloud IDE service at the moment and it worth to mention them. In the next blog post I&amp;rsquo;d love to cover those too. They seem to be competitive to Cloud9 IDE.&lt;/p&gt;
 
@@ -360,7 +360,7 @@
 
 &lt;p&gt;The first part covers information about me and about my work, what kind of apps I use, how I use them and what kind of notebooks I was using before.&lt;/p&gt;
 
-&lt;h3 id=&#34;emotionally-attached-to-apple:d2cb8c1412cb17e378636742e952556d&#34;&gt;Emotionally attached to Apple&lt;/h3&gt;
+&lt;h3 id=&#34;emotionally-attached-to-apple&#34;&gt;Emotionally attached to Apple&lt;/h3&gt;
 
 &lt;p&gt;I&amp;rsquo;m a very long time Apple fan. I bought almost every gadget they made, except the iPhone. iPhone is an exception, because it&amp;rsquo;s so much overpriced and the Google reference phones are way better and cheaper than the iPhones.&lt;/p&gt;
 
@@ -368,7 +368,7 @@
 
 &lt;p&gt;Apple gadgets are really cool. From UX perspective: they&amp;rsquo;re all perfect. Well, almost perfect, but usually better than other things. The big con is usually their price. All of&amp;rsquo;em are overpriced. Yeah. Let&amp;rsquo;s face the truth.&lt;/p&gt;
 
-&lt;h3 id=&#34;i-m-a-devops-engineer:d2cb8c1412cb17e378636742e952556d&#34;&gt;I&amp;rsquo;m a DevOps Engineer&lt;/h3&gt;
+&lt;h3 id=&#34;i-m-a-devops-engineer&#34;&gt;I&amp;rsquo;m a DevOps Engineer&lt;/h3&gt;
 
 &lt;p&gt;I spend most of my time (50%) using a terminal and 50% in a web browser. I was tracking this with RescueTime. For more than 2 years I&amp;rsquo;m not using any e-mail clients like &amp;ldquo;Mail&amp;rdquo;, or &amp;ldquo;PostBox&amp;rdquo;. I was a pretty huge PostBox fan too, but it used up 2-3G memory so I finally deleted it from my Mac.&lt;/p&gt;
 
@@ -400,19 +400,19 @@
 
 &lt;p&gt;But yeah, a MacBook Pro/Air is pretty trendy and can stick cool decals on the back, looks great, made from awesome material and has a great smell for 1-2 month. But I think that&amp;rsquo;s all. I don&amp;rsquo;t think that the fact it&amp;rsquo;s running &lt;a href=&#34;http://www.apple.com/osx/&#34;&gt;OS X&lt;/a&gt; would be listed in the pros column.&lt;/p&gt;
 
-&lt;h3 id=&#34;previous-attempts:d2cb8c1412cb17e378636742e952556d&#34;&gt;Previous attempts&lt;/h3&gt;
+&lt;h3 id=&#34;previous-attempts&#34;&gt;Previous attempts&lt;/h3&gt;
 
 &lt;p&gt;Before I was using Macs, I used custom built notebooks with NetBSD/OpenBSD as my operating system of choice. Those were pretty powerful machines at that time. 2x2.8Ghz CPU with HyperThreading technology. I loved it. After using iBooks for a few years I thought what if I can switch back and use *BSD or Linux on a notebook, so I bought a Toshiba. I tried everything but I wasn&amp;rsquo;t able to &amp;ldquo;like&amp;rdquo; or &amp;ldquo;love&amp;rdquo; it, so finally I gave it to a friend. I bought another MacBook.&lt;/p&gt;
 
 &lt;p&gt;Somehow even a Toshiba notebook with a Linux/BSD wasn&amp;rsquo;t able to impress me. I was disappointed but happy with my new MacBook.&lt;/p&gt;
 
-&lt;h3 id=&#34;why-i-decided-to-switch:d2cb8c1412cb17e378636742e952556d&#34;&gt;Why I decided to switch&lt;/h3&gt;
+&lt;h3 id=&#34;why-i-decided-to-switch&#34;&gt;Why I decided to switch&lt;/h3&gt;
 
 &lt;p&gt;About a month ago I read some news on &lt;a href=&#34;http://hup.hu&#34;&gt;Hungarian Unix Portal&lt;/a&gt; about Chromebooks. The news said that more chromebooks were sold in 2016 Q1-Q2 than MacBooks. This time I couldn&amp;rsquo;t ignore this information.&lt;/p&gt;
 
 &lt;p&gt;4 years ago when I was in San Francisco, the Google Pixel had been just introduced. It was really horrible, everybody said that it&amp;rsquo;s a completely useless laptop. So I started to ignore all news related to Chromebooks, until now.&lt;/p&gt;
 
-&lt;h3 id=&#34;experiment-on-a-macbook-pro:d2cb8c1412cb17e378636742e952556d&#34;&gt;Experiment on a MacBook Pro&lt;/h3&gt;
+&lt;h3 id=&#34;experiment-on-a-macbook-pro&#34;&gt;Experiment on a MacBook Pro&lt;/h3&gt;
 
 &lt;p&gt;Before buying anything, I wanted to make sure that I can survive with only a Chrome browser on my Mac for more than a day. So I suddenly closed all my running apps on my Mac except a Google Chrome. I read a lot of articles about cloud editors and alternatives to local editors.&lt;/p&gt;
 
@@ -420,7 +420,7 @@
 
 &lt;p&gt;I found a few promising cloud IDEs. They mostly provide an ubuntu box too as a terminal. They&amp;rsquo;re docker containers, I can install anything I need on them. They have free subscriptions but they&amp;rsquo;re mostly enough for me. I only need 1 private workspace with a 2G disk and 512M memory. More than what I really need. I also have a personal server at &lt;a href=&#34;https://www.digitalocean.com&#34;&gt;DigitalOcean&lt;/a&gt; so if I need more disk space or capacity, I just used that server too.&lt;/p&gt;
 
-&lt;h3 id=&#34;experiment-on-a-chromebook:d2cb8c1412cb17e378636742e952556d&#34;&gt;Experiment on a Chromebook&lt;/h3&gt;
+&lt;h3 id=&#34;experiment-on-a-chromebook&#34;&gt;Experiment on a Chromebook&lt;/h3&gt;
 
 &lt;p&gt;After about 7 days I was still using only a browser on my Mac so I thought it&amp;rsquo;s a good idea to move ahead and find a cheap used Chromebook for a real ChomeOS experience.&lt;/p&gt;
 
@@ -443,7 +443,7 @@ Acer Crystal Eye HD Webcam&lt;br /&gt;
 
 &lt;p&gt;Such a good little laptop. The keyboard is a bit small, but I can still type on it. I&amp;rsquo;m a dvorak typists so the keyboard is important. If it&amp;rsquo;s too small (like the EeePCs way back) I can&amp;rsquo;t type on them.&lt;/p&gt;
 
-&lt;h3 id=&#34;first-time-user-experience-ftue:d2cb8c1412cb17e378636742e952556d&#34;&gt;First-time User Experience (FTUE)&lt;/h3&gt;
+&lt;h3 id=&#34;first-time-user-experience-ftue&#34;&gt;First-time User Experience (FTUE)&lt;/h3&gt;
 
 &lt;p&gt;Although I bought it as a used laptop it wasn&amp;rsquo;t used at all. It was brand new, it wasn&amp;rsquo;t even unboxed, so I felt the excitement when I started to unbox it. I hadn&amp;rsquo;t seen a non-apple laptop for a good amount of time.&lt;/p&gt;
 
@@ -480,7 +480,7 @@ Acer Crystal Eye HD Webcam&lt;br /&gt;
           <guid>http://blog.wooh.hu/post/how-i-bought-a-nexus5x-and-a-leather-cover/</guid>
           <description>
 
-&lt;h3 id=&#34;loosing-my-beloved-phone:96b1c56c0446a93b7db9992f2b490a22&#34;&gt;Loosing my beloved phone&lt;/h3&gt;
+&lt;h3 id=&#34;loosing-my-beloved-phone&#34;&gt;Loosing my beloved phone&lt;/h3&gt;
 
 &lt;p&gt;I accidentally crashed my beloved &lt;a href=&#34;https://en.wikipedia.org/wiki/Nexus_5&#34;&gt;Nexus 5&lt;/a&gt; three weeks ago. It fell off and I was very unlucky because it landed on it&amp;rsquo;s side, so it ripped apart.&lt;/p&gt;
 
@@ -494,7 +494,7 @@ Acer Crystal Eye HD Webcam&lt;br /&gt;
 
 &lt;p&gt;Meanwhile I ordered something cool to replace the 1Password/Google Authenticator. More to come soon in a next blog post.&lt;/p&gt;
 
-&lt;h3 id=&#34;nexus-5x:96b1c56c0446a93b7db9992f2b490a22&#34;&gt;Nexus 5X&lt;/h3&gt;
+&lt;h3 id=&#34;nexus-5x&#34;&gt;Nexus 5X&lt;/h3&gt;
 
 &lt;p&gt;So I had to decide which phone to buy, the &lt;a href=&#34;http://www.google.com/nexus/5x/&#34;&gt;LG Nexus 5X&lt;/a&gt; or &lt;a href=&#34;http://www.google.com/nexus/6p/&#34;&gt;Huawei Nexus 6P&lt;/a&gt;. The decision wasn&amp;rsquo;t really that hard. I hate huge phones and unfortunately all vendors are creating larger and larger screens&amp;hellip; luckily the Nexus 5X isn&amp;rsquo;t that much larger than the Nexus 5 and it&amp;rsquo;s price is pretty friendly.&lt;/p&gt;
 
@@ -504,7 +504,7 @@ Acer Crystal Eye HD Webcam&lt;br /&gt;
 
 &lt;p&gt;When the Nexus 5X is in your hands, the look and feel is almost the same like a Nexus 5. Except the fingerprint scanner at the back. That is pretty handy and useful. Makes it very convenient to unlock my phone. The screen is wider, the system is a bit faster, better button positioning, but in general it feels like Nexus 5.&lt;/p&gt;
 
-&lt;h3 id=&#34;nillkin-qin-leather-flip-case:96b1c56c0446a93b7db9992f2b490a22&#34;&gt;Nillkin qin leather flip case&lt;/h3&gt;
+&lt;h3 id=&#34;nillkin-qin-leather-flip-case&#34;&gt;Nillkin qin leather flip case&lt;/h3&gt;
 
 &lt;p&gt;To be quite honest I had a cover for my Nexus 5 but it was pretty poky, and I removed it a few month ago. But I wanted to have something elegant for my 5X. Many many years ago, I had my fist Nexus 4 case from &lt;a href=&#34;http://www.mytrendyphone.co.uk&#34;&gt;MyTrendyPhone&lt;/a&gt;, and I ordered a lot from there. Unfortunately the Nexus 5X is not available in Hungary (so actually I had to order it from abroad), so due to this there are no covers available in Hungary.&lt;/p&gt;
 

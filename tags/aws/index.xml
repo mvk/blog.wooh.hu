@@ -32,7 +32,7 @@
  &lt;/div&gt;
 
 
-&lt;h3 id=&#34;the-email-you-never-want-to-get:f2279535fa1b5adb6ac0b81e3bcc6f75&#34;&gt;The Email You NEVER Want to Get&lt;/h3&gt;
+&lt;h3 id=&#34;the-email-you-never-want-to-get&#34;&gt;The Email You NEVER Want to Get&lt;/h3&gt;
 
 &lt;p&gt;Tree days later on a sunny morning, he asked me if there is anything to do with &lt;code&gt;AWS credentials&lt;/code&gt;. He got an e-mail from AWS to remove his AWS credentials. He was pretty calm, had no idea that this is something pretty serious.&lt;/p&gt;
 
@@ -67,7 +67,7 @@ Correspondence: Dear AWS Customer,&lt;/p&gt;
 
 &lt;p&gt;&amp;ldquo;Luckily&amp;rdquo; his instance and spot limit were around 20, so I cancelled all spot bids and terminated all servers too. Double checked all regions.&lt;/p&gt;
 
-&lt;h3 id=&#34;the-worst-part:f2279535fa1b5adb6ac0b81e3bcc6f75&#34;&gt;The worst part&lt;/h3&gt;
+&lt;h3 id=&#34;the-worst-part&#34;&gt;The worst part&lt;/h3&gt;
 
 &lt;p&gt;As the account was cleaned up, it was time to check the billing. His account was exposed for about 2-3 days, which can cause a lot of instance hours. I clicked on the &lt;code&gt;Billing &amp;amp; Cost Management&lt;/code&gt; tab and saw the following on the dashboard:&lt;/p&gt;
 
@@ -85,7 +85,7 @@ Correspondence: Dear AWS Customer,&lt;/p&gt;
 
 &lt;p&gt;I hope this is the case and he won&amp;rsquo;t need to pay that.&lt;/p&gt;
 
-&lt;h3 id=&#34;takeaway:f2279535fa1b5adb6ac0b81e3bcc6f75&#34;&gt;Takeaway&lt;/h3&gt;
+&lt;h3 id=&#34;takeaway&#34;&gt;Takeaway&lt;/h3&gt;
 
 &lt;p&gt;Can&amp;rsquo;t emphasize enough how important is to keep your credentials safe. What can you do to prevent this happening from the future?&lt;/p&gt;
 

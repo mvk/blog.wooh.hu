@@ -6,8 +6,151 @@
     <language>en-us</language>
     <author>Adam Papai</author>
     <rights>(C) 2016</rights>
-    <updated>2016-06-22 15:55:56 &#43;0000 UTC</updated>
+    <updated>2016-06-28 10:36:04 &#43;0000 UTC</updated>
 
+    
+      
+        <item>
+          <title>Codeanywhere - Development on a Chromebook</title>
+          <link>http://blog.wooh.hu/post/codeanywhere-development-on-a-chromebook/</link>
+          <pubDate>Tue, 28 Jun 2016 10:36:04 UTC</pubDate>
+          <author>Adam Papai</author>
+          <guid>http://blog.wooh.hu/post/codeanywhere-development-on-a-chromebook/</guid>
+          <description>
+
+&lt;p&gt;The biggest questions ever asked about Chromebooks: How can you use code on it, how can you run shell scripts and other things. Without enabling Developer mode, your best option is to use a Cloud IDE. Let me show you one. &lt;!-- more --&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;cloud-ide&#34;&gt;Cloud IDE&lt;/h1&gt;
+
+&lt;p&gt;Cloud IDE is a trendy thing nowadays. It’s especially useful for us - Chromebook users. We can’t have fancy IDEs like IntelliJ, Sublime, Vim, etc. We need to use online editors and online services to edit files, run commands on a linux box and so on.&lt;/p&gt;
+
+&lt;p&gt;You can of course use a the &lt;a href=&#34;https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo?hl=en&#34;&gt;Secure Shell&lt;/a&gt; Chrome App as an altervative, but it does not support SSH key auth, and is pretty limited. I did not like it, because I don&amp;rsquo;t want to use password auth, I did not find it secure enough.&lt;/p&gt;
+
+&lt;p&gt;There are actually four Cloud IDEs worth to mention at the moment:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Cloud9 IDE - &lt;a href=&#34;https://c9.io&#34;&gt;https://c9.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Codeanywhere - &lt;a href=&#34;https://codeanywhere.com&#34;&gt;https://codeanywhere.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Koding.com - &lt;a href=&#34;https://koding.com&#34;&gt;https://koding.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Codenvy - &lt;a href=&#34;https://codenvy.com&#34;&gt;https://codenvy.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’m using Cloud9 IDE since I migrated moved to a Chromebook, so I wanted to try another one. Codeanywhere pinged me on Twitter okea week ago or so, and they actually forced me to try out their product. I had already registered an account, so I decided to use it for at least a week.&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/wooh_tw&#34;&gt;@wooh_tw&lt;/a&gt; Have you tried our our Cloud IDE? Would love your feedback? Thanks!&lt;/p&gt;&amp;mdash; Codeanywhere (@Codeanywhere) &lt;a href=&#34;https://twitter.com/Codeanywhere/status/745702443904794624&#34;&gt;June 22, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;h1 id=&#34;pricing&#34;&gt;Pricing&lt;/h1&gt;
+
+&lt;p&gt;A very important part is the pricing. Don’t get me wrong, I love to pay for good a good service, but I don’t like to pay for something I don’t need. This is why it is important for a company to have a good pricing strategy.&lt;/p&gt;
+
+&lt;p&gt;Codeanywhere has a free tier which includes the following features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Web editor&lt;/li&gt;
+&lt;li&gt;Mobile editor&lt;/li&gt;
+&lt;li&gt;SSH terminal&lt;/li&gt;
+&lt;li&gt;Unlimited shares (1 active at a time)&lt;/li&gt;
+&lt;li&gt;1 revision&lt;/li&gt;
+&lt;li&gt;1 Remote Connection (FTP, VM, Cloud)&lt;/li&gt;
+&lt;li&gt;1 Container with 256 MB RAM, 2 GB HDD&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It means I can use the Web UI from any notebook - including a Chromebook of course - and from mobile devices too. The web-based SSH or Terminal Console makes it possible to access any Secure Shell (SSH) servers through Codeanywhere, what’s more I can edit the files using the Codeanywhere Web Editor directly from any FTP, FTPS or SFTP based server.&lt;/p&gt;
+
+&lt;p&gt;Also I get an ubuntu/centos box with 256 MB memory / 2 GB disk space which is more than enough usually. Note that the container won’t run 0-24 (Always on), that feature is available only from the “Freelancer” plan.&lt;/p&gt;
+
+&lt;p&gt;So actually what I do is: I connect to my server using SSH and I’m editing the files there, so I don’t really need the Container provided by Codeanywhere at all. But just for sure the my development environment is also set up there, I just haven’t copied my secret keys yet. On demand I could do that.&lt;/p&gt;
+
+&lt;h1 id=&#34;3rd-party-tools-connections&#34;&gt;3rd party tools / connections&lt;/h1&gt;
+
+&lt;p&gt;I can use a lot of services via Codeanywhere:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/cloudide/codeanywhere/digitalocean.png&#34; alt=&#34;DO&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;DigitalOcean - Codeanywhere is partnered up with &lt;a href=&#34;https://www.digitalocean.com&#34;&gt;DO&lt;/a&gt; so I can manage/connect to your droplets using Codeanywhere UI.&lt;/li&gt;
+&lt;li&gt;Amazon S3 - I can edit files in a bucket. AWS credentials needed.&lt;/li&gt;
+&lt;li&gt;Dropbox - I can edit files on DropBox&lt;/li&gt;
+&lt;li&gt;OneDrive - A brand new thing: You can edit files in OneDrive&lt;/li&gt;
+&lt;li&gt;GitHub - I can easily create a new Container based on a GitHub repository. It auto detects the file types in the repo and offers you to start a new container.&lt;/li&gt;
+&lt;li&gt;BitBucket - I can easily create a new Container based on a GitHub repository. It auto detects the file types in the repo and offers you to start a new container.&lt;/li&gt;
+&lt;li&gt;FTP/SFTP/SSH - As I mentioned before, you can edit files directly on any server.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When you use the Codeanywhere Container instead your own box, you’ll be given a specific hostname and ports 1024-9999 to check your service/website whatever you’re working on. Note that your container won’t run all the time while on a free plan.&lt;/p&gt;
+
+&lt;p&gt;The idea behind the “one container per project” is that the containers are cheap, easy to launch and you can separate your work from other things. I’m not a big fan of this setup, but sometimes it could be handy, but for now I don’t feel the need of it.&lt;/p&gt;
+
+&lt;h1 id=&#34;pros-and-cons&#34;&gt;Pros and Cons&lt;/h1&gt;
+
+&lt;p&gt;So in general, I like Codeanywhere, but - just like any other software - it has bugs or annoying features. Let’s see  the pros and cons. Let’s start with the cons. Not all of them are real cons, rather incompleteness.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sometimes the SSH connection is doubled when I reconnect - reload my browser - and everything is doubled in the terminal. It’s not very frequent, but it happened a few times to me.&lt;/li&gt;
+&lt;li&gt;There is no non-stop visible widget for disk / memory usage, the only way to check it, is run the &lt;code&gt;free&lt;/code&gt; and &lt;code&gt;df&lt;/code&gt; command. Compared to c9.io they have an always on top widget which shows the current CPU/Disk/Memory usage. This is something I’d love to see in Codeanywhere Web IDE too.&lt;/li&gt;
+&lt;li&gt;Copy/Paste from/to a terminal is tricky from a ChromeOS and Windows. You need to use the CTRL + A, CTRL + C, and CTRL + A, CTRL + V to copy and paste. Which is pretty inconvenient to be quite honest. Other Cloud IDE providers can solve this problem.&lt;/li&gt;
+&lt;li&gt;The terminal cursor is blinking and it annoys me pretty much.&lt;/li&gt;
+&lt;li&gt;2FA is only available from the “Freelancer” subscription - for $7 USD / month billed yearly / $10 billed monthly. 2FA should be available for everyone.&lt;/li&gt;
+&lt;li&gt;The starter plan does not make sense. $2 USD / month for a support is so strange for me.&lt;/li&gt;
+&lt;li&gt;No drag&amp;amp;drop to the file explorer, I need to right click on a folder and select upload. Two more click is annoying.&lt;/li&gt;
+&lt;li&gt;Can’t define which Amazon region I want to use, so I usually ended up on us-east-1/us-west-1 instead of eu-central or so. (probably they don’t even have environments in EU)&lt;/li&gt;
+&lt;li&gt;If the code is git versioned, I can’t see which line has changed or not just like in PyCharm/Vim/SublimeText.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Let’s see the pros:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The service is cool as it is.&lt;/li&gt;
+&lt;li&gt;Free subscription plan which allows you to do everything you need.&lt;/li&gt;
+&lt;li&gt;The Web IDE is pretty trendy with customisable themes and colors.&lt;/li&gt;
+&lt;li&gt;Upgrading to the “Freelancer” plan costs only $7 / month.&lt;/li&gt;
+&lt;li&gt;I can edit the files on your server with the Web IDE, which is super cool!&lt;/li&gt;
+&lt;li&gt;No need to use a Container, I can just use a remote connection.&lt;/li&gt;
+&lt;li&gt;You can get a DigitalOcean coupon code!&lt;/li&gt;
+&lt;li&gt;Can use S3, Dropbox, OneDrive, FTP, etc not only a server.&lt;/li&gt;
+&lt;li&gt;Easy to sign-up and start your first Container. It takes about 30-45 sec.&lt;/li&gt;
+&lt;li&gt;Actively developed, they release pretty frequently, community seems to be active.&lt;/li&gt;
+&lt;li&gt;They’re pretty active on twitter.&lt;/li&gt;
+&lt;li&gt;They answer to support tickets in 24hrs even for a free subscription.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
+
+&lt;p&gt;After about a week usage I’m still satisfied. Apart from the few annoying bugs like the copy and paste it really convenient and seems to be stable. During the 1 week period it was always reliable and available. I did not have any connectivity issues which is great.&lt;/p&gt;
+
+&lt;p&gt;All I had to do is copy the my codeanywhere public SSH key to my server and that’s all. I also added it to my GitHub repo, so I can checkout code.&lt;/p&gt;
+
+&lt;p&gt;For security reason, I’m not using the codeanywhere container for private repos, only for open source development. I use my own server for private projects. We all know how hard to secure a docker container, I don’t want to be surprised… :)&lt;/p&gt;
+
+&lt;p&gt;For me the free plan is absolutely enough but if you plan to use it heavily, you would need to sign up for the Freelancer plan, which isn&amp;rsquo;t that much. Just do the math:&lt;/p&gt;
+
+&lt;p&gt;A basic DigitalOcean droplet costs: &lt;strong&gt;$5 / month + backup fee + VAT&lt;/strong&gt;, so it&amp;rsquo;ll be around &lt;strong&gt;$7&lt;/strong&gt;. For this price, you&amp;rsquo;ll get:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;20 GB SSD disk&lt;/li&gt;
+&lt;li&gt;512 MB memory&lt;/li&gt;
+&lt;li&gt;1000 GB data transfer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you sign up to the &lt;strong&gt;Freelancer&lt;/strong&gt; plan and use the containers provided by Codeanywhere you&amp;rsquo;ll get:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Everyhing included in the &lt;strong&gt;Free&lt;/strong&gt; plan&lt;/li&gt;
+&lt;li&gt;1 Always On server, so actually you&amp;rsquo;ll have a 0-24 running server.&lt;/li&gt;
+&lt;li&gt;Premium support via E-mail&lt;/li&gt;
+&lt;li&gt;Two-Factor Authentication&lt;/li&gt;
+&lt;li&gt;10 containers with 512 MB memory + 5 GB disk / each&lt;/li&gt;
+&lt;li&gt;Unlimited shares and 50 active shares&lt;/li&gt;
+&lt;li&gt;50 remote connections (free plan includes 1 only)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Note that there is also a free trial option for the Freelancer plan. In overall you&amp;rsquo;ll get a lot for just $7. It worth to subscribe to the Freelancer plan than using your own droplet at DigitalOcean with a Free plan at Codeanywhere.&lt;/p&gt;
+
+&lt;p&gt;To sum it up: Codeanywhere offers a pretty good service for all Chromebook users. Good job guys, keep up with the good work and I hope the items in the Cons section will be soon fixed/eliminated.&lt;/p&gt;
+</description>
+        </item>
+      
     
       
         <item>
@@ -20,7 +163,7 @@
 
 &lt;p&gt;Earlier I mentioned that I bought an Acer C720P Chromebook. A few weeks ago my new Chromebook arrived: Toshiba Chromebook 2 (2015). The Acer is really great to carry around, the touchscreen is pretty cool too, but the 11.6&amp;rdquo; is way too small for real development. If you use it for development, you won&amp;rsquo;t be able to overview your code, you need to scroll up and down a lot of times.&lt;/p&gt;
 
-&lt;h1 id=&#34;recap:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Recap&lt;/h1&gt;
+&lt;h1 id=&#34;recap&#34;&gt;Recap&lt;/h1&gt;
 
 &lt;p&gt;In case if you missed the previous posts. You can read them below. Note that this post is rather a review than a &lt;strong&gt;how to switch&lt;/strong&gt;, so stay tuned and wait for part IV. where I&amp;rsquo;ll talk about OpenVPN, L2TP/IPsec, Printing, and things that aren&amp;rsquo;t working properly.&lt;/p&gt;
 
@@ -29,7 +172,7 @@
 &lt;li&gt;&lt;a href=&#34;http://blog.wooh.hu/post/switching-to-chromebook-part-2/&#34;&gt;Switching to Chromebook - Part II.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;variety:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Variety&lt;/h1&gt;
+&lt;h1 id=&#34;variety&#34;&gt;Variety&lt;/h1&gt;
 
 &lt;p&gt;I read a lot of posts about what&amp;rsquo;s the best Chromebook. Just to mention a few:&lt;/p&gt;
 
@@ -44,7 +187,7 @@
 
 &lt;p&gt;Mostly all posts agreed that the Toshiba Chromebook 2 is the best after the &lt;a href=&#34;https://pixel.google.com/chromebook-pixel/&#34;&gt;Google Pixel 2&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;toshiba-chromebook-2:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Toshiba Chromebook 2&lt;/h1&gt;
+&lt;h1 id=&#34;toshiba-chromebook-2&#34;&gt;Toshiba Chromebook 2&lt;/h1&gt;
 
 &lt;p&gt;When we&amp;rsquo;re talking about the Toshiba Chromebook 2 note that there are 3 (actually 4) Toshiba Chromebooks.&lt;/p&gt;
 
@@ -57,15 +200,15 @@
 
 &lt;p&gt;You need to know what is the best. Toshiba released 4 Chromebooks in 2 years.&lt;/p&gt;
 
-&lt;h2 id=&#34;toshiba-cb35-a3120-chromebook:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Toshiba CB35-A3120 Chromebook&lt;/h2&gt;
+&lt;h2 id=&#34;toshiba-cb35-a3120-chromebook&#34;&gt;Toshiba CB35-A3120 Chromebook&lt;/h2&gt;
 
 &lt;p&gt;This is known as &lt;strong&gt;Toshiba Chromebook&lt;/strong&gt;. It was the first Toshiba Chromebook. It is just an average Chromebook, you definitely don&amp;rsquo;t want to buy this. &lt;a href=&#34;http://www.pcmag.com/article2/0,2817,2453427,00.asp&#34;&gt;Read the PCMag review here.&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;toshiba-cb35-b3340-chromebook-2:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Toshiba CB35-B3340 Chromebook 2&lt;/h2&gt;
+&lt;h2 id=&#34;toshiba-cb35-b3340-chromebook-2&#34;&gt;Toshiba CB35-B3340 Chromebook 2&lt;/h2&gt;
 
 &lt;p&gt;This is the first &lt;strong&gt;Toshiba Chromebook 2&lt;/strong&gt;. Customers bought it were pretty satisfied. It does not have a fan! So it&amp;rsquo;s pretty quiet, but the CPU speed is limited. &lt;a href=&#34;http://www.pcmag.com/article2/0,2817,2470486,00.asp&#34;&gt;Read the PCMag review here.&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;toshiba-cb35-c3300-cb35-c3350-chromebook-2:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Toshiba CB35-C3300 / CB35-C3350 Chromebook 2&lt;/h2&gt;
+&lt;h2 id=&#34;toshiba-cb35-c3300-cb35-c3350-chromebook-2&#34;&gt;Toshiba CB35-C3300 / CB35-C3350 Chromebook 2&lt;/h2&gt;
 
 &lt;p&gt;The last 2 model is almost the same. The only difference is the CPU. The CB35-C3300 has &lt;strong&gt;Intel Celeron 3215U&lt;/strong&gt;. You can buy with a faster &lt;strong&gt;Intel Celeron i3-5015U8&lt;/strong&gt; CPU, but reviews say: It does not really worth it, it only reduces the battery life and you won&amp;rsquo;t really feel the difference.&lt;/p&gt;
 
@@ -75,7 +218,7 @@
 
 &lt;p&gt;If you live in US, you can buy the C3300 for about $300 USD. If you live in Hungary just like me, it will cost $299.99 + $123.69 Shipping &amp;amp; Import Fees Deposit. Amazon handles everything for you. You&amp;rsquo;ll get it in no time, which means about a week. Since there are absolutely no Chromebooks in Hungary you can&amp;rsquo;t even try it out first, so it was a pig in a poke. How excited I was when it arrived.&lt;/p&gt;
 
-&lt;h1 id=&#34;my-own-review:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;My own review&lt;/h1&gt;
+&lt;h1 id=&#34;my-own-review&#34;&gt;My own review&lt;/h1&gt;
 
 &lt;p&gt;I can only compare the &lt;strong&gt;Toshiba CB35-C3300 Chromebook 2&lt;/strong&gt; to &lt;strong&gt;MacBook Pro&lt;/strong&gt; and &lt;strong&gt;Acer C720P&lt;/strong&gt;.&lt;/p&gt;
 
@@ -89,7 +232,7 @@
 
 &lt;p&gt;In case if you&amp;rsquo;re interested in it&amp;hellip; well I&amp;rsquo;m not using it anymore so you can buy it. I only used it for about a week and Powerwashed it.&lt;/p&gt;
 
-&lt;h2 id=&#34;boxing:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Boxing&lt;/h2&gt;
+&lt;h2 id=&#34;boxing&#34;&gt;Boxing&lt;/h2&gt;
 
 &lt;p&gt;So back to Toshiba. I was pretty excited when it arrived. I quickly removed the wrapping and saw &amp;ldquo;the box&amp;rdquo;.&lt;/p&gt;
 
@@ -107,7 +250,7 @@
 
 &lt;p&gt;The material is plastic. The previous ones were less plastic-feel, but it won&amp;rsquo;t annoy you. What is a bit annoying is that the edges are a bit sharp. The top material is bumpy.&lt;/p&gt;
 
-&lt;h2 id=&#34;backlit-keyboard:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Backlit keyboard&lt;/h2&gt;
+&lt;h2 id=&#34;backlit-keyboard&#34;&gt;Backlit keyboard&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/toshiba/toshiba_5.jpg&#34; alt=&#34;Toshiba 5&#34; /&gt;&lt;/p&gt;
 
@@ -117,13 +260,13 @@
 
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/toshiba/toshiba_10.jpg&#34; alt=&#34;Toshiba 10&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;screen:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Screen&lt;/h2&gt;
+&lt;h2 id=&#34;screen&#34;&gt;Screen&lt;/h2&gt;
 
 &lt;p&gt;The screen in gorgeous and beautiful! I has a full-HD resolution of 1920 x 1080, but it can do 2400 x 1350 too. This won’t be to everyone’s tastes. Text, buttons and other items on screen do look a fair bit smaller. If your eyesight isn’t the best you may find yourself zooming in or manually switching to a lower resolution so you’re not constantly squinting.&lt;/p&gt;
 
 &lt;p&gt;If you aren&amp;rsquo;t using an external screen, you would need to use 125% zoom on all sites to be able to read the text. But I can live with this, it&amp;rsquo;s not that annoying. Customers are complaining about the small text, so probably in a few months there will be some fix. The icons can&amp;rsquo;t be enlarged, so sometimes it&amp;rsquo;s hard to find the app you want to launch, because they&amp;rsquo;re so small.&lt;/p&gt;
 
-&lt;h2 id=&#34;dimensions:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Dimensions&lt;/h2&gt;
+&lt;h2 id=&#34;dimensions&#34;&gt;Dimensions&lt;/h2&gt;
 
 &lt;p&gt;In terms of dimensions it has the same dimensions as a MacBook Pro 13&amp;rdquo; but it weights less. See the photos below.&lt;/p&gt;
 
@@ -135,29 +278,29 @@
 
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/toshiba/toshiba_11.jpg&#34; alt=&#34;Toshiba 11&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;sound:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Sound&lt;/h2&gt;
+&lt;h2 id=&#34;sound&#34;&gt;Sound&lt;/h2&gt;
 
 &lt;p&gt;A big kudos to the Toshiba team for building such a great machine. The sound is perfect! Toshiba teamed up with Skullcandy and built the speakers behind the keyboard. But somehow it sounds like a hifi system. Just look at the Skullcandy logo, it tells everything.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/toshiba/toshiba_12.jpg&#34; alt=&#34;Toshiba 12&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;ports:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Ports&lt;/h2&gt;
+&lt;h2 id=&#34;ports&#34;&gt;Ports&lt;/h2&gt;
 
 &lt;p&gt;So it has USB 3.0 and 2.0, a SD Card reader and a HDMI. Almost enough. I hope they&amp;rsquo;ll include USB-C in the next model, and I would like to charge it via an USB-C port just like the Google Pixel 2. I have a Nexus 5X and I&amp;rsquo;d be happy to charge my phone using my Chromebook.&lt;/p&gt;
 
 &lt;p&gt;Note that it comes with the US power cord, so in case if you want to use it in Hungary, you need converter slots. Luckily I have a lot since we travel a lot to US and Japan, so it&amp;rsquo;s not a big issue. What&amp;rsquo;s more I use more US cords than EU cords.&lt;/p&gt;
 
-&lt;h2 id=&#34;battery:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Battery&lt;/h2&gt;
+&lt;h2 id=&#34;battery&#34;&gt;Battery&lt;/h2&gt;
 
 &lt;p&gt;The battery life seems to be somewhere between 5-7hrs depending on the brightness level. During evening hours the lowest brightness level works too, so you gain a lot of battery life, but you can work in sunshine too, the screen is pretty bright if you set the brightness to the higher level. So your Mac&amp;rsquo;s battery won&amp;rsquo;t last longer, maybe a little.&lt;/p&gt;
 
-&lt;h2 id=&#34;performance:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Performance&lt;/h2&gt;
+&lt;h2 id=&#34;performance&#34;&gt;Performance&lt;/h2&gt;
 
 &lt;p&gt;Some ask how I can live with 4G memory only? Well to be quite honest I have around 23-40 tabs open all the time, listening to youtube without any problem at all. I feel it fast, no slowdown. On the Acer C720P I felt the slowdown after ~10 tabs, but I haven&amp;rsquo;t felt it on the Toshiba.&lt;/p&gt;
 
 &lt;p&gt;The only thing you&amp;rsquo;ll notice is that after a few tabs, the fan will start to spin. It&amp;rsquo;s pretty quiet, but can be annoying in a very quiet room. I haven&amp;rsquo;t got used to it yet.&lt;/p&gt;
 
-&lt;h2 id=&#34;summary:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Summary&lt;/h2&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
 
 &lt;p&gt;I&amp;rsquo;m very satisfied with this Chromebook. I just feels like a Mac, but it&amp;rsquo;s not. It&amp;rsquo;s way less expensive and the IPS Full HD screen amazes me every time when I switch it on. If you&amp;rsquo;re thinking about buying a Chromebook you should buy only this and not anything else.&lt;/p&gt;
 
@@ -179,7 +322,7 @@
 
 &lt;p&gt;I thought I could compress everything in three small chunk post but it seems that&amp;rsquo;s impossible. So expect a lot more blog posts from me on this specific topic.&lt;/p&gt;
 
-&lt;h1 id=&#34;recap:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Recap&lt;/h1&gt;
+&lt;h1 id=&#34;recap&#34;&gt;Recap&lt;/h1&gt;
 
 &lt;p&gt;In case if you missed the previous post:&lt;/p&gt;
 
@@ -187,7 +330,7 @@
 &lt;li&gt;&lt;a href=&#34;http://blog.wooh.hu/post/switching-to-chromebook-part-1/&#34;&gt;Switching to Chromebook - Part I.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;hipchat:b63520bef825180c2999b1f9d2c55e30&#34;&gt;HipChat&lt;/h3&gt;
+&lt;h3 id=&#34;hipchat&#34;&gt;HipChat&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/hipchat.png&#34; alt=&#34;HipChat&#34; /&gt;&lt;/p&gt;
 
@@ -199,7 +342,7 @@
 
 &lt;p&gt;The web app has the same feeling as the native app. Same shortcuts, same UI.&lt;/p&gt;
 
-&lt;h3 id=&#34;slack:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Slack&lt;/h3&gt;
+&lt;h3 id=&#34;slack&#34;&gt;Slack&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/slack_rgb.png&#34; alt=&#34;Slack&#34; /&gt;&lt;/p&gt;
 
@@ -207,7 +350,7 @@
 
 &lt;p&gt;&lt;a href=&#34;https://slack.com&#34;&gt;https://slack.com&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;twitter:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Twitter&lt;/h3&gt;
+&lt;h3 id=&#34;twitter&#34;&gt;Twitter&lt;/h3&gt;
 
 &lt;p&gt;I&amp;rsquo;m a hardcore twitter user, so twitter is mandatory for me. I was using &lt;a href=&#34;https://itunes.apple.com/us/app/tweetdeck-by-twitter/id485812721?mt=12&#34;&gt;TweetDeck by Twitter&lt;/a&gt; on my Mac and I was a bit afraid what I can use after switching to Chromebook.&lt;/p&gt;
 
@@ -217,7 +360,7 @@
 
 &lt;p&gt;&lt;a href=&#34;https://tweetdeck.twitter.com&#34;&gt;https://tweetdeck.twitter.com&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;evernote:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Evernote&lt;/h3&gt;
+&lt;h3 id=&#34;evernote&#34;&gt;Evernote&lt;/h3&gt;
 
 &lt;p&gt;I&amp;rsquo;m a &lt;a href=&#34;http://gettingthingsdone.com/&#34;&gt;Getting Things Done&lt;/a&gt; addict. My wife grew up in Japan, so she loves to plan every second of our life. In 10 years I had to learn how to plan and how to be more productive. I use &lt;a href=&#34;https://evernote.com&#34;&gt;Evernote&lt;/a&gt; as my GTD tool of choice. Before Evernote I tried several things before. First I used &lt;a href=&#34;https://culturedcode.com/things/&#34;&gt;Things&lt;/a&gt; which only supported OS X and iOS. I need a tool for my phone too, so I migrated all my lists to &lt;a href=&#34;https://www.wunderlist.com/&#34;&gt;Wunderlist&lt;/a&gt; which was pretty awesome, but my wife was using Evernote so finally she convinced me to switch.&lt;/p&gt;
 
@@ -229,7 +372,7 @@
 
 &lt;p&gt;Since all my documents are google documents on a Chromebook it&amp;rsquo;s very convenient to use Evernote Beta Web Client and simply mix my notes in evernote with the google documents.&lt;/p&gt;
 
-&lt;h3 id=&#34;skype:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Skype&lt;/h3&gt;
+&lt;h3 id=&#34;skype&#34;&gt;Skype&lt;/h3&gt;
 
 &lt;p&gt;Skype is a very popular IM and Video application. Skype keeps the world talking, for free. Share, message and call - now with group video on mobile and tablet too.&lt;/p&gt;
 
@@ -243,35 +386,35 @@
 
 &lt;p&gt;There is also a native ChromeOS app available: &lt;a href=&#34;https://chrome.google.com/webstore/detail/google-hangouts/knipolnnllmklapflnccelgolnpehhpl?hl=en&#34;&gt;Google Hangouts&lt;/a&gt;. Get it and try it out!&lt;/p&gt;
 
-&lt;h3 id=&#34;sublime-2-pycharm-and-vim:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Sublime 2, PyCharm and Vim&lt;/h3&gt;
+&lt;h3 id=&#34;sublime-2-pycharm-and-vim&#34;&gt;Sublime 2, PyCharm and Vim&lt;/h3&gt;
 
 &lt;p&gt;It&amp;rsquo;s good to know, that there is no native ChromeOS IDE available at the moment. So no way to use Sublime or PyCharm or any well known editor. Sublime Text and PyCharm are available for OS X, Windows and Linux only.&lt;/p&gt;
 
 &lt;p&gt;You need to use a cloud IDE. At the first glance it sounds weird. Using a cloud editor? How? How can I manage/upload files there? Ohh boy, there are plenty of services out there. They are pretty good replacement for Sublime 2 and PyCharm.&lt;/p&gt;
 
-&lt;h3 id=&#34;cloud-ide:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Cloud IDE&lt;/h3&gt;
+&lt;h3 id=&#34;cloud-ide&#34;&gt;Cloud IDE&lt;/h3&gt;
 
 &lt;p&gt;First, I read a lot of articles about the best cloud IDEs. There are around 10 in the market at the moment, but not all are suitable for me. I have expectations of a Cloud IDE.&lt;/p&gt;
 
-&lt;h4 id=&#34;trial-free-tier-good-pricing-plan:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Trial / Free tier /  Good pricing plan&lt;/h4&gt;
+&lt;h4 id=&#34;trial-free-tier-good-pricing-plan&#34;&gt;Trial / Free tier /  Good pricing plan&lt;/h4&gt;
 
 &lt;p&gt;I can spend my money on other things, I don&amp;rsquo;t want to spend all my spare money on a Cloud IDE. It should have a &lt;em&gt;trial&lt;/em&gt; - full version - to try it out. I don&amp;rsquo;t like when the trial does not provide all features, because I can&amp;rsquo;t really decide whether sign-up for a paid plan or evaluate another service.&lt;/p&gt;
 
 &lt;p&gt;It should have a &lt;em&gt;free tier plan&lt;/em&gt; , so I could get a very minimal but 100% usable environment. I can live with 512MB memory and a very little disk space too. CPU is not important for me, I won&amp;rsquo;t compile or mine bitcoin.&lt;/p&gt;
 
-&lt;h4 id=&#34;encapsulated-private-workspaces:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Encapsulated / Private Workspaces&lt;/h4&gt;
+&lt;h4 id=&#34;encapsulated-private-workspaces&#34;&gt;Encapsulated / Private Workspaces&lt;/h4&gt;
 
 &lt;p&gt;Usually the free tier plans are available but don&amp;rsquo;t allow you to protect your sensitive data. They&amp;rsquo;re open to everyone. So a free tier should at least provide 1 private / encapsulated environment, so I can work on &lt;em&gt;non open-source projects&lt;/em&gt;.&lt;/p&gt;
 
-&lt;h4 id=&#34;terminal-emulator:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Terminal Emulator&lt;/h4&gt;
+&lt;h4 id=&#34;terminal-emulator&#34;&gt;Terminal Emulator&lt;/h4&gt;
 
 &lt;p&gt;I also expect a Linux environment with root access, so I can install a lot of things. It can be a Docker on anything else I don&amp;rsquo;t really mind. It does not have to run 0-24. Enough if it&amp;rsquo;s running when I&amp;rsquo;m working with it. If I can open a few ports and test my work that&amp;rsquo;s also a good pro.&lt;/p&gt;
 
-&lt;h4 id=&#34;the-ide-should-be-cool:b63520bef825180c2999b1f9d2c55e30&#34;&gt;The IDE should be cool&lt;/h4&gt;
+&lt;h4 id=&#34;the-ide-should-be-cool&#34;&gt;The IDE should be cool&lt;/h4&gt;
 
 &lt;p&gt;In 2016 I expect a cool, customisable editor with awesome color schemes and themes. I don&amp;rsquo;t like cloud editors with the look of the 90&amp;rsquo;s.&lt;/p&gt;
 
-&lt;h3 id=&#34;cloud9-ide:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Cloud9 IDE&lt;/h3&gt;
+&lt;h3 id=&#34;cloud9-ide&#34;&gt;Cloud9 IDE&lt;/h3&gt;
 
 &lt;p&gt;My first choice of Cloud IDE was the &lt;a href=&#34;https://c9.io&#34;&gt;Cloud9 IDE&lt;/a&gt;. It has all the features I want.&lt;/p&gt;
 
@@ -318,7 +461,7 @@
 
 &lt;p&gt;For more details, please visit &lt;a href=&#34;https://docs.c9.io/docs/&#34;&gt;Cloud9 Docs&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;summary:b63520bef825180c2999b1f9d2c55e30&#34;&gt;Summary&lt;/h3&gt;
+&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
 
 &lt;p&gt;Most of the basic applications have web version which is pretty convenient and makes the switch easier. However if you&amp;rsquo;re a hardcore Skype user, you&amp;rsquo;ll experience degraded service compared to the Windows/Mac application. You won&amp;rsquo;t be able to make voice/video calls, but you can write to your contacts and tell them that they can reach you via Google Hangouts. At least this is a good point.&lt;/p&gt;
 
@@ -332,7 +475,7 @@
 &lt;li&gt;&lt;strong&gt;Skype&lt;/strong&gt;:   &amp;#10007;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;what-comes-next:b63520bef825180c2999b1f9d2c55e30&#34;&gt;What comes next?&lt;/h3&gt;
+&lt;h3 id=&#34;what-comes-next&#34;&gt;What comes next?&lt;/h3&gt;
 
 &lt;p&gt;I&amp;rsquo;m evaluating 3 different Cloud IDE service at the moment and it worth to mention them. In the next blog post I&amp;rsquo;d love to cover those too. They seem to be competitive to Cloud9 IDE.&lt;/p&gt;
 
@@ -360,7 +503,7 @@
 
 &lt;p&gt;The first part covers information about me and about my work, what kind of apps I use, how I use them and what kind of notebooks I was using before.&lt;/p&gt;
 
-&lt;h3 id=&#34;emotionally-attached-to-apple:d2cb8c1412cb17e378636742e952556d&#34;&gt;Emotionally attached to Apple&lt;/h3&gt;
+&lt;h3 id=&#34;emotionally-attached-to-apple&#34;&gt;Emotionally attached to Apple&lt;/h3&gt;
 
 &lt;p&gt;I&amp;rsquo;m a very long time Apple fan. I bought almost every gadget they made, except the iPhone. iPhone is an exception, because it&amp;rsquo;s so much overpriced and the Google reference phones are way better and cheaper than the iPhones.&lt;/p&gt;
 
@@ -368,7 +511,7 @@
 
 &lt;p&gt;Apple gadgets are really cool. From UX perspective: they&amp;rsquo;re all perfect. Well, almost perfect, but usually better than other things. The big con is usually their price. All of&amp;rsquo;em are overpriced. Yeah. Let&amp;rsquo;s face the truth.&lt;/p&gt;
 
-&lt;h3 id=&#34;i-m-a-devops-engineer:d2cb8c1412cb17e378636742e952556d&#34;&gt;I&amp;rsquo;m a DevOps Engineer&lt;/h3&gt;
+&lt;h3 id=&#34;i-m-a-devops-engineer&#34;&gt;I&amp;rsquo;m a DevOps Engineer&lt;/h3&gt;
 
 &lt;p&gt;I spend most of my time (50%) using a terminal and 50% in a web browser. I was tracking this with RescueTime. For more than 2 years I&amp;rsquo;m not using any e-mail clients like &amp;ldquo;Mail&amp;rdquo;, or &amp;ldquo;PostBox&amp;rdquo;. I was a pretty huge PostBox fan too, but it used up 2-3G memory so I finally deleted it from my Mac.&lt;/p&gt;
 
@@ -400,19 +543,19 @@
 
 &lt;p&gt;But yeah, a MacBook Pro/Air is pretty trendy and can stick cool decals on the back, looks great, made from awesome material and has a great smell for 1-2 month. But I think that&amp;rsquo;s all. I don&amp;rsquo;t think that the fact it&amp;rsquo;s running &lt;a href=&#34;http://www.apple.com/osx/&#34;&gt;OS X&lt;/a&gt; would be listed in the pros column.&lt;/p&gt;
 
-&lt;h3 id=&#34;previous-attempts:d2cb8c1412cb17e378636742e952556d&#34;&gt;Previous attempts&lt;/h3&gt;
+&lt;h3 id=&#34;previous-attempts&#34;&gt;Previous attempts&lt;/h3&gt;
 
 &lt;p&gt;Before I was using Macs, I used custom built notebooks with NetBSD/OpenBSD as my operating system of choice. Those were pretty powerful machines at that time. 2x2.8Ghz CPU with HyperThreading technology. I loved it. After using iBooks for a few years I thought what if I can switch back and use *BSD or Linux on a notebook, so I bought a Toshiba. I tried everything but I wasn&amp;rsquo;t able to &amp;ldquo;like&amp;rdquo; or &amp;ldquo;love&amp;rdquo; it, so finally I gave it to a friend. I bought another MacBook.&lt;/p&gt;
 
 &lt;p&gt;Somehow even a Toshiba notebook with a Linux/BSD wasn&amp;rsquo;t able to impress me. I was disappointed but happy with my new MacBook.&lt;/p&gt;
 
-&lt;h3 id=&#34;why-i-decided-to-switch:d2cb8c1412cb17e378636742e952556d&#34;&gt;Why I decided to switch&lt;/h3&gt;
+&lt;h3 id=&#34;why-i-decided-to-switch&#34;&gt;Why I decided to switch&lt;/h3&gt;
 
 &lt;p&gt;About a month ago I read some news on &lt;a href=&#34;http://hup.hu&#34;&gt;Hungarian Unix Portal&lt;/a&gt; about Chromebooks. The news said that more chromebooks were sold in 2016 Q1-Q2 than MacBooks. This time I couldn&amp;rsquo;t ignore this information.&lt;/p&gt;
 
 &lt;p&gt;4 years ago when I was in San Francisco, the Google Pixel had been just introduced. It was really horrible, everybody said that it&amp;rsquo;s a completely useless laptop. So I started to ignore all news related to Chromebooks, until now.&lt;/p&gt;
 
-&lt;h3 id=&#34;experiment-on-a-macbook-pro:d2cb8c1412cb17e378636742e952556d&#34;&gt;Experiment on a MacBook Pro&lt;/h3&gt;
+&lt;h3 id=&#34;experiment-on-a-macbook-pro&#34;&gt;Experiment on a MacBook Pro&lt;/h3&gt;
 
 &lt;p&gt;Before buying anything, I wanted to make sure that I can survive with only a Chrome browser on my Mac for more than a day. So I suddenly closed all my running apps on my Mac except a Google Chrome. I read a lot of articles about cloud editors and alternatives to local editors.&lt;/p&gt;
 
@@ -420,7 +563,7 @@
 
 &lt;p&gt;I found a few promising cloud IDEs. They mostly provide an ubuntu box too as a terminal. They&amp;rsquo;re docker containers, I can install anything I need on them. They have free subscriptions but they&amp;rsquo;re mostly enough for me. I only need 1 private workspace with a 2G disk and 512M memory. More than what I really need. I also have a personal server at &lt;a href=&#34;https://www.digitalocean.com&#34;&gt;DigitalOcean&lt;/a&gt; so if I need more disk space or capacity, I just used that server too.&lt;/p&gt;
 
-&lt;h3 id=&#34;experiment-on-a-chromebook:d2cb8c1412cb17e378636742e952556d&#34;&gt;Experiment on a Chromebook&lt;/h3&gt;
+&lt;h3 id=&#34;experiment-on-a-chromebook&#34;&gt;Experiment on a Chromebook&lt;/h3&gt;
 
 &lt;p&gt;After about 7 days I was still using only a browser on my Mac so I thought it&amp;rsquo;s a good idea to move ahead and find a cheap used Chromebook for a real ChomeOS experience.&lt;/p&gt;
 
@@ -443,7 +586,7 @@ Acer Crystal Eye HD Webcam&lt;br /&gt;
 
 &lt;p&gt;Such a good little laptop. The keyboard is a bit small, but I can still type on it. I&amp;rsquo;m a dvorak typists so the keyboard is important. If it&amp;rsquo;s too small (like the EeePCs way back) I can&amp;rsquo;t type on them.&lt;/p&gt;
 
-&lt;h3 id=&#34;first-time-user-experience-ftue:d2cb8c1412cb17e378636742e952556d&#34;&gt;First-time User Experience (FTUE)&lt;/h3&gt;
+&lt;h3 id=&#34;first-time-user-experience-ftue&#34;&gt;First-time User Experience (FTUE)&lt;/h3&gt;
 
 &lt;p&gt;Although I bought it as a used laptop it wasn&amp;rsquo;t used at all. It was brand new, it wasn&amp;rsquo;t even unboxed, so I felt the excitement when I started to unbox it. I hadn&amp;rsquo;t seen a non-apple laptop for a good amount of time.&lt;/p&gt;
 
@@ -480,7 +623,7 @@ Acer Crystal Eye HD Webcam&lt;br /&gt;
           <guid>http://blog.wooh.hu/post/how-i-bought-a-nexus5x-and-a-leather-cover/</guid>
           <description>
 
-&lt;h3 id=&#34;loosing-my-beloved-phone:96b1c56c0446a93b7db9992f2b490a22&#34;&gt;Loosing my beloved phone&lt;/h3&gt;
+&lt;h3 id=&#34;loosing-my-beloved-phone&#34;&gt;Loosing my beloved phone&lt;/h3&gt;
 
 &lt;p&gt;I accidentally crashed my beloved &lt;a href=&#34;https://en.wikipedia.org/wiki/Nexus_5&#34;&gt;Nexus 5&lt;/a&gt; three weeks ago. It fell off and I was very unlucky because it landed on it&amp;rsquo;s side, so it ripped apart.&lt;/p&gt;
 
@@ -494,7 +637,7 @@ Acer Crystal Eye HD Webcam&lt;br /&gt;
 
 &lt;p&gt;Meanwhile I ordered something cool to replace the 1Password/Google Authenticator. More to come soon in a next blog post.&lt;/p&gt;
 
-&lt;h3 id=&#34;nexus-5x:96b1c56c0446a93b7db9992f2b490a22&#34;&gt;Nexus 5X&lt;/h3&gt;
+&lt;h3 id=&#34;nexus-5x&#34;&gt;Nexus 5X&lt;/h3&gt;
 
 &lt;p&gt;So I had to decide which phone to buy, the &lt;a href=&#34;http://www.google.com/nexus/5x/&#34;&gt;LG Nexus 5X&lt;/a&gt; or &lt;a href=&#34;http://www.google.com/nexus/6p/&#34;&gt;Huawei Nexus 6P&lt;/a&gt;. The decision wasn&amp;rsquo;t really that hard. I hate huge phones and unfortunately all vendors are creating larger and larger screens&amp;hellip; luckily the Nexus 5X isn&amp;rsquo;t that much larger than the Nexus 5 and it&amp;rsquo;s price is pretty friendly.&lt;/p&gt;
 
@@ -504,7 +647,7 @@ Acer Crystal Eye HD Webcam&lt;br /&gt;
 
 &lt;p&gt;When the Nexus 5X is in your hands, the look and feel is almost the same like a Nexus 5. Except the fingerprint scanner at the back. That is pretty handy and useful. Makes it very convenient to unlock my phone. The screen is wider, the system is a bit faster, better button positioning, but in general it feels like Nexus 5.&lt;/p&gt;
 
-&lt;h3 id=&#34;nillkin-qin-leather-flip-case:96b1c56c0446a93b7db9992f2b490a22&#34;&gt;Nillkin qin leather flip case&lt;/h3&gt;
+&lt;h3 id=&#34;nillkin-qin-leather-flip-case&#34;&gt;Nillkin qin leather flip case&lt;/h3&gt;
 
 &lt;p&gt;To be quite honest I had a cover for my Nexus 5 but it was pretty poky, and I removed it a few month ago. But I wanted to have something elegant for my 5X. Many many years ago, I had my fist Nexus 4 case from &lt;a href=&#34;http://www.mytrendyphone.co.uk&#34;&gt;MyTrendyPhone&lt;/a&gt;, and I ordered a lot from there. Unfortunately the Nexus 5X is not available in Hungary (so actually I had to order it from abroad), so due to this there are no covers available in Hungary.&lt;/p&gt;
 
@@ -544,7 +687,7 @@ Acer Crystal Eye HD Webcam&lt;br /&gt;
  &lt;/div&gt;
 
 
-&lt;h3 id=&#34;the-email-you-never-want-to-get:f2279535fa1b5adb6ac0b81e3bcc6f75&#34;&gt;The Email You NEVER Want to Get&lt;/h3&gt;
+&lt;h3 id=&#34;the-email-you-never-want-to-get&#34;&gt;The Email You NEVER Want to Get&lt;/h3&gt;
 
 &lt;p&gt;Tree days later on a sunny morning, he asked me if there is anything to do with &lt;code&gt;AWS credentials&lt;/code&gt;. He got an e-mail from AWS to remove his AWS credentials. He was pretty calm, had no idea that this is something pretty serious.&lt;/p&gt;
 
@@ -579,7 +722,7 @@ Correspondence: Dear AWS Customer,&lt;/p&gt;
 
 &lt;p&gt;&amp;ldquo;Luckily&amp;rdquo; his instance and spot limit were around 20, so I cancelled all spot bids and terminated all servers too. Double checked all regions.&lt;/p&gt;
 
-&lt;h3 id=&#34;the-worst-part:f2279535fa1b5adb6ac0b81e3bcc6f75&#34;&gt;The worst part&lt;/h3&gt;
+&lt;h3 id=&#34;the-worst-part&#34;&gt;The worst part&lt;/h3&gt;
 
 &lt;p&gt;As the account was cleaned up, it was time to check the billing. His account was exposed for about 2-3 days, which can cause a lot of instance hours. I clicked on the &lt;code&gt;Billing &amp;amp; Cost Management&lt;/code&gt; tab and saw the following on the dashboard:&lt;/p&gt;
 
@@ -597,7 +740,7 @@ Correspondence: Dear AWS Customer,&lt;/p&gt;
 
 &lt;p&gt;I hope this is the case and he won&amp;rsquo;t need to pay that.&lt;/p&gt;
 
-&lt;h3 id=&#34;takeaway:f2279535fa1b5adb6ac0b81e3bcc6f75&#34;&gt;Takeaway&lt;/h3&gt;
+&lt;h3 id=&#34;takeaway&#34;&gt;Takeaway&lt;/h3&gt;
 
 &lt;p&gt;Can&amp;rsquo;t emphasize enough how important is to keep your credentials safe. What can you do to prevent this happening from the future?&lt;/p&gt;
 
@@ -631,7 +774,7 @@ Correspondence: Dear AWS Customer,&lt;/p&gt;
           <guid>http://blog.wooh.hu/post/trigger-jenkins-build-securely-using-github-and-aws/</guid>
           <description>
 
-&lt;h3 id=&#34;because-security-does-matter:1f40da5ea83fe9e4190a55b044534933&#34;&gt;Because security does matter&lt;/h3&gt;
+&lt;h3 id=&#34;because-security-does-matter&#34;&gt;Because security does matter&lt;/h3&gt;
 
 &lt;p&gt;I can say that I&amp;rsquo;ve seen thousands of &lt;a href=&#34;http://beta.jenkinci.io&#34;&gt;Jenkins&lt;/a&gt; masters. The non enterprise ones are usually triggering the builds via &lt;a href=&#34;https://www.github.com&#34;&gt;GitHub&lt;/a&gt; webhooks. You can do this via the &lt;a href=&#34;https://wiki.jenkins-ci.org/display/JENKINS/GitHub+Plugin&#34;&gt;GitHub Plugin&lt;/a&gt;. It&amp;rsquo;s mandatory to allow github to reach your jenkins master if you want to use this method. But there is a trade-off. Security vs. comfy webhooks&amp;hellip;&lt;/p&gt;
 
@@ -639,7 +782,7 @@ Correspondence: Dear AWS Customer,&lt;/p&gt;
 
 &lt;p&gt;Although using frequent SCM polling on hundreds of repos will cause huge I/O and CPU overload on your jenkins masters, so this blog post is mostly for Enterprise Jenkins customers and for the ones who want to secure and lock down their jenkins.&lt;/p&gt;
 
-&lt;h3 id=&#34;the-proper-way:1f40da5ea83fe9e4190a55b044534933&#34;&gt;The proper way&lt;/h3&gt;
+&lt;h3 id=&#34;the-proper-way&#34;&gt;The proper way&lt;/h3&gt;
 
 &lt;p&gt;Luckily there is a plugin out there for a long time, but for some reason it remained unnoticed until now. The anonym plugin statistic says there is around only &lt;strong&gt;457&lt;/strong&gt; installations for this plugin. How come? What is this plugin?&lt;/p&gt;
 
@@ -657,7 +800,7 @@ Correspondence: Dear AWS Customer,&lt;/p&gt;
 
 &lt;p&gt;Ohh, but this is super cool. Jenkins is simply polling an &lt;code&gt;Amazon SQS&lt;/code&gt; queue. This does not cause I/O at all. If there is a &lt;code&gt;git push&lt;/code&gt;, GitHub sends the payload using &lt;code&gt;Amazon SNS&lt;/code&gt;, and the payload finally ends up in the &lt;code&gt;Amazon SQS&lt;/code&gt;. Jenkins just grabs the payload and triggers any jobs that have a matching github repository configuration.&lt;/p&gt;
 
-&lt;h3 id=&#34;setup:1f40da5ea83fe9e4190a55b044534933&#34;&gt;Setup&lt;/h3&gt;
+&lt;h3 id=&#34;setup&#34;&gt;Setup&lt;/h3&gt;
 
 &lt;p&gt;The requirements are the following:&lt;/p&gt;
 
@@ -667,7 +810,7 @@ Correspondence: Dear AWS Customer,&lt;/p&gt;
 &lt;li&gt;Jenkins&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;amazon-sqs-configuration:1f40da5ea83fe9e4190a55b044534933&#34;&gt;Amazon SQS configuration&lt;/h3&gt;
+&lt;h3 id=&#34;amazon-sqs-configuration&#34;&gt;Amazon SQS configuration&lt;/h3&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;As a first step, login to your AWS console, select SQS service and create a new queue.&lt;/p&gt;
@@ -683,7 +826,7 @@ Correspondence: Dear AWS Customer,&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/jenkins-github-aws/create_sqs_3.jpg&#34; alt=&#34;SQS&#34; title=&#34;SQS Summary&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&#34;amazon-sns-configuration:1f40da5ea83fe9e4190a55b044534933&#34;&gt;Amazon SNS configuration&lt;/h3&gt;
+&lt;h3 id=&#34;amazon-sns-configuration&#34;&gt;Amazon SNS configuration&lt;/h3&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;Select SNS service in the AWS console and create a new topic.&lt;/p&gt;
@@ -699,7 +842,7 @@ Correspondence: Dear AWS Customer,&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/jenkins-github-aws/create_sns_3.jpg&#34; alt=&#34;SNS&#34; title=&#34;SNS Summary&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&#34;amazon-iam-configuration:1f40da5ea83fe9e4190a55b044534933&#34;&gt;Amazon IAM configuration&lt;/h3&gt;
+&lt;h3 id=&#34;amazon-iam-configuration&#34;&gt;Amazon IAM configuration&lt;/h3&gt;
 
 &lt;p&gt;It&amp;rsquo;s time to create an &lt;code&gt;AWS Access Key ID&lt;/code&gt; and  &lt;code&gt;Secret Access Key&lt;/code&gt; for your jenkins and GitHub service. Select the &lt;code&gt;IAM&lt;/code&gt; service and create a new user. By default generate an access key. Let&amp;rsquo;s call this user &lt;code&gt;jenkins&lt;/code&gt; too. Record the credentials.&lt;/p&gt;
 
@@ -713,11 +856,11 @@ AWS_SECRET_ACCESS_KEY=Aq9x...
 
 &lt;p&gt;The Amazon Web Services configuration is now complete.&lt;/p&gt;
 
-&lt;h3 id=&#34;github-configuration:1f40da5ea83fe9e4190a55b044534933&#34;&gt;GitHub configuration&lt;/h3&gt;
+&lt;h3 id=&#34;github-configuration&#34;&gt;GitHub configuration&lt;/h3&gt;
 
 &lt;p&gt;In case if your jenkins master has the rights to manage webhooks on GitHub, you can skip the next SQS configuration section. I usually don&amp;rsquo;t allow my jenkins to manage github hooks, because that requires administrative rights on a specific repo or even in the organisation.&lt;/p&gt;
 
-&lt;h3 id=&#34;github-webhook-sqs-configuration:1f40da5ea83fe9e4190a55b044534933&#34;&gt;GitHub webhook SQS configuration&lt;/h3&gt;
+&lt;h3 id=&#34;github-webhook-sqs-configuration&#34;&gt;GitHub webhook SQS configuration&lt;/h3&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;Select your repository and select the &lt;code&gt;Settings&lt;/code&gt; tab.&lt;/p&gt;&lt;/li&gt;
@@ -733,7 +876,7 @@ AWS_SECRET_ACCESS_KEY=Aq9x...
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/jenkins-github-aws/github_2_sqs.jpg&#34; alt=&#34;SQS&#34; title=&#34;SQS github&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&#34;github-webhook-sns-configuration:1f40da5ea83fe9e4190a55b044534933&#34;&gt;GitHub webhook SNS configuration&lt;/h3&gt;
+&lt;h3 id=&#34;github-webhook-sns-configuration&#34;&gt;GitHub webhook SNS configuration&lt;/h3&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;Select your repository and select the &lt;code&gt;Settings&lt;/code&gt; tab.&lt;/p&gt;&lt;/li&gt;
@@ -751,7 +894,7 @@ AWS_SECRET_ACCESS_KEY=Aq9x...
 
 &lt;p&gt;The GitHub configuration is now complete.&lt;/p&gt;
 
-&lt;h3 id=&#34;jenkins-general-configuration:1f40da5ea83fe9e4190a55b044534933&#34;&gt;Jenkins general configuration&lt;/h3&gt;
+&lt;h3 id=&#34;jenkins-general-configuration&#34;&gt;Jenkins general configuration&lt;/h3&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;Install &lt;code&gt;GitHub SQS Plugin&lt;/code&gt; via the plugin manager and restart your jenkins.&lt;/p&gt;&lt;/li&gt;
@@ -765,17 +908,17 @@ AWS_SECRET_ACCESS_KEY=Aq9x...
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/jenkins-github-aws/jenkins_1.jpg&#34; alt=&#34;jenkins&#34; title=&#34;Jenkins SQS&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&#34;jenkins-job-configuration:1f40da5ea83fe9e4190a55b044534933&#34;&gt;Jenkins job configuration&lt;/h3&gt;
+&lt;h3 id=&#34;jenkins-job-configuration&#34;&gt;Jenkins job configuration&lt;/h3&gt;
 
 &lt;p&gt;Go to your job&amp;rsquo;s configuration page and locate the &lt;code&gt;Build Triggers&lt;/code&gt; section. Enable the &lt;code&gt;Build when a message is published to an SQS Queue&lt;/code&gt; option and hit &lt;code&gt;Save&lt;/code&gt; or &lt;code&gt;Apply&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/jenkins-github-aws/jenkins_2.jpg&#34; alt=&#34;jenkins&#34; title=&#34;Jenkins SQS&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;profit:1f40da5ea83fe9e4190a55b044534933&#34;&gt;Profit&lt;/h3&gt;
+&lt;h3 id=&#34;profit&#34;&gt;Profit&lt;/h3&gt;
 
 &lt;p&gt;We&amp;rsquo;re all set. Your jenkins job is configured and will be triggered when somebody pushes a code to the repository. It clean and safe.&lt;/p&gt;
 
-&lt;h3 id=&#34;references:1f40da5ea83fe9e4190a55b044534933&#34;&gt;References&lt;/h3&gt;
+&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://beta.jenkins.io&#34;&gt;Jenkins&lt;/a&gt;&lt;/li&gt;
@@ -798,7 +941,7 @@ AWS_SECRET_ACCESS_KEY=Aq9x...
           <guid>http://blog.wooh.hu/post/on-my-way-to-health/</guid>
           <description>
 
-&lt;h3 id=&#34;reduced-nsaid-doseage:4111c14b995bb0d06acc50e622eb4f5d&#34;&gt;Reduced NSAID doseage&lt;/h3&gt;
+&lt;h3 id=&#34;reduced-nsaid-doseage&#34;&gt;Reduced NSAID doseage&lt;/h3&gt;
 
 &lt;p&gt;The doctor changed the NSAID doses on saturday. He prescribed a new NSAID called Xilox (Nimesulide). So since Saturday I had to take:&lt;/p&gt;
 
@@ -816,21 +959,21 @@ AWS_SECRET_ACCESS_KEY=Aq9x...
 
 &lt;p&gt;Taking NSAIDs have a tradeoff: No pain, no inflammation. But long-term, high-dose NSAID use to a greater risk for heart attack, stroke, heart failure and death from cardiovascular disease.&lt;/p&gt;
 
-&lt;h3 id=&#34;daily-excercise:4111c14b995bb0d06acc50e622eb4f5d&#34;&gt;Daily excercise&lt;/h3&gt;
+&lt;h3 id=&#34;daily-excercise&#34;&gt;Daily excercise&lt;/h3&gt;
 
 &lt;p&gt;Every morning after I wake up, I do a few excercises to warm up my ankle. For example I have to push a ball to the wall. So entertaining..&lt;/p&gt;
 
 &lt;p&gt;I put on my shoes and walk small distances with only 1 crutch. Frist I stared with 2 cruches but I can put more weight on it, so one is enough. I still can&amp;rsquo;t put 100% weight on it, still need a few more days.&lt;/p&gt;
 
-&lt;h3 id=&#34;no-more-pain:4111c14b995bb0d06acc50e622eb4f5d&#34;&gt;No more pain&lt;/h3&gt;
+&lt;h3 id=&#34;no-more-pain&#34;&gt;No more pain&lt;/h3&gt;
 
 &lt;p&gt;I haven&amp;rsquo;t experienced pain in the last ~4 days, even with reduced amount of NSAID. It&amp;rsquo;s pretty good. The ankle isn&amp;rsquo;t hot, no more swelling.&lt;/p&gt;
 
-&lt;h3 id=&#34;ride-getting-ready:4111c14b995bb0d06acc50e622eb4f5d&#34;&gt;Ride! Getting ready&lt;/h3&gt;
+&lt;h3 id=&#34;ride-getting-ready&#34;&gt;Ride! Getting ready&lt;/h3&gt;
 
 &lt;p&gt;I&amp;rsquo;m really excited to get on my bike again, but I have to be patient. I know that in about 2 weeks I&amp;rsquo;ll be able to ride again, of course I won&amp;rsquo;t be able to continue my training plan. I think during the rest of the season I&amp;rsquo;ll mostly do &lt;code&gt;E2&lt;/code&gt; aka. Endurance-Miles rides only. That means just do as much long rides as I can, in my Heart Rate zone 2. That will prevent my ankle from any overload/overtrain.&lt;/p&gt;
 
-&lt;h3 id=&#34;compared-to-2013-it-was-pretty-quick:4111c14b995bb0d06acc50e622eb4f5d&#34;&gt;Compared to 2013 it was pretty quick&lt;/h3&gt;
+&lt;h3 id=&#34;compared-to-2013-it-was-pretty-quick&#34;&gt;Compared to 2013 it was pretty quick&lt;/h3&gt;
 
 &lt;p&gt;I had the same issue in 2013 when I was in the US. After flying to San Francisco, I experienced a huge pain in my ankle after the very first day. That year it took about 5-6 months to recover. I tried every treatment without any luck. I was very frustrated and had no idea what was going on. Luckily just before I had to fly again to US (Seattle) it suddenly improved, so I could accept an offer.&lt;/p&gt;
 </description>
@@ -846,11 +989,11 @@ AWS_SECRET_ACCESS_KEY=Aq9x...
           <guid>http://blog.wooh.hu/post/acute-inflammation/</guid>
           <description>
 
-&lt;h1 id=&#34;why-my-ankle-inflammation-sucks:e1fcc30f006df7a2160b310feaecd78b&#34;&gt;Why My Ankle Inflammation Sucks?&lt;/h1&gt;
+&lt;h1 id=&#34;why-my-ankle-inflammation-sucks&#34;&gt;Why My Ankle Inflammation Sucks?&lt;/h1&gt;
 
 &lt;p&gt;It sucks for many reasons.&lt;/p&gt;
 
-&lt;h2 id=&#34;loosing-fittness:e1fcc30f006df7a2160b310feaecd78b&#34;&gt;Loosing Fittness&lt;/h2&gt;
+&lt;h2 id=&#34;loosing-fittness&#34;&gt;Loosing Fittness&lt;/h2&gt;
 
 &lt;p&gt;For every bike rider, the season starts around October. We start the preparation period around early or mid October. I thought I was going to race this year, so I started a very strict training plan.&lt;/p&gt;
 
@@ -858,19 +1001,19 @@ AWS_SECRET_ACCESS_KEY=Aq9x...
 
 &lt;p&gt;The &lt;strong&gt;real&lt;/strong&gt; training would started from 14th of February. Well I had no chance. As you can see on the graph, my fittness is going sharply down. Although my form is pretty good, but currently I&amp;rsquo;m at the same level as I was in November. No good.&lt;/p&gt;
 
-&lt;h2 id=&#34;can-t-let-out-some-steam:e1fcc30f006df7a2160b310feaecd78b&#34;&gt;Can&amp;rsquo;t Let Out Some Steam&lt;/h2&gt;
+&lt;h2 id=&#34;can-t-let-out-some-steam&#34;&gt;Can&amp;rsquo;t Let Out Some Steam&lt;/h2&gt;
 
 &lt;p&gt;For me, riding is indispensable. I&amp;rsquo;m working from home, and I rarely go outside. There is no daily contact with anyone. I need to ride 1-3 hours a day to let out the steam, otherwise I&amp;rsquo;m frustrated and unhappy.&lt;/p&gt;
 
 &lt;p&gt;Just you, your bike and the nature. I try to ride on roads with no traffic at all. I really miss it.&lt;/p&gt;
 
-&lt;h2 id=&#34;can-t-play-with-my-son:e1fcc30f006df7a2160b310feaecd78b&#34;&gt;Can&amp;rsquo;t Play With My Son&lt;/h2&gt;
+&lt;h2 id=&#34;can-t-play-with-my-son&#34;&gt;Can&amp;rsquo;t Play With My Son&lt;/h2&gt;
 
 &lt;p&gt;My son is 17 months old and loves to move around the house. Fortunately he&amp;rsquo;s pretty adaptive and he&amp;rsquo;s playing next to me on the couch, but this is not what he deserves.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/ankle/bogyi.jpg&#34; alt=&#34;Bogyi&#34; /&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;so-what-s-happening-now:e1fcc30f006df7a2160b310feaecd78b&#34;&gt;So What&amp;rsquo;s Happening Now?&lt;/h1&gt;
+&lt;h1 id=&#34;so-what-s-happening-now&#34;&gt;So What&amp;rsquo;s Happening Now?&lt;/h1&gt;
 
 &lt;p&gt;A month has passed away and I finally I could see light at the end of the tunnel. I went to see a doctor on Saturday, so he finally did some X-Rays and told me that there is nothing serious. He prescribed another NSAID. I have to put a little more weight on it every day and do some excercises while taking the NSAIDs.&lt;/p&gt;
 
@@ -888,13 +1031,13 @@ AWS_SECRET_ACCESS_KEY=Aq9x...
           <guid>http://blog.wooh.hu/post/mexican-trip/</guid>
           <description>
 
-&lt;h1 id=&#34;ominous-signs:43caf39167a754ecfddbe242b24cc8fe&#34;&gt;Ominous Signs&lt;/h1&gt;
+&lt;h1 id=&#34;ominous-signs&#34;&gt;Ominous Signs&lt;/h1&gt;
 
 &lt;p&gt;About 2 months ago, our CEO sent us an e-mail. It said that we will have another Kick-Off 2016 company wide meeting in &lt;code&gt;Mexico&lt;/code&gt; this time. Last year we were told we won&amp;rsquo;t have another one.&lt;/p&gt;
 
 &lt;p&gt;We had to reserve our plain tickets almost immediately so had no such time to think it over. The trip takes approximately &lt;strong&gt;35+ hours&lt;/strong&gt; from &lt;code&gt;Budapest&lt;/code&gt; to &lt;code&gt;Ixtapa&lt;/code&gt;. That is enormously long flight.&lt;/p&gt;
 
-&lt;h2 id=&#34;physiotherapy:43caf39167a754ecfddbe242b24cc8fe&#34;&gt;Physiotherapy&lt;/h2&gt;
+&lt;h2 id=&#34;physiotherapy&#34;&gt;Physiotherapy&lt;/h2&gt;
 
 &lt;p&gt;About 1,5 month before the trip, my wife introduced to her physiotherapist - Eva -, so she started to work on me too. After 2 weeks we started to work on my ankle too. I can&amp;rsquo;t properly bend my ankle, because my leg was operated several times (15 times) when I was 15-18 and somehow my ankle was affected by the op, although the ankle itself was never operated.&lt;/p&gt;
 
@@ -904,7 +1047,7 @@ AWS_SECRET_ACCESS_KEY=Aq9x...
 
 &lt;p&gt;I was cautious enough so I packed a lot of &lt;a href=&#34;https://en.wikipedia.org/wiki/Nonsteroidal_anti-inflammatory_drug&#34;&gt;NSAID&lt;/a&gt; (algoflex - ibuprofen) with me for the mexican trip. Unfortunately I was right&amp;hellip;&lt;/p&gt;
 
-&lt;h2 id=&#34;budapest-paris-2hrs-5hrs:43caf39167a754ecfddbe242b24cc8fe&#34;&gt;Budapest - Paris /2hrs + 5hrs/&lt;/h2&gt;
+&lt;h2 id=&#34;budapest-paris-2hrs-5hrs&#34;&gt;Budapest - Paris /2hrs + 5hrs/&lt;/h2&gt;
 
 &lt;p&gt;I had to be at the airport around 13:00, left home around 12:30. The first flight from &lt;code&gt;Budapest&lt;/code&gt; to &lt;code&gt;Paris&lt;/code&gt; took only ~2hrs, not a big deal, but there I had to wait 5 hrs for the connection fly. I stumbled upon a former colleague from Prezi, so we were chatting on the plane and while we were waiting for our connection flight in Paris.&lt;/p&gt;
 
@@ -914,7 +1057,7 @@ AWS_SECRET_ACCESS_KEY=Aq9x...
 
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/mexico/bud-cdg.png&#34; alt=&#34;Budapest to Paris&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;paris-mexico-city-12hrs-7hrs:43caf39167a754ecfddbe242b24cc8fe&#34;&gt;Paris - Mexico City /12hrs + 7hrs/&lt;/h2&gt;
+&lt;h2 id=&#34;paris-mexico-city-12hrs-7hrs&#34;&gt;Paris - Mexico City /12hrs + 7hrs/&lt;/h2&gt;
 
 &lt;p&gt;Before the flight I took a &lt;a href=&#34;https://en.wikipedia.org/wiki/Nonsteroidal_anti-inflammatory_drug&#34;&gt;NSAID&lt;/a&gt; and 2 &lt;a href=&#34;http://www.hazipatika.com/gyogyszerkereso/termek/detralex_500_mg_filmtabletta/443&#34;&gt;Detralex&lt;/a&gt; to reduce the risk of a &lt;a href=&#34;https://en.wikipedia.org/wiki/Thrombosis&#34;&gt;thrombosis&lt;/a&gt;. I wasn&amp;rsquo;t lucky and so I couldn&amp;rsquo;t upgrade my seat. Shit.&lt;/p&gt;
 
@@ -928,7 +1071,7 @@ AWS_SECRET_ACCESS_KEY=Aq9x...
 
 &lt;p&gt;While we were waiting for our last flight, we tried to sleep. No luck. The guys started to work, I just stayed lying.&lt;/p&gt;
 
-&lt;h2 id=&#34;mexico-city-ixtapa-zihuatanejo-1hr:43caf39167a754ecfddbe242b24cc8fe&#34;&gt;Mexico City - Ixtapa-Zihuatanejo /1hr/&lt;/h2&gt;
+&lt;h2 id=&#34;mexico-city-ixtapa-zihuatanejo-1hr&#34;&gt;Mexico City - Ixtapa-Zihuatanejo /1hr/&lt;/h2&gt;
 
 &lt;p&gt;The last fligt finally. The plane was filled only with my colleagues. You can imagine. I think it&amp;rsquo;s a bit dangerous.. Almost everybody from the company was on that plane. Except only a few ones who arrived a day before we did.&lt;/p&gt;
 
@@ -936,7 +1079,7 @@ AWS_SECRET_ACCESS_KEY=Aq9x...
 
 &lt;p&gt;After we had arrived to the hotel, I immediately went to my room and tried to lie down. I even slept a few hours, got up, went to eat something and went back to sleep.&lt;/p&gt;
 
-&lt;h2 id=&#34;the-recognition:43caf39167a754ecfddbe242b24cc8fe&#34;&gt;The Recognition&lt;/h2&gt;
+&lt;h2 id=&#34;the-recognition&#34;&gt;The Recognition&lt;/h2&gt;
 
 &lt;p&gt;On Monday, the 4 days long Kick-Off meeting had started with day long all-hands meeting. Around noon, I started to feel some pain near my ankle. Bad news. I had the same experience from 3 yrs ago, when I travelled to San Francisco with Anna&amp;hellip; that time it took me around &lt;code&gt;5 months&lt;/code&gt; to recover. Holy shit. Not again. I immediately took an NSAID and tried to rest as much as I could between the breaks.&lt;/p&gt;
 
@@ -948,11 +1091,11 @@ AWS_SECRET_ACCESS_KEY=Aq9x...
 
 &lt;p&gt;Every morning my ankle was pretty good, but I knew it&amp;rsquo;s only an illusion. The evening came and the pain was just growing and growing&amp;hellip; 600mg every evening.&lt;/p&gt;
 
-&lt;h1 id=&#34;coming-back:43caf39167a754ecfddbe242b24cc8fe&#34;&gt;Coming Back&lt;/h1&gt;
+&lt;h1 id=&#34;coming-back&#34;&gt;Coming Back&lt;/h1&gt;
 
 &lt;p&gt;I was struggling on my way home. I took 2 x 600mg ibuprofen and tried to survive it somehow. We had to wait a lot in Mexico city&amp;hellip;&lt;/p&gt;
 
-&lt;h2 id=&#34;ixtapa-zihuatanejo-mexico-city-1hr-10-hrs:43caf39167a754ecfddbe242b24cc8fe&#34;&gt;Ixtapa-Zihuatanejo - Mexico City /1hr + 10 hrs/&lt;/h2&gt;
+&lt;h2 id=&#34;ixtapa-zihuatanejo-mexico-city-1hr-10-hrs&#34;&gt;Ixtapa-Zihuatanejo - Mexico City /1hr + 10 hrs/&lt;/h2&gt;
 
 &lt;p&gt;The flight was smooth and quick, although I wasn&amp;rsquo;t being able to concentrate at all. I was focusing on my leg all. We had to fly with a small plane with 2 propelers. Wow.&lt;/p&gt;
 
@@ -960,17 +1103,17 @@ AWS_SECRET_ACCESS_KEY=Aq9x...
 
 &lt;p&gt;We arrived at the ariport around &lt;code&gt;13:50&lt;/code&gt; and the connection flight was around &lt;code&gt;23:55&lt;/code&gt;. So I had more than &lt;strong&gt;10 hours!&lt;/strong&gt; with a swollen ankle and pain&amp;hellip; awesome. My plan was simple: survive it somehow. I tried to sit and lie as much as I could, but sometimes I had to get up and walk to grab a coffee or eat or just go to the toilet&amp;hellip; oh my. It was horrible. I knew my ankle won&amp;rsquo;t be happy..&lt;/p&gt;
 
-&lt;h2 id=&#34;mexico-city-paris-11hrs-3hrs:43caf39167a754ecfddbe242b24cc8fe&#34;&gt;Mexico City - Paris /11hrs + 3hrs/&lt;/h2&gt;
+&lt;h2 id=&#34;mexico-city-paris-11hrs-3hrs&#34;&gt;Mexico City - Paris /11hrs + 3hrs/&lt;/h2&gt;
 
 &lt;p&gt;Luckly the flight back to Paris is a bit quicker, but in my condition it was all the same. I took another 600mg ibuprofen around 1am after the take off. I was watching a few movies, tried to sleep but I only managed to sleep 1 hour or so. Not too much.&lt;/p&gt;
 
 &lt;p&gt;Luckily I had to wait only 3 hours in Paris for the connection flight which isn&amp;rsquo;t that bad. I was half dead at that point. I saw in advance what were the consequences of this trip. Another 2-3 months of recovery, no bike&amp;hellip;&lt;/p&gt;
 
-&lt;h2 id=&#34;paris-budapest-2hrs:43caf39167a754ecfddbe242b24cc8fe&#34;&gt;Paris - Budapest /2hrs/&lt;/h2&gt;
+&lt;h2 id=&#34;paris-budapest-2hrs&#34;&gt;Paris - Budapest /2hrs/&lt;/h2&gt;
 
 &lt;p&gt;I had finally arrived, my myther in law came to take me home. I had just fallen into the bed&amp;hellip; I dreaded the next day. How did my ankle handle this long trip?&lt;/p&gt;
 
-&lt;h1 id=&#34;summary:43caf39167a754ecfddbe242b24cc8fe&#34;&gt;Summary&lt;/h1&gt;
+&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
 
 &lt;p&gt;Next time I&amp;rsquo;ll never travel on &lt;code&gt;Economy Class&lt;/code&gt; only on &lt;code&gt;Business Class&lt;/code&gt;. If the company can&amp;rsquo;t afford it, I won&amp;rsquo;t go. This doesn&amp;rsquo;t worth for me to loose 3-4 months from my life due to a trip like this.&lt;/p&gt;
 </description>
