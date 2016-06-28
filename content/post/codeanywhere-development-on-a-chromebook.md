@@ -8,7 +8,7 @@ categories 	= [ "development", "DevOps" ]
 image		= "cloudide/codeanywhere/codeanywhere_logotype.png"
 +++
 
-The biggest questions ever asked about Chromebooks: How can you use code on it, how can you run shell scripts and other things. Without enabling Developer mode, your best option is to use a Cloud IDE. Let me show you one. <!-- more -->
+The biggest question ever asked about Chromebooks: How can you use code on it, how can you run shell scripts and other things. Without enabling Developer mode, your best option is to use a Cloud IDE. Let me show you one. <!-- more -->
 
 # Cloud IDE
 
