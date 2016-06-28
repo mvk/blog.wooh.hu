@@ -3,7 +3,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="generator" content="Hugo 0.15" />
+    <meta name="generator" content="Hugo 0.16" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans|Marcellus+SC'>
@@ -78,7 +78,7 @@
         <div class="article-body" itemprop="articleBody">
           
 
-<h3 id="because-security-does-matter:1f40da5ea83fe9e4190a55b044534933">Because security does matter</h3>
+<h3 id="because-security-does-matter">Because security does matter</h3>
 
 <p>I can say that I&rsquo;ve seen thousands of <a href="http://beta.jenkinci.io">Jenkins</a> masters. The non enterprise ones are usually triggering the builds via <a href="https://www.github.com">GitHub</a> webhooks. You can do this via the <a href="https://wiki.jenkins-ci.org/display/JENKINS/GitHub+Plugin">GitHub Plugin</a>. It&rsquo;s mandatory to allow github to reach your jenkins master if you want to use this method. But there is a trade-off. Security vs. comfy webhooks&hellip;</p>
 
@@ -86,7 +86,7 @@
 
 <p>Although using frequent SCM polling on hundreds of repos will cause huge I/O and CPU overload on your jenkins masters, so this blog post is mostly for Enterprise Jenkins customers and for the ones who want to secure and lock down their jenkins.</p>
 
-<h3 id="the-proper-way:1f40da5ea83fe9e4190a55b044534933">The proper way</h3>
+<h3 id="the-proper-way">The proper way</h3>
 
 <p>Luckily there is a plugin out there for a long time, but for some reason it remained unnoticed until now. The anonym plugin statistic says there is around only <strong>457</strong> installations for this plugin. How come? What is this plugin?</p>
 
@@ -104,7 +104,7 @@
 
 <p>Ohh, but this is super cool. Jenkins is simply polling an <code>Amazon SQS</code> queue. This does not cause I/O at all. If there is a <code>git push</code>, GitHub sends the payload using <code>Amazon SNS</code>, and the payload finally ends up in the <code>Amazon SQS</code>. Jenkins just grabs the payload and triggers any jobs that have a matching github repository configuration.</p>
 
-<h3 id="setup:1f40da5ea83fe9e4190a55b044534933">Setup</h3>
+<h3 id="setup">Setup</h3>
 
 <p>The requirements are the following:</p>
 
@@ -114,7 +114,7 @@
 <li>Jenkins</li>
 </ul>
 
-<h3 id="amazon-sqs-configuration:1f40da5ea83fe9e4190a55b044534933">Amazon SQS configuration</h3>
+<h3 id="amazon-sqs-configuration">Amazon SQS configuration</h3>
 
 <ol>
 <li><p>As a first step, login to your AWS console, select SQS service and create a new queue.</p>
@@ -130,7 +130,7 @@
 <p><img src="/images/jenkins-github-aws/create_sqs_3.jpg" alt="SQS" title="SQS Summary" /></p></li>
 </ol>
 
-<h3 id="amazon-sns-configuration:1f40da5ea83fe9e4190a55b044534933">Amazon SNS configuration</h3>
+<h3 id="amazon-sns-configuration">Amazon SNS configuration</h3>
 
 <ol>
 <li><p>Select SNS service in the AWS console and create a new topic.</p>
@@ -146,7 +146,7 @@
 <p><img src="/images/jenkins-github-aws/create_sns_3.jpg" alt="SNS" title="SNS Summary" /></p></li>
 </ol>
 
-<h3 id="amazon-iam-configuration:1f40da5ea83fe9e4190a55b044534933">Amazon IAM configuration</h3>
+<h3 id="amazon-iam-configuration">Amazon IAM configuration</h3>
 
 <p>It&rsquo;s time to create an <code>AWS Access Key ID</code> and  <code>Secret Access Key</code> for your jenkins and GitHub service. Select the <code>IAM</code> service and create a new user. By default generate an access key. Let&rsquo;s call this user <code>jenkins</code> too. Record the credentials.</p>
 
@@ -160,11 +160,11 @@ AWS_SECRET_ACCESS_KEY=Aq9x...
 
 <p>The Amazon Web Services configuration is now complete.</p>
 
-<h3 id="github-configuration:1f40da5ea83fe9e4190a55b044534933">GitHub configuration</h3>
+<h3 id="github-configuration">GitHub configuration</h3>
 
 <p>In case if your jenkins master has the rights to manage webhooks on GitHub, you can skip the next SQS configuration section. I usually don&rsquo;t allow my jenkins to manage github hooks, because that requires administrative rights on a specific repo or even in the organisation.</p>
 
-<h3 id="github-webhook-sqs-configuration:1f40da5ea83fe9e4190a55b044534933">GitHub webhook SQS configuration</h3>
+<h3 id="github-webhook-sqs-configuration">GitHub webhook SQS configuration</h3>
 
 <ol>
 <li><p>Select your repository and select the <code>Settings</code> tab.</p></li>
@@ -180,7 +180,7 @@ AWS_SECRET_ACCESS_KEY=Aq9x...
 <p><img src="/images/jenkins-github-aws/github_2_sqs.jpg" alt="SQS" title="SQS github" /></p></li>
 </ol>
 
-<h3 id="github-webhook-sns-configuration:1f40da5ea83fe9e4190a55b044534933">GitHub webhook SNS configuration</h3>
+<h3 id="github-webhook-sns-configuration">GitHub webhook SNS configuration</h3>
 
 <ol>
 <li><p>Select your repository and select the <code>Settings</code> tab.</p></li>
@@ -198,7 +198,7 @@ AWS_SECRET_ACCESS_KEY=Aq9x...
 
 <p>The GitHub configuration is now complete.</p>
 
-<h3 id="jenkins-general-configuration:1f40da5ea83fe9e4190a55b044534933">Jenkins general configuration</h3>
+<h3 id="jenkins-general-configuration">Jenkins general configuration</h3>
 
 <ol>
 <li><p>Install <code>GitHub SQS Plugin</code> via the plugin manager and restart your jenkins.</p></li>
@@ -212,17 +212,17 @@ AWS_SECRET_ACCESS_KEY=Aq9x...
 <p><img src="/images/jenkins-github-aws/jenkins_1.jpg" alt="jenkins" title="Jenkins SQS" /></p></li>
 </ol>
 
-<h3 id="jenkins-job-configuration:1f40da5ea83fe9e4190a55b044534933">Jenkins job configuration</h3>
+<h3 id="jenkins-job-configuration">Jenkins job configuration</h3>
 
 <p>Go to your job&rsquo;s configuration page and locate the <code>Build Triggers</code> section. Enable the <code>Build when a message is published to an SQS Queue</code> option and hit <code>Save</code> or <code>Apply</code>.</p>
 
 <p><img src="/images/jenkins-github-aws/jenkins_2.jpg" alt="jenkins" title="Jenkins SQS" /></p>
 
-<h3 id="profit:1f40da5ea83fe9e4190a55b044534933">Profit</h3>
+<h3 id="profit">Profit</h3>
 
 <p>We&rsquo;re all set. Your jenkins job is configured and will be triggered when somebody pushes a code to the repository. It clean and safe.</p>
 
-<h3 id="references:1f40da5ea83fe9e4190a55b044534933">References</h3>
+<h3 id="references">References</h3>
 
 <ul>
 <li><a href="http://beta.jenkins.io">Jenkins</a></li>
@@ -278,19 +278,19 @@ AWS_SECRET_ACCESS_KEY=Aq9x...
 <ul>
 <li>
 <ul>
-<li><a href="#because-security-does-matter:1f40da5ea83fe9e4190a55b044534933">Because security does matter</a></li>
-<li><a href="#the-proper-way:1f40da5ea83fe9e4190a55b044534933">The proper way</a></li>
-<li><a href="#setup:1f40da5ea83fe9e4190a55b044534933">Setup</a></li>
-<li><a href="#amazon-sqs-configuration:1f40da5ea83fe9e4190a55b044534933">Amazon SQS configuration</a></li>
-<li><a href="#amazon-sns-configuration:1f40da5ea83fe9e4190a55b044534933">Amazon SNS configuration</a></li>
-<li><a href="#amazon-iam-configuration:1f40da5ea83fe9e4190a55b044534933">Amazon IAM configuration</a></li>
-<li><a href="#github-configuration:1f40da5ea83fe9e4190a55b044534933">GitHub configuration</a></li>
-<li><a href="#github-webhook-sqs-configuration:1f40da5ea83fe9e4190a55b044534933">GitHub webhook SQS configuration</a></li>
-<li><a href="#github-webhook-sns-configuration:1f40da5ea83fe9e4190a55b044534933">GitHub webhook SNS configuration</a></li>
-<li><a href="#jenkins-general-configuration:1f40da5ea83fe9e4190a55b044534933">Jenkins general configuration</a></li>
-<li><a href="#jenkins-job-configuration:1f40da5ea83fe9e4190a55b044534933">Jenkins job configuration</a></li>
-<li><a href="#profit:1f40da5ea83fe9e4190a55b044534933">Profit</a></li>
-<li><a href="#references:1f40da5ea83fe9e4190a55b044534933">References</a></li>
+<li><a href="#because-security-does-matter">Because security does matter</a></li>
+<li><a href="#the-proper-way">The proper way</a></li>
+<li><a href="#setup">Setup</a></li>
+<li><a href="#amazon-sqs-configuration">Amazon SQS configuration</a></li>
+<li><a href="#amazon-sns-configuration">Amazon SNS configuration</a></li>
+<li><a href="#amazon-iam-configuration">Amazon IAM configuration</a></li>
+<li><a href="#github-configuration">GitHub configuration</a></li>
+<li><a href="#github-webhook-sqs-configuration">GitHub webhook SQS configuration</a></li>
+<li><a href="#github-webhook-sns-configuration">GitHub webhook SNS configuration</a></li>
+<li><a href="#jenkins-general-configuration">Jenkins general configuration</a></li>
+<li><a href="#jenkins-job-configuration">Jenkins job configuration</a></li>
+<li><a href="#profit">Profit</a></li>
+<li><a href="#references">References</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -303,6 +303,18 @@ AWS_SECRET_ACCESS_KEY=Aq9x...
   <div class="section">
     <header><div class="title">LatestPosts</div></header>
     <div class="content">
+      
+      <div class="sm"><article class="li">
+  <a href="http://blog.wooh.hu/post/codeanywhere-development-on-a-chromebook/" class="clearfix">
+    <div class="image" style="background-image: url(http://blog.wooh.hu/images/cloudide/codeanywhere/codeanywhere_logotype.png);"></div>
+    <div class="detail">
+      <time>Tue, Jun 28, 2016</time>
+      <h2 class="title">Codeanywhere - Development on a Chromebook</h2>
+      <div class="summary">The biggest questions ever asked about Chromebooks: How can you use code on it, how can you run shell scripts and other things. Without enabling Developer mode, your best option is to use a Cloud IDE. Let me show you one. Cloud IDE Cloud IDE is a trendy thing nowadays. It’s especially useful for us - Chromebook users. We can’t have fancy IDEs like IntelliJ, Sublime, Vim, etc. We need to use online editors and online services to edit files, run commands on a linux box and so on.</div>
+    </div>
+  </a>
+</article>
+</div>
       
       <div class="sm"><article class="li">
   <a href="http://blog.wooh.hu/post/switching-to-chromebook-part-3/" class="clearfix">
@@ -415,19 +427,6 @@ AWS_SECRET_ACCESS_KEY=Aq9x...
 </article>
 </div>
       
-      <div class="sm"><article class="li">
-  <a href="http://blog.wooh.hu/post/a-nagy-rablas/" class="clearfix">
-    <div class="image" style="background-image: url(http://blog.wooh.hu/images/betores/burglary.jpg);"></div>
-    <div class="detail">
-      <time>Thu, Jan 24, 2008</time>
-      <h2 class="title">Betörtek Hozzánk</h2>
-      <div class="summary"><p>Hogy milyen érzés az, amikor reggel úgy ébredsz, hogy 2 notebokkal kevesebb van a lakásban, mint amikor este lefeküdtél. Persze ehhez kell az, hogy éjszakára elfelejtsed bezárni az ajtót, ami természetesen egy ultrabiztonságos sok ponton záró biztonsági ajtó.</p>
-</div>
-    </div>
-  </a>
-</article>
-</div>
-      
     </div>
   </div>
 
@@ -435,14 +434,14 @@ AWS_SECRET_ACCESS_KEY=Aq9x...
   <div class="section taxonomies">
     <header><div class="title">category</div></header>
     <div class="content">
-      <a href="http://blog.wooh.hu/categories/gadgets">gadgets</a><a href="http://blog.wooh.hu/categories/health">health</a><a href="http://blog.wooh.hu/categories/bike">bike</a><a href="http://blog.wooh.hu/categories/hungarian">hungarian</a><a href="http://blog.wooh.hu/categories/lifestyle">lifestyle</a><a href="http://blog.wooh.hu/categories/github">github</a><a href="http://blog.wooh.hu/categories/travel">travel</a><a href="http://blog.wooh.hu/categories/amazon">amazon</a><a href="http://blog.wooh.hu/categories/security">security</a><a href="http://blog.wooh.hu/categories/jenkins">jenkins</a>
+      <a href="http://blog.wooh.hu/categories/gadgets">gadgets</a><a href="http://blog.wooh.hu/categories/health">health</a><a href="http://blog.wooh.hu/categories/bike">bike</a><a href="http://blog.wooh.hu/categories/amazon">amazon</a><a href="http://blog.wooh.hu/categories/development">development</a><a href="http://blog.wooh.hu/categories/devops">devops</a><a href="http://blog.wooh.hu/categories/github">github</a><a href="http://blog.wooh.hu/categories/hungarian">hungarian</a><a href="http://blog.wooh.hu/categories/jenkins">jenkins</a><a href="http://blog.wooh.hu/categories/lifestyle">lifestyle</a>
     </div>
   </div>
   
   <div class="section taxonomies">
     <header><div class="title">tag</div></header>
     <div class="content">
-      <a href="http://blog.wooh.hu/tags/chromebook">chromebook</a><a href="http://blog.wooh.hu/tags/chromeos">chromeos</a><a href="http://blog.wooh.hu/tags/nsaid">nsaid</a><a href="http://blog.wooh.hu/tags/bike">bike</a><a href="http://blog.wooh.hu/tags/google">google</a><a href="http://blog.wooh.hu/tags/ankle">ankle</a><a href="http://blog.wooh.hu/tags/inflammation">inflammation</a><a href="http://blog.wooh.hu/tags/chrome">chrome</a><a href="http://blog.wooh.hu/tags/github">github</a><a href="http://blog.wooh.hu/tags/security">security</a>
+      <a href="http://blog.wooh.hu/tags/chromebook">chromebook</a><a href="http://blog.wooh.hu/tags/chromeos">chromeos</a><a href="http://blog.wooh.hu/tags/nsaid">nsaid</a><a href="http://blog.wooh.hu/tags/ankle">ankle</a><a href="http://blog.wooh.hu/tags/bike">bike</a><a href="http://blog.wooh.hu/tags/chrome">chrome</a><a href="http://blog.wooh.hu/tags/github">github</a><a href="http://blog.wooh.hu/tags/google">google</a><a href="http://blog.wooh.hu/tags/inflammation">inflammation</a><a href="http://blog.wooh.hu/tags/security">security</a>
     </div>
   </div>
   

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WoOh&#39;s blog </title>
+    <link>http://blog.wooh.hu/tags/cloudide/</link>
+    <language>en-us</language>
+    <author>Adam Papai</author>
+    <rights>(C) 2016</rights>
+    <updated>2016-06-28 10:36:04 &#43;0000 UTC</updated>
+
+    
+      
+        <item>
+          <title>Codeanywhere - Development on a Chromebook</title>
+          <link>http://blog.wooh.hu/post/codeanywhere-development-on-a-chromebook/</link>
+          <pubDate>Tue, 28 Jun 2016 10:36:04 UTC</pubDate>
+          <author>Adam Papai</author>
+          <guid>http://blog.wooh.hu/post/codeanywhere-development-on-a-chromebook/</guid>
+          <description>
+
+&lt;p&gt;The biggest questions ever asked about Chromebooks: How can you use code on it, how can you run shell scripts and other things. Without enabling Developer mode, your best option is to use a Cloud IDE. Let me show you one. &lt;!-- more --&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;cloud-ide&#34;&gt;Cloud IDE&lt;/h1&gt;
+
+&lt;p&gt;Cloud IDE is a trendy thing nowadays. It’s especially useful for us - Chromebook users. We can’t have fancy IDEs like IntelliJ, Sublime, Vim, etc. We need to use online editors and online services to edit files, run commands on a linux box and so on.&lt;/p&gt;
+
+&lt;p&gt;You can of course use a the &lt;a href=&#34;https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo?hl=en&#34;&gt;Secure Shell&lt;/a&gt; Chrome App as an altervative, but it does not support SSH key auth, and is pretty limited. I did not like it, because I don&amp;rsquo;t want to use password auth, I did not find it secure enough.&lt;/p&gt;
+
+&lt;p&gt;There are actually four Cloud IDEs worth to mention at the moment:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Cloud9 IDE - &lt;a href=&#34;https://c9.io&#34;&gt;https://c9.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Codeanywhere - &lt;a href=&#34;https://codeanywhere.com&#34;&gt;https://codeanywhere.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Koding.com - &lt;a href=&#34;https://koding.com&#34;&gt;https://koding.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Codenvy - &lt;a href=&#34;https://codenvy.com&#34;&gt;https://codenvy.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’m using Cloud9 IDE since I migrated moved to a Chromebook, so I wanted to try another one. Codeanywhere pinged me on Twitter okea week ago or so, and they actually forced me to try out their product. I had already registered an account, so I decided to use it for at least a week.&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/wooh_tw&#34;&gt;@wooh_tw&lt;/a&gt; Have you tried our our Cloud IDE? Would love your feedback? Thanks!&lt;/p&gt;&amp;mdash; Codeanywhere (@Codeanywhere) &lt;a href=&#34;https://twitter.com/Codeanywhere/status/745702443904794624&#34;&gt;June 22, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;h1 id=&#34;pricing&#34;&gt;Pricing&lt;/h1&gt;
+
+&lt;p&gt;A very important part is the pricing. Don’t get me wrong, I love to pay for good a good service, but I don’t like to pay for something I don’t need. This is why it is important for a company to have a good pricing strategy.&lt;/p&gt;
+
+&lt;p&gt;Codeanywhere has a free tier which includes the following features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Web editor&lt;/li&gt;
+&lt;li&gt;Mobile editor&lt;/li&gt;
+&lt;li&gt;SSH terminal&lt;/li&gt;
+&lt;li&gt;Unlimited shares (1 active at a time)&lt;/li&gt;
+&lt;li&gt;1 revision&lt;/li&gt;
+&lt;li&gt;1 Remote Connection (FTP, VM, Cloud)&lt;/li&gt;
+&lt;li&gt;1 Container with 256 MB RAM, 2 GB HDD&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It means I can use the Web UI from any notebook - including a Chromebook of course - and from mobile devices too. The web-based SSH or Terminal Console makes it possible to access any Secure Shell (SSH) servers through Codeanywhere, what’s more I can edit the files using the Codeanywhere Web Editor directly from any FTP, FTPS or SFTP based server.&lt;/p&gt;
+
+&lt;p&gt;Also I get an ubuntu/centos box with 256 MB memory / 2 GB disk space which is more than enough usually. Note that the container won’t run 0-24 (Always on), that feature is available only from the “Freelancer” plan.&lt;/p&gt;
+
+&lt;p&gt;So actually what I do is: I connect to my server using SSH and I’m editing the files there, so I don’t really need the Container provided by Codeanywhere at all. But just for sure the my development environment is also set up there, I just haven’t copied my secret keys yet. On demand I could do that.&lt;/p&gt;
+
+&lt;h1 id=&#34;3rd-party-tools-connections&#34;&gt;3rd party tools / connections&lt;/h1&gt;
+
+&lt;p&gt;I can use a lot of services via Codeanywhere:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/cloudide/codeanywhere/digitalocean.png&#34; alt=&#34;DO&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;DigitalOcean - Codeanywhere is partnered up with &lt;a href=&#34;https://www.digitalocean.com&#34;&gt;DO&lt;/a&gt; so I can manage/connect to your droplets using Codeanywhere UI.&lt;/li&gt;
+&lt;li&gt;Amazon S3 - I can edit files in a bucket. AWS credentials needed.&lt;/li&gt;
+&lt;li&gt;Dropbox - I can edit files on DropBox&lt;/li&gt;
+&lt;li&gt;OneDrive - A brand new thing: You can edit files in OneDrive&lt;/li&gt;
+&lt;li&gt;GitHub - I can easily create a new Container based on a GitHub repository. It auto detects the file types in the repo and offers you to start a new container.&lt;/li&gt;
+&lt;li&gt;BitBucket - I can easily create a new Container based on a GitHub repository. It auto detects the file types in the repo and offers you to start a new container.&lt;/li&gt;
+&lt;li&gt;FTP/SFTP/SSH - As I mentioned before, you can edit files directly on any server.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;When you use the Codeanywhere Container instead your own box, you’ll be given a specific hostname and ports 1024-9999 to check your service/website whatever you’re working on. Note that your container won’t run all the time while on a free plan.&lt;/p&gt;
+
+&lt;p&gt;The idea behind the “one container per project” is that the containers are cheap, easy to launch and you can separate your work from other things. I’m not a big fan of this setup, but sometimes it could be handy, but for now I don’t feel the need of it.&lt;/p&gt;
+
+&lt;h1 id=&#34;pros-and-cons&#34;&gt;Pros and Cons&lt;/h1&gt;
+
+&lt;p&gt;So in general, I like Codeanywhere, but - just like any other software - it has bugs or annoying features. Let’s see  the pros and cons. Let’s start with the cons. Not all of them are real cons, rather incompleteness.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sometimes the SSH connection is doubled when I reconnect - reload my browser - and everything is doubled in the terminal. It’s not very frequent, but it happened a few times to me.&lt;/li&gt;
+&lt;li&gt;There is no non-stop visible widget for disk / memory usage, the only way to check it, is run the &lt;code&gt;free&lt;/code&gt; and &lt;code&gt;df&lt;/code&gt; command. Compared to c9.io they have an always on top widget which shows the current CPU/Disk/Memory usage. This is something I’d love to see in Codeanywhere Web IDE too.&lt;/li&gt;
+&lt;li&gt;Copy/Paste from/to a terminal is tricky from a ChromeOS and Windows. You need to use the CTRL + A, CTRL + C, and CTRL + A, CTRL + V to copy and paste. Which is pretty inconvenient to be quite honest. Other Cloud IDE providers can solve this problem.&lt;/li&gt;
+&lt;li&gt;The terminal cursor is blinking and it annoys me pretty much.&lt;/li&gt;
+&lt;li&gt;2FA is only available from the “Freelancer” subscription - for $7 USD / month billed yearly / $10 billed monthly. 2FA should be available for everyone.&lt;/li&gt;
+&lt;li&gt;The starter plan does not make sense. $2 USD / month for a support is so strange for me.&lt;/li&gt;
+&lt;li&gt;No drag&amp;amp;drop to the file explorer, I need to right click on a folder and select upload. Two more click is annoying.&lt;/li&gt;
+&lt;li&gt;Can’t define which Amazon region I want to use, so I usually ended up on us-east-1/us-west-1 instead of eu-central or so. (probably they don’t even have environments in EU)&lt;/li&gt;
+&lt;li&gt;If the code is git versioned, I can’t see which line has changed or not just like in PyCharm/Vim/SublimeText.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Let’s see the pros:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The service is cool as it is.&lt;/li&gt;
+&lt;li&gt;Free subscription plan which allows you to do everything you need.&lt;/li&gt;
+&lt;li&gt;The Web IDE is pretty trendy with customisable themes and colors.&lt;/li&gt;
+&lt;li&gt;Upgrading to the “Freelancer” plan costs only $7 / month.&lt;/li&gt;
+&lt;li&gt;I can edit the files on your server with the Web IDE, which is super cool!&lt;/li&gt;
+&lt;li&gt;No need to use a Container, I can just use a remote connection.&lt;/li&gt;
+&lt;li&gt;You can get a DigitalOcean coupon code!&lt;/li&gt;
+&lt;li&gt;Can use S3, Dropbox, OneDrive, FTP, etc not only a server.&lt;/li&gt;
+&lt;li&gt;Easy to sign-up and start your first Container. It takes about 30-45 sec.&lt;/li&gt;
+&lt;li&gt;Actively developed, they release pretty frequently, community seems to be active.&lt;/li&gt;
+&lt;li&gt;They’re pretty active on twitter.&lt;/li&gt;
+&lt;li&gt;They answer to support tickets in 24hrs even for a free subscription.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
+
+&lt;p&gt;After about a week usage I’m still satisfied. Apart from the few annoying bugs like the copy and paste it really convenient and seems to be stable. During the 1 week period it was always reliable and available. I did not have any connectivity issues which is great.&lt;/p&gt;
+
+&lt;p&gt;All I had to do is copy the my codeanywhere public SSH key to my server and that’s all. I also added it to my GitHub repo, so I can checkout code.&lt;/p&gt;
+
+&lt;p&gt;For security reason, I’m not using the codeanywhere container for private repos, only for open source development. I use my own server for private projects. We all know how hard to secure a docker container, I don’t want to be surprised… :)&lt;/p&gt;
+
+&lt;p&gt;For me the free plan is absolutely enough but if you plan to use it heavily, you would need to sign up for the Freelancer plan, which isn&amp;rsquo;t that much. Just do the math:&lt;/p&gt;
+
+&lt;p&gt;A basic DigitalOcean droplet costs: &lt;strong&gt;$5 / month + backup fee + VAT&lt;/strong&gt;, so it&amp;rsquo;ll be around &lt;strong&gt;$7&lt;/strong&gt;. For this price, you&amp;rsquo;ll get:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;20 GB SSD disk&lt;/li&gt;
+&lt;li&gt;512 MB memory&lt;/li&gt;
+&lt;li&gt;1000 GB data transfer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you sign up to the &lt;strong&gt;Freelancer&lt;/strong&gt; plan and use the containers provided by Codeanywhere you&amp;rsquo;ll get:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Everyhing included in the &lt;strong&gt;Free&lt;/strong&gt; plan&lt;/li&gt;
+&lt;li&gt;1 Always On server, so actually you&amp;rsquo;ll have a 0-24 running server.&lt;/li&gt;
+&lt;li&gt;Premium support via E-mail&lt;/li&gt;
+&lt;li&gt;Two-Factor Authentication&lt;/li&gt;
+&lt;li&gt;10 containers with 512 MB memory + 5 GB disk / each&lt;/li&gt;
+&lt;li&gt;Unlimited shares and 50 active shares&lt;/li&gt;
+&lt;li&gt;50 remote connections (free plan includes 1 only)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Note that there is also a free trial option for the Freelancer plan. In overall you&amp;rsquo;ll get a lot for just $7. It worth to subscribe to the Freelancer plan than using your own droplet at DigitalOcean with a Free plan at Codeanywhere.&lt;/p&gt;
+
+&lt;p&gt;To sum it up: Codeanywhere offers a pretty good service for all Chromebook users. Good job guys, keep up with the good work and I hope the items in the Cons section will be soon fixed/eliminated.&lt;/p&gt;
+</description>
+        </item>
+      
+    
+
+  </channel>
+</rss>

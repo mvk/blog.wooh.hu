@@ -20,7 +20,7 @@
 
 &lt;p&gt;Earlier I mentioned that I bought an Acer C720P Chromebook. A few weeks ago my new Chromebook arrived: Toshiba Chromebook 2 (2015). The Acer is really great to carry around, the touchscreen is pretty cool too, but the 11.6&amp;rdquo; is way too small for real development. If you use it for development, you won&amp;rsquo;t be able to overview your code, you need to scroll up and down a lot of times.&lt;/p&gt;
 
-&lt;h1 id=&#34;recap:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Recap&lt;/h1&gt;
+&lt;h1 id=&#34;recap&#34;&gt;Recap&lt;/h1&gt;
 
 &lt;p&gt;In case if you missed the previous posts. You can read them below. Note that this post is rather a review than a &lt;strong&gt;how to switch&lt;/strong&gt;, so stay tuned and wait for part IV. where I&amp;rsquo;ll talk about OpenVPN, L2TP/IPsec, Printing, and things that aren&amp;rsquo;t working properly.&lt;/p&gt;
 
@@ -29,7 +29,7 @@
 &lt;li&gt;&lt;a href=&#34;http://blog.wooh.hu/post/switching-to-chromebook-part-2/&#34;&gt;Switching to Chromebook - Part II.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&#34;variety:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Variety&lt;/h1&gt;
+&lt;h1 id=&#34;variety&#34;&gt;Variety&lt;/h1&gt;
 
 &lt;p&gt;I read a lot of posts about what&amp;rsquo;s the best Chromebook. Just to mention a few:&lt;/p&gt;
 
@@ -44,7 +44,7 @@
 
 &lt;p&gt;Mostly all posts agreed that the Toshiba Chromebook 2 is the best after the &lt;a href=&#34;https://pixel.google.com/chromebook-pixel/&#34;&gt;Google Pixel 2&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h1 id=&#34;toshiba-chromebook-2:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Toshiba Chromebook 2&lt;/h1&gt;
+&lt;h1 id=&#34;toshiba-chromebook-2&#34;&gt;Toshiba Chromebook 2&lt;/h1&gt;
 
 &lt;p&gt;When we&amp;rsquo;re talking about the Toshiba Chromebook 2 note that there are 3 (actually 4) Toshiba Chromebooks.&lt;/p&gt;
 
@@ -57,15 +57,15 @@
 
 &lt;p&gt;You need to know what is the best. Toshiba released 4 Chromebooks in 2 years.&lt;/p&gt;
 
-&lt;h2 id=&#34;toshiba-cb35-a3120-chromebook:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Toshiba CB35-A3120 Chromebook&lt;/h2&gt;
+&lt;h2 id=&#34;toshiba-cb35-a3120-chromebook&#34;&gt;Toshiba CB35-A3120 Chromebook&lt;/h2&gt;
 
 &lt;p&gt;This is known as &lt;strong&gt;Toshiba Chromebook&lt;/strong&gt;. It was the first Toshiba Chromebook. It is just an average Chromebook, you definitely don&amp;rsquo;t want to buy this. &lt;a href=&#34;http://www.pcmag.com/article2/0,2817,2453427,00.asp&#34;&gt;Read the PCMag review here.&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;toshiba-cb35-b3340-chromebook-2:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Toshiba CB35-B3340 Chromebook 2&lt;/h2&gt;
+&lt;h2 id=&#34;toshiba-cb35-b3340-chromebook-2&#34;&gt;Toshiba CB35-B3340 Chromebook 2&lt;/h2&gt;
 
 &lt;p&gt;This is the first &lt;strong&gt;Toshiba Chromebook 2&lt;/strong&gt;. Customers bought it were pretty satisfied. It does not have a fan! So it&amp;rsquo;s pretty quiet, but the CPU speed is limited. &lt;a href=&#34;http://www.pcmag.com/article2/0,2817,2470486,00.asp&#34;&gt;Read the PCMag review here.&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;toshiba-cb35-c3300-cb35-c3350-chromebook-2:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Toshiba CB35-C3300 / CB35-C3350 Chromebook 2&lt;/h2&gt;
+&lt;h2 id=&#34;toshiba-cb35-c3300-cb35-c3350-chromebook-2&#34;&gt;Toshiba CB35-C3300 / CB35-C3350 Chromebook 2&lt;/h2&gt;
 
 &lt;p&gt;The last 2 model is almost the same. The only difference is the CPU. The CB35-C3300 has &lt;strong&gt;Intel Celeron 3215U&lt;/strong&gt;. You can buy with a faster &lt;strong&gt;Intel Celeron i3-5015U8&lt;/strong&gt; CPU, but reviews say: It does not really worth it, it only reduces the battery life and you won&amp;rsquo;t really feel the difference.&lt;/p&gt;
 
@@ -75,7 +75,7 @@
 
 &lt;p&gt;If you live in US, you can buy the C3300 for about $300 USD. If you live in Hungary just like me, it will cost $299.99 + $123.69 Shipping &amp;amp; Import Fees Deposit. Amazon handles everything for you. You&amp;rsquo;ll get it in no time, which means about a week. Since there are absolutely no Chromebooks in Hungary you can&amp;rsquo;t even try it out first, so it was a pig in a poke. How excited I was when it arrived.&lt;/p&gt;
 
-&lt;h1 id=&#34;my-own-review:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;My own review&lt;/h1&gt;
+&lt;h1 id=&#34;my-own-review&#34;&gt;My own review&lt;/h1&gt;
 
 &lt;p&gt;I can only compare the &lt;strong&gt;Toshiba CB35-C3300 Chromebook 2&lt;/strong&gt; to &lt;strong&gt;MacBook Pro&lt;/strong&gt; and &lt;strong&gt;Acer C720P&lt;/strong&gt;.&lt;/p&gt;
 
@@ -89,7 +89,7 @@
 
 &lt;p&gt;In case if you&amp;rsquo;re interested in it&amp;hellip; well I&amp;rsquo;m not using it anymore so you can buy it. I only used it for about a week and Powerwashed it.&lt;/p&gt;
 
-&lt;h2 id=&#34;boxing:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Boxing&lt;/h2&gt;
+&lt;h2 id=&#34;boxing&#34;&gt;Boxing&lt;/h2&gt;
 
 &lt;p&gt;So back to Toshiba. I was pretty excited when it arrived. I quickly removed the wrapping and saw &amp;ldquo;the box&amp;rdquo;.&lt;/p&gt;
 
@@ -107,7 +107,7 @@
 
 &lt;p&gt;The material is plastic. The previous ones were less plastic-feel, but it won&amp;rsquo;t annoy you. What is a bit annoying is that the edges are a bit sharp. The top material is bumpy.&lt;/p&gt;
 
-&lt;h2 id=&#34;backlit-keyboard:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Backlit keyboard&lt;/h2&gt;
+&lt;h2 id=&#34;backlit-keyboard&#34;&gt;Backlit keyboard&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/toshiba/toshiba_5.jpg&#34; alt=&#34;Toshiba 5&#34; /&gt;&lt;/p&gt;
 
@@ -117,13 +117,13 @@
 
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/toshiba/toshiba_10.jpg&#34; alt=&#34;Toshiba 10&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;screen:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Screen&lt;/h2&gt;
+&lt;h2 id=&#34;screen&#34;&gt;Screen&lt;/h2&gt;
 
 &lt;p&gt;The screen in gorgeous and beautiful! I has a full-HD resolution of 1920 x 1080, but it can do 2400 x 1350 too. This won’t be to everyone’s tastes. Text, buttons and other items on screen do look a fair bit smaller. If your eyesight isn’t the best you may find yourself zooming in or manually switching to a lower resolution so you’re not constantly squinting.&lt;/p&gt;
 
 &lt;p&gt;If you aren&amp;rsquo;t using an external screen, you would need to use 125% zoom on all sites to be able to read the text. But I can live with this, it&amp;rsquo;s not that annoying. Customers are complaining about the small text, so probably in a few months there will be some fix. The icons can&amp;rsquo;t be enlarged, so sometimes it&amp;rsquo;s hard to find the app you want to launch, because they&amp;rsquo;re so small.&lt;/p&gt;
 
-&lt;h2 id=&#34;dimensions:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Dimensions&lt;/h2&gt;
+&lt;h2 id=&#34;dimensions&#34;&gt;Dimensions&lt;/h2&gt;
 
 &lt;p&gt;In terms of dimensions it has the same dimensions as a MacBook Pro 13&amp;rdquo; but it weights less. See the photos below.&lt;/p&gt;
 
@@ -135,29 +135,29 @@
 
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/toshiba/toshiba_11.jpg&#34; alt=&#34;Toshiba 11&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;sound:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Sound&lt;/h2&gt;
+&lt;h2 id=&#34;sound&#34;&gt;Sound&lt;/h2&gt;
 
 &lt;p&gt;A big kudos to the Toshiba team for building such a great machine. The sound is perfect! Toshiba teamed up with Skullcandy and built the speakers behind the keyboard. But somehow it sounds like a hifi system. Just look at the Skullcandy logo, it tells everything.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/chromeos/toshiba/toshiba_12.jpg&#34; alt=&#34;Toshiba 12&#34; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;ports:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Ports&lt;/h2&gt;
+&lt;h2 id=&#34;ports&#34;&gt;Ports&lt;/h2&gt;
 
 &lt;p&gt;So it has USB 3.0 and 2.0, a SD Card reader and a HDMI. Almost enough. I hope they&amp;rsquo;ll include USB-C in the next model, and I would like to charge it via an USB-C port just like the Google Pixel 2. I have a Nexus 5X and I&amp;rsquo;d be happy to charge my phone using my Chromebook.&lt;/p&gt;
 
 &lt;p&gt;Note that it comes with the US power cord, so in case if you want to use it in Hungary, you need converter slots. Luckily I have a lot since we travel a lot to US and Japan, so it&amp;rsquo;s not a big issue. What&amp;rsquo;s more I use more US cords than EU cords.&lt;/p&gt;
 
-&lt;h2 id=&#34;battery:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Battery&lt;/h2&gt;
+&lt;h2 id=&#34;battery&#34;&gt;Battery&lt;/h2&gt;
 
 &lt;p&gt;The battery life seems to be somewhere between 5-7hrs depending on the brightness level. During evening hours the lowest brightness level works too, so you gain a lot of battery life, but you can work in sunshine too, the screen is pretty bright if you set the brightness to the higher level. So your Mac&amp;rsquo;s battery won&amp;rsquo;t last longer, maybe a little.&lt;/p&gt;
 
-&lt;h2 id=&#34;performance:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Performance&lt;/h2&gt;
+&lt;h2 id=&#34;performance&#34;&gt;Performance&lt;/h2&gt;
 
 &lt;p&gt;Some ask how I can live with 4G memory only? Well to be quite honest I have around 23-40 tabs open all the time, listening to youtube without any problem at all. I feel it fast, no slowdown. On the Acer C720P I felt the slowdown after ~10 tabs, but I haven&amp;rsquo;t felt it on the Toshiba.&lt;/p&gt;
 
 &lt;p&gt;The only thing you&amp;rsquo;ll notice is that after a few tabs, the fan will start to spin. It&amp;rsquo;s pretty quiet, but can be annoying in a very quiet room. I haven&amp;rsquo;t got used to it yet.&lt;/p&gt;
 
-&lt;h2 id=&#34;summary:42397d88ec47ccd52580c3dda0ba32e8&#34;&gt;Summary&lt;/h2&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
 
 &lt;p&gt;I&amp;rsquo;m very satisfied with this Chromebook. I just feels like a Mac, but it&amp;rsquo;s not. It&amp;rsquo;s way less expensive and the IPS Full HD screen amazes me every time when I switch it on. If you&amp;rsquo;re thinking about buying a Chromebook you should buy only this and not anything else.&lt;/p&gt;
 
