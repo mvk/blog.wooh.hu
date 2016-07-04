@@ -73,13 +73,14 @@ So in general, I like Codeanywhere, but - just like any other software - it has 
 
 - Sometimes the SSH connection is doubled when I reconnect - reload my browser - and everything is doubled in the terminal. It’s not very frequent, but it happened a few times to me.
 - There is no non-stop visible widget for disk / memory usage, the only way to check it, is run the `free` and `df` command. Compared to c9.io they have an always on top widget which shows the current CPU/Disk/Memory usage. This is something I’d love to see in Codeanywhere Web IDE too.
-- Copy/Paste from/to a terminal is tricky from a ChromeOS and Windows. You need to use the CTRL + A, CTRL + C, and CTRL + A, CTRL + V to copy and paste. Which is pretty inconvenient to be quite honest. Other Cloud IDE providers can solve this problem.
+- ~~Copy/Paste from/to a terminal is tricky from a ChromeOS and Windows. You need to use the CTRL + A, CTRL + C, and CTRL + A, CTRL + V to copy and paste. Which is pretty inconvenient to be quite honest. Other Cloud IDE providers can solve this problem~~. Update: They've fixed it in `v.6.2.4, 2016-07-03`
 - The terminal cursor is blinking and it annoys me pretty much.
 - 2FA is only available from the “Freelancer” subscription - for $7 USD / month billed yearly / $10 billed monthly. 2FA should be available for everyone.
 - The starter plan does not make sense. $2 USD / month for a support is so strange for me.
 - No drag&drop to the file explorer, I need to right click on a folder and select upload. Two more click is annoying.
 - Can’t define which Amazon region I want to use, so I usually ended up on us-east-1/us-west-1 instead of eu-central or so. (probably they don’t even have environments in EU)
 - If the code is git versioned, I can’t see which line has changed or not just like in PyCharm/Vim/SublimeText.
+- Scrolling in a terminal is pretty slow
 
 Let’s see the pros:
 
@@ -94,7 +95,8 @@ Let’s see the pros:
 - Easy to sign-up and start your first Container. It takes about 30-45 sec.
 - Actively developed, they release pretty frequently, community seems to be active.
 - They’re pretty active on twitter.
-- They answer to support tickets in 24hrs even for a free subscription.
+- They answer to support tickets in 24hrs even for a free subscription.They
+- They care about the bugs/reports and fix them pretty quickly!
 
 # Summary
 
