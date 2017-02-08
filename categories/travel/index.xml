@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Travel on WoOh&#39;s blog</title>
-    <link>http://blog.wooh.hu/categories/travel/index.xml</link>
-    <description>Recent content in Travel on WoOh&#39;s blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>WoOh&#39;s blog </title>
+    <link>http://blog.wooh.hu/categories/travel/</link>
     <language>en-us</language>
-    <atom:link href="http://blog.wooh.hu/categories/travel/index.xml" rel="self" type="application/rss+xml" />
+    <author>Adam Papai</author>
+    <rights>(C) 2016</rights>
+    <updated>2016-02-13 21:54:30 &#43;0100 &#43;0100</updated>
+
     
-    <item>
-      <title>Mexico - Company Kick-Off Meeting 2016</title>
-      <link>http://blog.wooh.hu/post/mexican-trip/</link>
-      <pubDate>Sat, 13 Feb 2016 21:54:30 +0100</pubDate>
       
-      <guid>http://blog.wooh.hu/post/mexican-trip/</guid>
-      <description>
+        <item>
+          <title>Mexico - Company Kick-Off Meeting 2016</title>
+          <link>http://blog.wooh.hu/post/mexican-trip/</link>
+          <pubDate>Sat, 13 Feb 2016 21:54:30 &#43;0100</pubDate>
+          <author>Adam Papai</author>
+          <guid>http://blog.wooh.hu/post/mexican-trip/</guid>
+          <description>
 
 &lt;h1 id=&#34;ominous-signs&#34;&gt;Ominous Signs&lt;/h1&gt;
 
@@ -102,7 +104,9 @@
 
 &lt;p&gt;Next time I&amp;rsquo;ll never travel on &lt;code&gt;Economy Class&lt;/code&gt; only on &lt;code&gt;Business Class&lt;/code&gt;. If the company can&amp;rsquo;t afford it, I won&amp;rsquo;t go. This doesn&amp;rsquo;t worth for me to loose 3-4 months from my life due to a trip like this.&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>

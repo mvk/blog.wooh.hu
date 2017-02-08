@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gadgets on WoOh&#39;s blog</title>
-    <link>http://blog.wooh.hu/categories/gadgets/index.xml</link>
-    <description>Recent content in Gadgets on WoOh&#39;s blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>WoOh&#39;s blog </title>
+    <link>http://blog.wooh.hu/categories/gadgets/</link>
     <language>en-us</language>
-    <atom:link href="http://blog.wooh.hu/categories/gadgets/index.xml" rel="self" type="application/rss+xml" />
+    <author>Adam Papai</author>
+    <rights>(C) 2016</rights>
+    <updated>2016-06-22 15:55:56 &#43;0000 UTC</updated>
+
     
-    <item>
-      <title>Switching to Chromebook - Part III.</title>
-      <link>http://blog.wooh.hu/post/switching-to-chromebook-part-3/</link>
-      <pubDate>Wed, 22 Jun 2016 15:55:56 +0000</pubDate>
       
-      <guid>http://blog.wooh.hu/post/switching-to-chromebook-part-3/</guid>
-      <description>&lt;p&gt;Earlier I mentioned that I bought an Acer C720P Chromebook. A few weeks ago my new Chromebook arrived: Toshiba Chromebook 2 (2015). The Acer is really great to carry around, the touchscreen is pretty cool too, but the 11.6&amp;rdquo; is way too small for real development. If you use it for development, you won&amp;rsquo;t be able to overview your code, you need to scroll up and down a lot of times.&lt;/p&gt;
+        <item>
+          <title>Switching to Chromebook - Part III.</title>
+          <link>http://blog.wooh.hu/post/switching-to-chromebook-part-3/</link>
+          <pubDate>Wed, 22 Jun 2016 15:55:56 UTC</pubDate>
+          <author>Adam Papai</author>
+          <guid>http://blog.wooh.hu/post/switching-to-chromebook-part-3/</guid>
+          <description>
+
+&lt;p&gt;Earlier I mentioned that I bought an Acer C720P Chromebook. A few weeks ago my new Chromebook arrived: Toshiba Chromebook 2 (2015). The Acer is really great to carry around, the touchscreen is pretty cool too, but the 11.6&amp;rdquo; is way too small for real development. If you use it for development, you won&amp;rsquo;t be able to overview your code, you need to scroll up and down a lot of times.&lt;/p&gt;
 
 &lt;h1 id=&#34;recap&#34;&gt;Recap&lt;/h1&gt;
 
@@ -157,16 +161,21 @@
 
 &lt;p&gt;I&amp;rsquo;m very satisfied with this Chromebook. I just feels like a Mac, but it&amp;rsquo;s not. It&amp;rsquo;s way less expensive and the IPS Full HD screen amazes me every time when I switch it on. If you&amp;rsquo;re thinking about buying a Chromebook you should buy only this and not anything else.&lt;/p&gt;
 
-&lt;p&gt;Note: &lt;em&gt;If you live in Hungary and want to see a Chromebook with your own eyes and try it out, you can ping me and I can show you somewhere in Budapest.&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Switching to Chromebook - Part II.</title>
-      <link>http://blog.wooh.hu/post/switching-to-chromebook-part-2/</link>
-      <pubDate>Wed, 15 Jun 2016 18:56:42 +0000</pubDate>
+&lt;p&gt;Note: &lt;em&gt;If you live in Hungary and want to see a Chromebook with your own eyes and try it out, you can ping me and I can show you somewhere in Budapest.&lt;/em&gt;&lt;/p&gt;
+</description>
+        </item>
       
-      <guid>http://blog.wooh.hu/post/switching-to-chromebook-part-2/</guid>
-      <description>&lt;p&gt;In this part I&amp;rsquo;m going to show you a few applications I was using on a Mac and tell you how to migrate them to a Chromebook or what alternatives you can use if the application is not available at all for a Chromebook. &lt;/p&gt;
+    
+      
+        <item>
+          <title>Switching to Chromebook - Part II.</title>
+          <link>http://blog.wooh.hu/post/switching-to-chromebook-part-2/</link>
+          <pubDate>Wed, 15 Jun 2016 18:56:42 UTC</pubDate>
+          <author>Adam Papai</author>
+          <guid>http://blog.wooh.hu/post/switching-to-chromebook-part-2/</guid>
+          <description>
+
+&lt;p&gt;In this part I&amp;rsquo;m going to show you a few applications I was using on a Mac and tell you how to migrate them to a Chromebook or what alternatives you can use if the application is not available at all for a Chromebook.&lt;/p&gt;
 
 &lt;p&gt;I thought I could compress everything in three small chunk post but it seems that&amp;rsquo;s impossible. So expect a lot more blog posts from me on this specific topic.&lt;/p&gt;
 
@@ -333,16 +342,21 @@
 
 &lt;p&gt;I also have a list of &amp;ldquo;What&amp;rsquo;s not working on a Chromebook&amp;rdquo;, and I&amp;rsquo;d love to share those with you. If you&amp;rsquo;re not a DevOps, you might not need those applications or tools, but if you&amp;rsquo;re a tech junkie, you probably need those and luckily I have workarounds too.&lt;/p&gt;
 
-&lt;p&gt;Stay tuned.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Switching to Chromebook - Part I.</title>
-      <link>http://blog.wooh.hu/post/switching-to-chromebook-part-1/</link>
-      <pubDate>Sat, 11 Jun 2016 16:23:11 +0000</pubDate>
+&lt;p&gt;Stay tuned.&lt;/p&gt;
+</description>
+        </item>
       
-      <guid>http://blog.wooh.hu/post/switching-to-chromebook-part-1/</guid>
-      <description>&lt;p&gt;Let me share my story with you. This is a long one so I&amp;rsquo;ll split it into a few small chunks so you won&amp;rsquo;t get bored (hopefully). This is a story about how I changed my MacBook Pro to a Chromebook.  I never thought it would be ever possible, but it was. And it&amp;rsquo;s relatively easy and convenient.  You won&amp;rsquo;t be able to use all your current applications on a Chromebook but there are pretty good alternatives and I&amp;rsquo;m 100% sure you&amp;rsquo;ll like them too.&lt;/p&gt;
+    
+      
+        <item>
+          <title>Switching to Chromebook - Part I.</title>
+          <link>http://blog.wooh.hu/post/switching-to-chromebook-part-1/</link>
+          <pubDate>Sat, 11 Jun 2016 16:23:11 UTC</pubDate>
+          <author>Adam Papai</author>
+          <guid>http://blog.wooh.hu/post/switching-to-chromebook-part-1/</guid>
+          <description>
+
+&lt;p&gt;Let me share my story with you. This is a long one so I&amp;rsquo;ll split it into a few small chunks so you won&amp;rsquo;t get bored (hopefully). This is a story about how I changed my MacBook Pro to a Chromebook.  I never thought it would be ever possible, but it was. And it&amp;rsquo;s relatively easy and convenient.  You won&amp;rsquo;t be able to use all your current applications on a Chromebook but there are pretty good alternatives and I&amp;rsquo;m 100% sure you&amp;rsquo;ll like them too.&lt;/p&gt;
 
 &lt;p&gt;The first part covers information about me and about my work, what kind of apps I use, how I use them and what kind of notebooks I was using before.&lt;/p&gt;
 
@@ -452,16 +466,19 @@ Acer Crystal Eye HD Webcam&lt;br /&gt;
 [&amp;#10003;] External monitor&lt;br /&gt;
 [&amp;#10007;] 1Password&lt;/p&gt;
 
-&lt;p&gt;In &lt;a href=&#34;http://blog.wooh.hu/post/switching-to-chromebook-part-2&#34;&gt;part 2&lt;/a&gt;, I&amp;rsquo;m going to show you how to migrate your digital life to a Chromebook from your Mac and what problems you will encounter. I&amp;rsquo;m going to tell you what kind of cloud editors I started to use and what will work on your Chromebook and what won&amp;rsquo;t.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>How I bought a Nexus 5X and a Leather Case</title>
-      <link>http://blog.wooh.hu/post/how-i-bought-a-nexus5x-and-a-leather-cover/</link>
-      <pubDate>Fri, 18 Mar 2016 21:04:00 +0100</pubDate>
+&lt;p&gt;In &lt;a href=&#34;http://blog.wooh.hu/post/switching-to-chromebook-part-2&#34;&gt;part 2&lt;/a&gt;, I&amp;rsquo;m going to show you how to migrate your digital life to a Chromebook from your Mac and what problems you will encounter. I&amp;rsquo;m going to tell you what kind of cloud editors I started to use and what will work on your Chromebook and what won&amp;rsquo;t.&lt;/p&gt;
+</description>
+        </item>
       
-      <guid>http://blog.wooh.hu/post/how-i-bought-a-nexus5x-and-a-leather-cover/</guid>
-      <description>
+    
+      
+        <item>
+          <title>How I bought a Nexus 5X and a Leather Case</title>
+          <link>http://blog.wooh.hu/post/how-i-bought-a-nexus5x-and-a-leather-cover/</link>
+          <pubDate>Fri, 18 Mar 2016 21:04:00 &#43;0100</pubDate>
+          <author>Adam Papai</author>
+          <guid>http://blog.wooh.hu/post/how-i-bought-a-nexus5x-and-a-leather-cover/</guid>
+          <description>
 
 &lt;h3 id=&#34;loosing-my-beloved-phone&#34;&gt;Loosing my beloved phone&lt;/h3&gt;
 
@@ -501,7 +518,9 @@ Acer Crystal Eye HD Webcam&lt;br /&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/nexus5x/csukva.jpg&#34; alt=&#34;Closed&#34; /&gt;&lt;/p&gt;
 </description>
-    </item>
+        </item>
+      
     
+
   </channel>
 </rss>
