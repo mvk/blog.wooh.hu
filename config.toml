@@ -1,6 +1,8 @@
-baseurl = "http://blog.wooh.hu/"
+baseUrl = "http://blog.wooh.hu/"
 languageCode = "en-us"
 title = "WoOh's blog"
+themesDir = "themes"
+theme = "hugo_theme_robust"
 [Params]
   Author = "Adam Papai"
   disqusShortname = "woohsblog"
