@@ -73,11 +73,13 @@ Of course you can buy any kind of tips, for example the [Comply T-200](http://ww
 
 ![](/uploads/2017/02/08/tips-1.jpg)
 
-I found the Comply tips pretty comfortable even after three hours of usage which is a good point.  There is a good video how to install and properly insert the Comply foam tips to get the best experience. <span style="letter-spacing: 0.01em;">To comfort I give **5 / 10**.</span>
+<span style="letter-spacing: 0.01em;">To comfort I give **5 / 10**.</span>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4qwXnI5Qau0" frameborder="0" allowfullscreen=""></iframe>
 
-**Performance**  
+I found the Comply tips pretty comfortable even after three hours of usage which is a good point. There is a good video how to install and properly insert the Comply foam tips to get the best experience. 
+
+**Performance**
 
 Probably this is the most important part for everyone. I don't care if something costs too much but in return I get a high quality gadget. So from an active noise cancelling device we expect pretty good noise cancellation.
 
@@ -115,7 +117,7 @@ The following noises are not really filtered out:
 
 *   glass sound
 *   alarms
-*   phone/sms
+*   phone/SMS
 *   doorbell
 *   water flush in the toilet
 *   water drops in the kitchen
