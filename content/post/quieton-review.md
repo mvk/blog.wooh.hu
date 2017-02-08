@@ -51,7 +51,7 @@ It is quite a small gadget if we take into account that it can do active noise c
 
 The carry/charger box itself is made of plastic. You don't want to drop it, because it might break. I wouldn't say this is the best quality product ever I've seen but probably last for a few years falling into pieces.
 
-There are a lot of active noise cancelling earplugs about the same size out there in the market. I give **9/10 for size**, because it's possible to sleep with it. Although others reported that they always hear the test beep sound during the night.
+There are a lot of active noise cancelling earplugs about the same size out there in the market. To size I give **9 / 10**, because it's possible to sleep with it. Although others reported that they always hear the test beep sound during the night.
 
 ### Price
 
@@ -77,7 +77,7 @@ I found the Comply tips pretty comfortable even after three hours of usage which
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4qwXnI5Qau0" frameborder="0" allowfullscreen=""></iframe>
 
-I give **5/10** for comfort.
+To comfort I give **5/10**.
 
 **Performance**
 
@@ -124,4 +124,4 @@ The following noises are not really filtered out:
 
 Comparing to a Bose noise cancelling headphone, well. Bose is better. It will outperform QuietOn. It cancels low and high frequency too. But note that QuietOn does not aim to beat Bose, but any foam earplugs.
 
-I give **9/10** for performance because they it does what it promised to do.
+To performance I give **9/10,** because they it does what it promised to do.
