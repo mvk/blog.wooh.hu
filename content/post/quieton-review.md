@@ -63,7 +63,7 @@ I give **3/10** for price, because it's just a noise cancelling earplug nothing 
 
 A pretty nice price comparison can be found [here for the 7 Best Noise Cancelling Earbuds in 2016.](http://headphonesaddict.com/best-noise-cancelling-earbuds/)
 
-**Comfort**
+### **Comfort**
 
 The tips shipped with the QuietOn aren't the most comfortable tips I've ever used. I'd say: they're OK, but way too far from super comfortable. Wonder how people can sleep at night while the QuietOn is plugged in.
 
@@ -77,9 +77,9 @@ Of course you can buy any kind of tips, for example the [Comply T-200](http://ww
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4qwXnI5Qau0" frameborder="0" allowfullscreen=""></iframe>
 
-I found the Comply tips pretty comfortable even after three hours of usage which is a good point. There is a good video how to install and properly insert the Comply foam tips to get the best experience. 
+I found the Comply tips pretty comfortable even after three hours of usage which is a good point. There is a good video how to install and properly insert the Comply foam tips to get the best experience.
 
-**Performance**
+### **Performance**
 
 Probably this is the most important part for everyone. I don't care if something costs too much but in return I get a high quality gadget. So from an active noise cancelling device we expect pretty good noise cancellation.
 
