@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>WoOh&#39;s blog </title>
-    <link>http://blog.wooh.hu/categories/work/</link>
+    <title>Work on WoOh&#39;s blog</title>
+    <link>http://blog.wooh.hu/categories/work/index.xml</link>
+    <description>Recent content in Work on WoOh&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author>Adam Papai</author>
-    <rights>(C) 2016</rights>
-    <updated>2016-03-16 09:05:26 &#43;0100 &#43;0100</updated>
-
+    <atom:link href="http://blog.wooh.hu/categories/work/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Trigger Jenkins Build Securely Using GitHub and AWS</title>
+      <link>http://blog.wooh.hu/post/trigger-jenkins-build-securely-using-github-and-aws/</link>
+      <pubDate>Wed, 16 Mar 2016 09:05:26 +0100</pubDate>
       
-        <item>
-          <title>Trigger Jenkins Build Securely Using GitHub and AWS</title>
-          <link>http://blog.wooh.hu/post/trigger-jenkins-build-securely-using-github-and-aws/</link>
-          <pubDate>Wed, 16 Mar 2016 09:05:26 &#43;0100</pubDate>
-          <author>Adam Papai</author>
-          <guid>http://blog.wooh.hu/post/trigger-jenkins-build-securely-using-github-and-aws/</guid>
-          <description>
+      <guid>http://blog.wooh.hu/post/trigger-jenkins-build-securely-using-github-and-aws/</guid>
+      <description>
 
 &lt;h3 id=&#34;because-security-does-matter&#34;&gt;Because security does matter&lt;/h3&gt;
 
@@ -173,9 +171,7 @@ AWS_SECRET_ACCESS_KEY=Aq9x...
 &lt;li&gt;&lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

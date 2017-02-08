@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>WoOh&#39;s blog </title>
-    <link>http://blog.wooh.hu/tags/mobile/</link>
+    <title>Mobile on WoOh&#39;s blog</title>
+    <link>http://blog.wooh.hu/tags/mobile/index.xml</link>
+    <description>Recent content in Mobile on WoOh&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author>Adam Papai</author>
-    <rights>(C) 2016</rights>
-    <updated>2016-03-18 21:04:00 &#43;0100 &#43;0100</updated>
-
+    <atom:link href="http://blog.wooh.hu/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>How I bought a Nexus 5X and a Leather Case</title>
+      <link>http://blog.wooh.hu/post/how-i-bought-a-nexus5x-and-a-leather-cover/</link>
+      <pubDate>Fri, 18 Mar 2016 21:04:00 +0100</pubDate>
       
-        <item>
-          <title>How I bought a Nexus 5X and a Leather Case</title>
-          <link>http://blog.wooh.hu/post/how-i-bought-a-nexus5x-and-a-leather-cover/</link>
-          <pubDate>Fri, 18 Mar 2016 21:04:00 &#43;0100</pubDate>
-          <author>Adam Papai</author>
-          <guid>http://blog.wooh.hu/post/how-i-bought-a-nexus5x-and-a-leather-cover/</guid>
-          <description>
+      <guid>http://blog.wooh.hu/post/how-i-bought-a-nexus5x-and-a-leather-cover/</guid>
+      <description>
 
 &lt;h3 id=&#34;loosing-my-beloved-phone&#34;&gt;Loosing my beloved phone&lt;/h3&gt;
 
@@ -56,9 +54,7 @@
 
 &lt;p&gt;&lt;img src=&#34;http://blog.wooh.hu/images/nexus5x/csukva.jpg&#34; alt=&#34;Closed&#34; /&gt;&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

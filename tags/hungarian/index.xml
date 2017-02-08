@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>WoOh&#39;s blog </title>
-    <link>http://blog.wooh.hu/tags/hungarian/</link>
+    <title>Hungarian on WoOh&#39;s blog</title>
+    <link>http://blog.wooh.hu/tags/hungarian/index.xml</link>
+    <description>Recent content in Hungarian on WoOh&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author>Adam Papai</author>
-    <rights>(C) 2016</rights>
-    <updated>2008-01-24 17:09:08 &#43;0100 &#43;0100</updated>
-
+    <atom:link href="http://blog.wooh.hu/tags/hungarian/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Betörtek Hozzánk</title>
+      <link>http://blog.wooh.hu/post/a-nagy-rablas/</link>
+      <pubDate>Thu, 24 Jan 2008 17:09:08 +0100</pubDate>
       
-        <item>
-          <title>Betörtek Hozzánk</title>
-          <link>http://blog.wooh.hu/post/a-nagy-rablas/</link>
-          <pubDate>Thu, 24 Jan 2008 17:09:08 &#43;0100</pubDate>
-          <author>Adam Papai</author>
-          <guid>http://blog.wooh.hu/post/a-nagy-rablas/</guid>
-          <description>&lt;p&gt;Hogy milyen érzés az, amikor reggel úgy ébredsz, hogy 2 notebokkal kevesebb van a lakásban, mint amikor este lefeküdtél. Persze ehhez kell az, hogy éjszakára elfelejtsed bezárni az ajtót, ami természetesen egy ultrabiztonságos sok ponton záró biztonsági ajtó.&lt;/p&gt;
+      <guid>http://blog.wooh.hu/post/a-nagy-rablas/</guid>
+      <description>&lt;p&gt;Hogy milyen érzés az, amikor reggel úgy ébredsz, hogy 2 notebokkal kevesebb van a lakásban, mint amikor este lefeküdtél. Persze ehhez kell az, hogy éjszakára elfelejtsed bezárni az ajtót, ami természetesen egy ultrabiztonságos sok ponton záró biztonsági ajtó.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;Es ismet magyarul. Talan ezt az entry-t nem is lehetne mas nyelven irni. De kezdjuk az elejen. Egy szep vasarnapi naprol van szo. Delelott erzessel munka, tanulas, majd egy meglepi elkeszitese Annanak. Egy szep kis playboy-os torulkozovel szerettem volna meglepni ot. :) Fel is ugrottam hozza. Bebi termeszetesene otthon volt, Zsofi meg lelepett. Elotte persze odaadta a notebookjat h probaljuk meg a hangot megcsinalni rajta mert nem mukodik rendesen. Azzal a mozdulattal ki is hozta nekunk a konyhaba a gepet. Picit szerencsetlenkedtem rajta, le kellett volna szedni a hangkartya drivert es tokre ujrahuzni az egeszet, de annyira lassu volt a gep, hogy inkabb masnapra halasztottam. :) Kozben Anna es Bebi ugy dontott, hogy jo lenne nezni egy spanyol filmet. Elfogyott a tea is, igy leultunk megnezni a filmet. Picit hosszunak igerkezett es ejfel korul lett vege. En elkezdtem keszulodni haza, de a 2 lany rabeszelt h maradjak ott ejszakara, ne kelljen mar hazamennem ilyen keson. Igy mindenki szepen nyugovora tert.&lt;/p&gt;
 
@@ -34,11 +34,8 @@
 &lt;li&gt;Nem japanban vagyunk, az ajtokat mindig zarni kell. Kint megteheted azt, hogy az ajtot be sem zarod, vagy otthagyod az iPodot egy nagy bevasarlo kozpont WC-jeben. Masnapra is ugyan ott lesz. De itthon meg a sajat lakasodba is betornek. Teljesen mas a mentalitas. Meg kell baratkozni a gondolattal, hogy itt mas a helyzet mint kint.&lt;/li&gt;
 &lt;li&gt;Nem szabad a gepeket olyan helyen hagyni ahonnan konnyen el lehet lopni meg otthon sem.&lt;/li&gt;
 &lt;li&gt;Ne hagyjunk a kabatban semmi fontos ertekeset, eleg konnyu celpont.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-      
+&lt;/ul&gt;</description>
+    </item>
     
-
   </channel>
 </rss>

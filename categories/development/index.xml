@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>WoOh&#39;s blog </title>
-    <link>http://blog.wooh.hu/categories/development/</link>
+    <title>Development on WoOh&#39;s blog</title>
+    <link>http://blog.wooh.hu/categories/development/index.xml</link>
+    <description>Recent content in Development on WoOh&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author>Adam Papai</author>
-    <rights>(C) 2016</rights>
-    <updated>2016-06-28 10:36:04 &#43;0000 UTC</updated>
-
+    <atom:link href="http://blog.wooh.hu/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Codeanywhere - Development on a Chromebook</title>
+      <link>http://blog.wooh.hu/post/codeanywhere-development-on-a-chromebook/</link>
+      <pubDate>Tue, 28 Jun 2016 10:36:04 +0000</pubDate>
       
-        <item>
-          <title>Codeanywhere - Development on a Chromebook</title>
-          <link>http://blog.wooh.hu/post/codeanywhere-development-on-a-chromebook/</link>
-          <pubDate>Tue, 28 Jun 2016 10:36:04 UTC</pubDate>
-          <author>Adam Papai</author>
-          <guid>http://blog.wooh.hu/post/codeanywhere-development-on-a-chromebook/</guid>
-          <description>
+      <guid>http://blog.wooh.hu/post/codeanywhere-development-on-a-chromebook/</guid>
+      <description>
 
 &lt;p&gt;The biggest question ever asked about Chromebooks: How can you use code on it, how can you run shell scripts and other things. Without enabling Developer mode, your best option is to use a Cloud IDE. Let me show you one. &lt;!-- more --&gt;&lt;/p&gt;
 
@@ -151,9 +149,7 @@
 
 &lt;p&gt;To sum it up: Codeanywhere offers a pretty good service for all Chromebook users. Good job guys, keep up with the good work and I hope the items in the Cons section will be soon fixed/eliminated.&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>

@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>WoOh&#39;s blog </title>
-    <link>http://blog.wooh.hu/tags/ankle/</link>
+    <title>Ankle on WoOh&#39;s blog</title>
+    <link>http://blog.wooh.hu/tags/ankle/index.xml</link>
+    <description>Recent content in Ankle on WoOh&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author>Adam Papai</author>
-    <rights>(C) 2016</rights>
-    <updated>2016-03-15 17:34:31 &#43;0100 &#43;0100</updated>
-
+    <atom:link href="http://blog.wooh.hu/tags/ankle/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>On My Way To Health</title>
+      <link>http://blog.wooh.hu/post/on-my-way-to-health/</link>
+      <pubDate>Tue, 15 Mar 2016 17:34:31 +0100</pubDate>
       
-        <item>
-          <title>On My Way To Health</title>
-          <link>http://blog.wooh.hu/post/on-my-way-to-health/</link>
-          <pubDate>Tue, 15 Mar 2016 17:34:31 &#43;0100</pubDate>
-          <author>Adam Papai</author>
-          <guid>http://blog.wooh.hu/post/on-my-way-to-health/</guid>
-          <description>
+      <guid>http://blog.wooh.hu/post/on-my-way-to-health/</guid>
+      <description>
 
 &lt;h3 id=&#34;reduced-nsaid-doseage&#34;&gt;Reduced NSAID doseage&lt;/h3&gt;
 
@@ -54,17 +52,15 @@
 
 &lt;p&gt;I had the same issue in 2013 when I was in the US. After flying to San Francisco, I experienced a huge pain in my ankle after the very first day. That year it took about 5-6 months to recover. I tried every treatment without any luck. I was very frustrated and had no idea what was going on. Luckily just before I had to fly again to US (Seattle) it suddenly improved, so I could accept an offer.&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
+    <item>
+      <title>Acute Ankle Inflammation</title>
+      <link>http://blog.wooh.hu/post/acute-inflammation/</link>
+      <pubDate>Mon, 14 Mar 2016 07:51:11 +0100</pubDate>
       
-        <item>
-          <title>Acute Ankle Inflammation</title>
-          <link>http://blog.wooh.hu/post/acute-inflammation/</link>
-          <pubDate>Mon, 14 Mar 2016 07:51:11 &#43;0100</pubDate>
-          <author>Adam Papai</author>
-          <guid>http://blog.wooh.hu/post/acute-inflammation/</guid>
-          <description>
+      <guid>http://blog.wooh.hu/post/acute-inflammation/</guid>
+      <description>
 
 &lt;h1 id=&#34;why-my-ankle-inflammation-sucks&#34;&gt;Why My Ankle Inflammation Sucks?&lt;/h1&gt;
 
@@ -96,9 +92,7 @@
 
 &lt;p&gt;Let&amp;rsquo;s hope for the bests.&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-
   </channel>
 </rss>
