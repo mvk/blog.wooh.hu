@@ -1,13 +1,13 @@
 +++
-date = "2016-12-30T10:20:04Z"
-draft = true
-title = "QuietOn Earplugs Review"
+categories = ["gadgets", "lifestyle"]
+date = "2016-12-30T10:20:04+00:00"
 description = "QuietOn Active Noise Cancelling Earplugs Review"
-tags = [ "quieton", "review" ]
-categories = [ "gadgets", "lifestyle" ]
-image      = "quieton/quieton_header.jpg"
-+++
+draft = true
+image = "quieton/quieton_header.jpg"
+tags = ["quieton", "review"]
+title = "QuietOn Earplugs Review"
 
++++
 I finally got my hand on the QuietOn active noise cancelling earplugs, what I ordered back in 2016 March. Does it worth it for $160? Are you looking for full silence or just want to sleep when your significant other is snoring. Let's see if this gadget helps you or not.
 
 I love gadgets. I often buy things than I don't need. Although a headphone or an earplug is different. Everyone uses them. I'm a bit [misophonic](https://en.wikipedia.org/wiki/Misophonia) so sometimes I need to be in a quiet place. Luckily I'm working from home, but what if I have to work from a coffee shop?
@@ -69,9 +69,9 @@ The tips shipped with the QuietOn aren't the most comfortable tips I've ever use
 
 The QuietOn package comes with two different tips. A green (small) and a blue (normal/big). It is important to mention that for better noise cancellation the earplug must be air tight, so if possible use the blue tip. If it hurts or it's too big, use the green one.
 
-![Tips](/uploads/2017/02/08/tips.jpg)
-
 Of course you can buy any kind of tips, for example the [Comply T-200](http://www.complyfoam.com/products/t-200/) foam tips which are great. Note that QuietOn sent this foam tips to the first few thousand backers with the QuietOn.
+
+![](/uploads/2017/02/08/tips-1.jpg)
 
 I found the Comply tips pretty comfortable even after three hours of usage which is a good point.  There is a good video how to install and properly insert the Comply foam tips to get the best experience.
 
@@ -85,7 +85,7 @@ Probably this is the most important part for everyone. I don't care if something
 
 Below is a chart which explains where QuietOn makes difference comparing to a normal foam earplug.
 
-![makes difference](/uploads/2017/02/08/makes-difference.jpg)
+![](/uploads/2017/02/08/makes-difference-1.jpg)
 
 As you can see QuietOn's goal is to reduce the low frequency noises from 20Hz up to 1000Hz. QuietOn says:
 
@@ -115,10 +115,10 @@ The following noises are so-so filtered out:
 
 The following noises are not really filtered out:
 
-*   glass sound  
-*   alarms  
-*   phone/sms  
-*   doorbell  
+*   glass sound
+*   alarms
+*   phone/sms
+*   doorbell
 *   water flush in the toilet
 *   water drops in the kitchen
 
