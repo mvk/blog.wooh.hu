@@ -73,13 +73,11 @@ Of course you can buy any kind of tips, for example the [Comply T-200](http://ww
 
 ![](/uploads/2017/02/08/tips-1.jpg)
 
-I found the Comply tips pretty comfortable even after three hours of usage which is a good point.  There is a good video how to install and properly insert the Comply foam tips to get the best experience.
+I found the Comply tips pretty comfortable even after three hours of usage which is a good point.  There is a good video how to install and properly insert the Comply foam tips to get the best experience. <span style="letter-spacing: 0.01em;">To comfort I give **5 / 10**.</span>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4qwXnI5Qau0" frameborder="0" allowfullscreen=""></iframe>
 
-To comfort I give **5/10**.
-
-**Performance**
+**Performance**  
 
 Probably this is the most important part for everyone. I don't care if something costs too much but in return I get a high quality gadget. So from an active noise cancelling device we expect pretty good noise cancellation.
 
@@ -124,4 +122,4 @@ The following noises are not really filtered out:
 
 Comparing to a Bose noise cancelling headphone, well. Bose is better. It will outperform QuietOn. It cancels low and high frequency too. But note that QuietOn does not aim to beat Bose, but any foam earplugs.
 
-To performance I give **9/10,** because they it does what it promised to do.
+To performance I give **9 / 10,** because they it does what it promised to do.
