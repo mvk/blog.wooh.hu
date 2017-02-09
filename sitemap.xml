@@ -62,14 +62,14 @@
   </url>
   
   <url>
-    <loc>http://blog.wooh.hu/tags/amazon/</loc>
-    <lastmod>2016-03-16T09:05:26+01:00</lastmod>
+    <loc>http://blog.wooh.hu/categories/amazon/</loc>
+    <lastmod>2016-03-17T08:56:23+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.wooh.hu/categories/amazon/</loc>
-    <lastmod>2016-03-17T08:56:23+01:00</lastmod>
+    <loc>http://blog.wooh.hu/tags/amazon/</loc>
+    <lastmod>2016-03-16T09:05:26+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -92,13 +92,13 @@
   </url>
   
   <url>
-    <loc>http://blog.wooh.hu/tags/bike/</loc>
+    <loc>http://blog.wooh.hu/categories/bike/</loc>
     <lastmod>2016-03-15T17:34:31+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.wooh.hu/categories/bike/</loc>
+    <loc>http://blog.wooh.hu/tags/bike/</loc>
     <lastmod>2016-03-15T17:34:31+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -163,13 +163,13 @@
   </url>
   
   <url>
-    <loc>http://blog.wooh.hu/tags/github/</loc>
+    <loc>http://blog.wooh.hu/categories/github/</loc>
     <lastmod>2016-03-17T08:56:23+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.wooh.hu/categories/github/</loc>
+    <loc>http://blog.wooh.hu/tags/github/</loc>
     <lastmod>2016-03-17T08:56:23+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -181,25 +181,25 @@
   </url>
   
   <url>
-    <loc>http://blog.wooh.hu/tags/health/</loc>
-    <lastmod>2016-02-13T21:54:30+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.wooh.hu/categories/health/</loc>
     <lastmod>2016-03-15T17:34:31+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.wooh.hu/tags/hungarian/</loc>
-    <lastmod>2008-01-24T17:09:08+01:00</lastmod>
+    <loc>http://blog.wooh.hu/tags/health/</loc>
+    <lastmod>2016-02-13T21:54:30+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.wooh.hu/categories/hungarian/</loc>
+    <lastmod>2008-01-24T17:09:08+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.wooh.hu/tags/hungarian/</loc>
     <lastmod>2008-01-24T17:09:08+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -211,13 +211,13 @@
   </url>
   
   <url>
-    <loc>http://blog.wooh.hu/tags/jenkins/</loc>
+    <loc>http://blog.wooh.hu/categories/jenkins/</loc>
     <lastmod>2016-03-16T09:05:26+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.wooh.hu/categories/jenkins/</loc>
+    <loc>http://blog.wooh.hu/tags/jenkins/</loc>
     <lastmod>2016-03-16T09:05:26+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -289,13 +289,13 @@
   </url>
   
   <url>
-    <loc>http://blog.wooh.hu/tags/security/</loc>
+    <loc>http://blog.wooh.hu/categories/security/</loc>
     <lastmod>2016-03-17T08:56:23+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.wooh.hu/categories/security/</loc>
+    <loc>http://blog.wooh.hu/tags/security/</loc>
     <lastmod>2016-03-17T08:56:23+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -312,13 +312,13 @@
   </url>
   
   <url>
-    <loc>http://blog.wooh.hu/tags/travel/</loc>
+    <loc>http://blog.wooh.hu/categories/travel/</loc>
     <lastmod>2016-02-13T21:54:30+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.wooh.hu/categories/travel/</loc>
+    <loc>http://blog.wooh.hu/tags/travel/</loc>
     <lastmod>2016-02-13T21:54:30+01:00</lastmod>
     <priority>0</priority>
   </url>
