@@ -56,7 +56,7 @@ The pre-retail price is **$160** at the moment. The retail price will be around
 
 The cheapest earplug is the O-TAP (6 pcs) earplug costs around **$5.** Hypoallergenic, moldable, reusable, waterproof, no charging needed. The most expensive earplug is the [Bose QuietComfort 20](https://www.bose.com/en_us/products/headphones/earphones/quietcomfort-20i-acoustic-noise-cancelling-headphones.html) costs around $250-$300\. So QuietOn positions itself just under Bose.
 
-I give **3/10** for price, because it's just a noise cancelling earplug nothing else and for that it's too pricey. It's price should be somewhere between $100 and $120.
+I give ** 3 / 10** for price, because it's just a noise cancelling earplug nothing else and for that it's too pricey. It's price should be somewhere between $100 and $120.
 
 A pretty nice price comparison can be found [here for the 7 Best Noise Cancelling Earbuds in 2016.](http://headphonesaddict.com/best-noise-cancelling-earbuds/)
 
