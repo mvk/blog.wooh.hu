@@ -2,7 +2,6 @@
 categories = ["gadgets", "lifestyle"]
 date = "2017-02-09T19:20:00+09:00"
 description = "QuietOn Active Noise Cancelling Earplugs Review"
-draft = true
 image = "quieton/quieton_header.jpg"
 tags = ["quieton", "review"]
 title = "QuietOn Earplugs Review"
