@@ -49,7 +49,7 @@ It is quite a small gadget if we take into account that it can do ANC and passiv
 
 ![size](/images/quieton/quieton-size.jpg)
 
-<span style="letter-spacing: 0.01em;">There are a lot of ANC earplugs about the same size out there in the market. To size I give </span>**9 / 10**<span style="letter-spacing: 0.01em;">, because it's possible to sleep with it. Although others reported that they always hear the test beep sound during the night.</span>  
+There are a lot of ANC earplugs about the same size out there in the market. To size I give **9 / 10**, because it's possible to sleep with it. Although others reported that they always hear the test beep sound during the night.  
 
 ### Price
 
@@ -71,7 +71,7 @@ Of course you can buy any kind of tips, for example the [Comply T-200](http://ww
 
 ![Tips](/uploads/2017/02/08/tips-1.jpg)
 
-<span style="letter-spacing: 0.01em;">To comfort I give **5 / 10**.</span>
+To comfort I give **5 / 10**.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4qwXnI5Qau0" frameborder="0" allowfullscreen=""></iframe>
 
@@ -130,21 +130,21 @@ To performance I give **9 / 10,** because they it does what it promised to do.
 
 This is where the guys at QuietOn did a pretty good job. The battery life is around **50 hours**! That is amazing. If you look at the [comparison chart](http://headphonesaddict.com/best-noise-cancelling-earbuds/), there is only 2 (Sony 100h, Audio-Technico 60h) with the same battery life. Others varies between 5h - 35h. 
 
-The charging time is pretty quick. It never took longer than 30 minutes to charge it. <span style="letter-spacing: 0.01em;">To battery life I give</span> **9 / 10**<span style="letter-spacing: 0.01em;">.</span>
+The charging time is pretty quick. It never took longer than 30 minutes to charge it. To battery life I give **9 / 10**.
 
-### <span style="letter-spacing: 0.16px;">Accessories</span>
+### Accessories
 
-<span style="letter-spacing: 0.18px;">Another huge plus is that it's completely wireless. No wires at all. However almost all other ANC device has wires, since you can listen to music too. Unfortunately with QuietOn, you won't be able to play anything on it. It is a single purpose earplug: to cancel noise.</span>
+Another huge plus is that it's completely wireless. No wires at all. However almost all other ANC device has wires, since you can listen to music too. Unfortunately with QuietOn, you won't be able to play anything on it. It is a single purpose earplug: to cancel noise.
 
-<span style="letter-spacing: 0.18px;">A few backer on indiegogo thought that they will be able to use QuietOn just like any other earplug. They haven't read the product sheet carefully. It's not possible to use QuietOn with any device. It stands alone and only does ANC.</span>
+A few backer on indiegogo thought that they will be able to use QuietOn just like any other earplug. They haven't read the product sheet carefully. It's not possible to use QuietOn with any device. It stands alone and only does ANC.
 
-<span style="letter-spacing: 0.18px;">It comes without an USB charger cable. It's a shame on them. For **$160** - **$200** I'd expect a charger too with the device.</span>
+It comes without an USB charger cable. It's a shame on them. For **$160** - **$200** I'd expect a charger too with the device.
 
-<span style="letter-spacing: 0.18px;">To accessories I give **5 / 10**.</span>
+To accessories I give **5 / 10**.
 
-### <span style="letter-spacing: 0.18px;">Durability</span>
+### Durability
 
-<span style="letter-spacing: 0.18px;">The QuietOn earplug is massive. It won't break easily. But the printed/painted text on it is low quality. One of the pair has already lost the "On" text from the "QuietOn".</span>
+The QuietOn earplug is massive. It won't break easily. But the printed/painted text on it is low quality. One of the pair has already lost the "On" text from the "QuietOn".
 
 ![](/uploads/2017/02/09/box.jpg)
 
