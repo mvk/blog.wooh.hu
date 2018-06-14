@@ -42,29 +42,29 @@ The requirements are the following:
 
 1. As a first step, login to your AWS console, select SQS service and create a new queue.
 
-	![SQS](/images/jenkins-github-aws/create_sqs_1.jpg  "Create New Queue")
+	![SQS](/static/images/jenkins-github-aws/create_sqs_1.jpg  "Create New Queue")
 
 2. Enter the queue name. Let's call it `jenkins`. Click on `Create Queue`
 	
-	![SQS](/images/jenkins-github-aws/create_sqs_2.jpg  "Enter Queue Name")
+	![SQS](/static/images/jenkins-github-aws/create_sqs_2.jpg  "Enter Queue Name")
 
 3. Select the newly created SQS queue and record the `ARN`. You'll need it later.
 
-	![SQS](/images/jenkins-github-aws/create_sqs_3.jpg  "SQS Summary")
+	![SQS](/static/images/jenkins-github-aws/create_sqs_3.jpg  "SQS Summary")
 
 ### Amazon SNS configuration
 
 1. Select SNS service in the AWS console and create a new topic.
 
-	![SNS](/images/jenkins-github-aws/create_sns_1.jpg  "Create New Topic")
+	![SNS](/static/images/jenkins-github-aws/create_sns_1.jpg  "Create New Topic")
 
 2. Enter the topic name. Let's call it `jenkins`.
 
-	![SNS](/images/jenkins-github-aws/create_sns_2.jpg  "Enter Topic Name")
+	![SNS](/static/images/jenkins-github-aws/create_sns_2.jpg  "Enter Topic Name")
 
 3. Select the newly created SNS topic and record the `ARN`. You'll need it later.
 
-	![SNS](/images/jenkins-github-aws/create_sns_3.jpg  "SNS Summary")
+	![SNS](/static/images/jenkins-github-aws/create_sns_3.jpg  "SNS Summary")
 
 ### Amazon IAM configuration
 
@@ -92,11 +92,11 @@ In case if your jenkins master has the rights to manage webhooks on GitHub, you 
 
 3. Select `Add service` from the dropdown menu and select `Amazon SQS`.
 
-	![SQS](/images/jenkins-github-aws/github_1_sqs.jpg  "SQS github")
+	![SQS](/static/images/jenkins-github-aws/github_1_sqs.jpg  "SQS github")
 
 4. Enter the AWS credentials and the `ARN` for `SQS` and save it.
 
-	![SQS](/images/jenkins-github-aws/github_2_sqs.jpg  "SQS github")
+	![SQS](/static/images/jenkins-github-aws/github_2_sqs.jpg  "SQS github")
 
 ### GitHub webhook SNS configuration
 
@@ -106,11 +106,11 @@ In case if your jenkins master has the rights to manage webhooks on GitHub, you 
 
 3. Select `Add service` from the dropdown menu and select `Amazon SNS`.
 
-	![SQS](/images/jenkins-github-aws/github_1_sns.jpg  "SNS github")
+	![SQS](/static/images/jenkins-github-aws/github_1_sns.jpg  "SNS github")
 
 4. Enter the AWS credentials, `region`, and the `ARN` for `SNS` and save it.
 
-	![SQS](/images/jenkins-github-aws/github_2_sns.jpg  "SNS github")
+	![SQS](/static/images/jenkins-github-aws/github_2_sns.jpg  "SNS github")
 
 The GitHub configuration is now complete.
 
@@ -124,14 +124,14 @@ The GitHub configuration is now complete.
 
 4. Select `Manually manage GitHub SQS hook` if your jenkins does not have access to manage webhooks on GitHub.
 
-	![jenkins](/images/jenkins-github-aws/jenkins_1.jpg  "Jenkins SQS")
+	![jenkins](/static/images/jenkins-github-aws/jenkins_1.jpg  "Jenkins SQS")
 
 
 ### Jenkins job configuration
 
 Go to your job's configuration page and locate the `Build Triggers` section. Enable the `Build when a message is published to an SQS Queue` option and hit `Save` or `Apply`.
 
-![jenkins](/images/jenkins-github-aws/jenkins_2.jpg  "Jenkins SQS")
+![jenkins](/static/images/jenkins-github-aws/jenkins_2.jpg  "Jenkins SQS")
 
 
 ### Profit
